@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana;
+    background-color:  #ffccff;
+    color: #000000;
+    font-size: 12px;
+}
+#sidebar {
+    height: 100%;
+    width: 195px;
+    padding-right: 5px;
+    text-align: left;
+    float: left;
+    border-right: solid;
+    border-right-color:#ff9bff;
+}
+#sidebar p {
+    font-size: 10px;
+}
+#sidebar ul {
+    list-style-type: none;
+}
+#transrights {
+    text-align: center;
+    margin-left: 15%;
+}
