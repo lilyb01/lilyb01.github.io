@@ -1,55 +1,84 @@
 <!DOCTYPE html>
+
 <html>
 <head>
  
 	<title>Mr. King SoundBoard</title>
  
 <link href="main.css" rel="stylesheet" type="text/css">
+<script language="JavaScript">
+var theImages = new Array();
+theImages[0] = '1.gif'
+theImages[1] = '2.gif'
+
+//    and so on...
+
+var j = 0
+var p = theImages.length;
+var preBuffer = new Array()
+for (i = 0; i < p; i++){
+  preBuffer = new Image()
+  preBuffer.src = theImages
+}
+var whichImage = Math.round(Math.random()*(p-1));
+document.write('<body background="http://iidxfan.xyz/theking/'+theImages[whichImage]+'">');
+</script>
 </head>
  
 <body>
 	<h1>Welcome to the Mr. King Soundboard!</h1>
  
-	<audio id="sound1" src="10 out of 10.wav"></audio>
-	<audio id="sound2" src="black socks.wav"></audio>
-	<audio id="sound3" src="did you hear me son.wav"></audio>
-	<audio id="sound4" src="DO NOTTT.wav"></audio>
-	<audio id="sound5" src="don't drink mtn dew @ lunch.wav"></audio>
-	<audio id="sound6" src="i don't want to see it.wav"></audio>
-	<audio id="sound7" src="man enough woman enough.wav"></audio>
-	<audio id="sound8" src="look at my face.wav"></audio>
-	<audio id="sound9" src="not a fun mood.wav"></audio>
-	<audio id="sound10" src="on point.wav"></audio>
-	<audio id="sound11" src="u a moron.wav"></audio>
-	<audio id="sound12" src="we will get murdered.wav"></audio>
-	<audio id="sound13" src="when you are in the locker room by yourself.wav"></audio>
-	<audio id="sound14" src="I want the money.wav"></audio>
-	<audio id="sound15" src="don't stop belivn.wav"></audio>
-	<audio id="sound16" src="i don't got time.wav"></audio>
+	<audio id="sound1" src="10&#32;out&#32;of&#32;10.wav"></audio>
+	<audio id="sound2" src="black&#32;socks.wav"></audio>
+	<audio id="sound3" src="did&#32;you&#32;hear&#32;me&#32;son.wav"></audio>
+	<audio id="sound4" src="DO&#32;NOTTT.wav"></audio>
+	<audio id="sound5" src="don't&#32;drink&#32;mtn&#32;dew&#32;@&#32;lunch.wav"></audio>
+	<audio id="sound6" src="i&#32;don't&#32;want&#32;to&#32;see&#32;it.wav"></audio>
+	<audio id="sound7" src="man&#32;enough&#32;woman&#32;enough.wav"></audio>
+	<audio id="sound8" src="look&#32;at&#32;my&#32;face.wav"></audio>
+	<audio id="sound9" src="not&#32;a&#32;fun&#32;mood.wav"></audio>
+	<audio id="sound10" src="on&#32;point.wav"></audio>
+	<audio id="sound11" src="u&#32;a&#32;moron.wav"></audio>
+	<audio id="sound12" src="we&#32;will&#32;get&#32;murdered.wav"></audio>
+	<audio id="sound13" src="when&#32;you&#32;are&#32;in&#32;the&#32;locker&#32;room&#32;by&#32;yourself.wav"></audio>
+	<audio id="sound14" src="I&#32;want&#32;the&#32;money.wav"></audio>
+	<audio id="sound15" src="don't&#32;stop&#32;belivn.wav"></audio>
+	<audio id="sound16" src="i&#32;don't&#32;got&#32;time.wav"></audio>
 	<audio id="sound17" src="inavisually.wav"></audio>
-	<audio id="sound18" src="ladies lookin lovely.wav"></audio>
- 	<audio id="sound19" src="handle your business.wav"></audio>
-	<audio id="sound20" src="old people love this.wav"></audio>
-	<audio id="sound21" src="important places.wav"></audio>
-	<audio id="sound22" src="goin platinum.wav"></audio>
-	<audio id="sound23" src="the new fire mixtape.wav"></audio>
-	<audio id="sound24" src="i'm making a list.wav"></audio>
-	<audio id="sound25" src="all black.wav"></audio>
-	<audio id="sound26" src="thats tacky.wav"></audio>
-	<audio id="sound27" src="i'm drivin down scatterfield.wav"></audio>
-	<audio id="sound28" src="i'm wearing a suit.wav"></audio>
-	<audio id="sound29" src="sunday dress clothes.wav"></audio>
-	<audio id="sound30" src="we should be done.wav"></audio>
-	<audio id="sound31" src="we will be up.wav"></audio>
-	<audio id="sound32" src="things like this.wav"></audio>
-	<audio id="sound33" src="look at me.wav"></audio>
-	<audio id="sound34" src="chomp'n at the pit.wav"></audio>
-	<audio id="sound35" src="i didn't piss and moan about it.wav"></audio>
-	<audio id="sound36" src="you never know.wav"></audio>
-	<audio id="sound37" src="that being said.wav"></audio>
-	<audio id="sound38" src="friday night.wav"></audio>
-	<audio id="sound39" src="supreme doomacity.wav"></audio>
-
+	<audio id="sound18" src="ladies&#32;lookin&#32;lovely.wav"></audio>
+ 	<audio id="sound19" src="handle&#32;your&#32;business.wav"></audio>
+	<audio id="sound20" src="old&#32;people&#32;love&#32;this.wav"></audio>
+	<audio id="sound21" src="important&#32;places.wav"></audio>
+	<audio id="sound22" src="goin&#32;platinum.wav"></audio>
+	<audio id="sound23" src="the&#32;new&#32;fire&#32;mixtape.wav"></audio>
+	<audio id="sound24" src="i'm&#32;making&#32;a&#32;list.wav"></audio>
+	<audio id="sound25" src="all&#32;black.wav"></audio>
+	<audio id="sound26" src="thats&#32;tacky.wav"></audio>
+	<audio id="sound27" src="i'm&#32;drivin&#32;down&#32;scatterfield.wav"></audio>
+	<audio id="sound28" src="i'm&#32;wearing&#32;a&#32;suit.wav"></audio>
+	<audio id="sound29" src="sunday&#32;dress&#32;clothes.wav"></audio>
+	<audio id="sound30" src="we&#32;should&#32;be&#32;done.wav"></audio>
+	<audio id="sound31" src="we&#32;will&#32;be&#32;up.wav"></audio>
+	<audio id="sound32" src="things&#32;like&#32;this.wav"></audio>
+	<audio id="sound33" src="look&#32;at&#32;me.wav"></audio>
+	<audio id="sound34" src="chomp'n&#32;at&#32;the&#32;pit.wav"></audio>
+	<audio id="sound35" src="i&#32;didn't&#32;piss&#32;and&#32;moan&#32;about&#32;it.wav"></audio>
+	<audio id="sound36" src="you&#32;never&#32;know.wav"></audio>
+	<audio id="sound37" src="that&#32;being&#32;said.wav"></audio>
+	<audio id="sound38" src="friday&#32;night.wav"></audio>
+	<audio id="sound39" src="supreme&#32;doomacity.wav"></audio>
+	<audio id="sound40" src="the&#32;door&#32;flew&#32;open.wav"></audio>
+	<audio id="sound41" src="big&#32;wigs.wav"></audio>
+	<audio id="sound42" src="why&#32;the&#32;hell.wav"></audio>
+	<audio id="sound43" src="it&#32;was&#32;my&#32;fault.wav"></audio>
+	<audio id="sound44" src="extreme&#32;ownership.wav"></audio>
+	<audio id="sound45" src="there&#32;is&#32;bad&#32;weather&#32;coming.wav"></audio>
+	<audio id="sound46" src="shake&#32;your&#32;head&#32;yes.wav"></audio>
+	<audio id="sound47" src="stop&#32;chewing&#32;on&#32;it&#32;girl.wav"></audio>
+	<audio id="sound48" src="gay.wav"></audio>
+	<audio id="sound49" src="demanded&#32;excellence.wav"></audio>
+	
+	
 	<button onclick="document.getElementById('sound1').play()">10 / 10</button>
  	<button onclick="document.getElementById('sound2').play()">Black Socks</button>
 	<button onclick="document.getElementById('sound3').play()">Did you hear me son?</button>
@@ -89,12 +118,24 @@
 	<button onclick="document.getElementById('sound37').play()">That being said</button>
 	<button onclick="document.getElementById('sound38').play()">Friday night</button>
 	<button onclick="document.getElementById('sound39').play()">Supreme doomacity</button>
+	<button onclick="document.getElementById('sound40').play()">The door flew open</button>
+	<button onclick="document.getElementById('sound41').play()">Big wigs</button>
+	<button onclick="document.getElementById('sound42').play()">Why the hell</button>
+	<button onclick="document.getElementById('sound43').play()">It was my fault</button>
+	<button onclick="document.getElementById('sound44').play()">Extreme Ownership</button>
+	<button onclick="document.getElementById('sound45').play()">There is bad weather coming</button>
+	<button onclick="document.getElementById('sound46').play()">Shake your head yes</button>
+	<button onclick="document.getElementById('sound47').play()">Stop chewing on it girl</button>
+	<button onclick="document.getElementById('sound49').play()">Demanded Excellence</button>
 
-	<div id="footer">
-		<p>copyright trent zimmer donut steal</p>
-	</div>
+
 
  
 </body>
  
+<footer>
+
+    <a href="changelog.txt">Click to view changelog.txt file</a>
+		<h5>Copyrice 2019 Trent Zimmer. Pls donut steel. If steal, will be fine of 42069666&yen;.</h5>
+</footer>
 </html>
