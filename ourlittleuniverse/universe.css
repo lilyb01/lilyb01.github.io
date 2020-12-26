@@ -1,6 +1,6 @@
 body {
     font-family: Verdana;
-    background-color:  #ddefff;
+    background-color:  #ffffff;
     color: #000000;
     font-size: 12px;
     margin: 0px;
@@ -44,6 +44,13 @@ body {
 }
 #header li a:hover {
     background-color: #1e2430;
+}
+
+#iamlooking ul {
+    list-style-type: none;
+    margin: 15px 0 0 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 #sidebar {
