@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+    </head>
+    <body>
+        {% include sidebar.html %}
+        <div id="transrights">
+            {{ content }}
+            {% include footer.html %}
+        </div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/assets/css/universe.css">
+    </head>
+    <body>
+        <div id="iamlooking">
+            <img src="img/banner.png" alt="banner">
+            <div id="topitems">
+                <a href="."><img src="img/home.png" alt="home"></a>
+                <a href="archive"><img src="img/archive.png" alt="archive"></a>
+                <a href="about"><img src="img/about.png" alt="about"></a>
+                <a href="/"><img src="img/back.png" alt="heypumpk.in"></a>
+            </div>
+            <div id="thething">
+                {{ content }}
+            </div>
+            <div id="navigator">
+                <a href=""><img src="img/first.png" alt="first"></a>
+                {% if page.previous.url %}
+                    <a href="{{ page.previous.url }}"><img src="img/previous.png" alt="previous"></a>
+                {% endif %}
+                {% if page.latest %}
+                    <a href="{{ site.universe.last.previous.url }}"><img src="img/previous.png" alt="previous"></a>
+                {% endif %}
+                {% if page.next.url %}
+                    {% if page.next.url == site.universe.last.url %}
+                        <a href="."><img src="img/next.png" alt="next"></a>
+                    {% else %}
+                        <a href="{{ page.next.url }}"><img src="img/next.png" alt="next"></a>
+                    {% endif %}
+                {% endif %}
+                <a href="."><img src="img/latest.png" alt="latest"></a>
+            </div>
+        </div>
+        {% include footer.html %}
+    </body>
+</html>

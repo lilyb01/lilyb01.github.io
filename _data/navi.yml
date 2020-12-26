@@ -1,0 +1,12 @@
+- name: home
+  link: /
+- name: blog
+  link: /blog
+- name: about
+  link: /about
+- name: our little universe
+  link: /ourlittleuniverse
+- name: misc
+  link: /misc
+- name: links
+  link: /links

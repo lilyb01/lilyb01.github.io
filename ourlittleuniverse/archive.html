@@ -1,47 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>our little universe</title>
-        <link rel="stylesheet" type="text/css" href="universe.css">
-        <meta property="og:site_name" content="heypumpk.in">
-        <meta property="og:url" content="https://heypumpk.in">
-        <meta property="og:title" content="our little universe">
-        <meta property="og:description" content="ok tbh i'm not really sure what to put here so uhhhhhh hi social media lol">
-        <meta property="og:type" content="website">
-        <meta property="og:image" content="../img/spinningcd.gif">
-    </head>
-    <body>
-        <!-- <div id="headerimg">
-            <img src="img/banner.png" alt="banner">
-        </div>
-        <div id="header">
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="about">About</a></li>
-                <li><a href="characters">Characters</a></li>
-                <li><a href="archive">Archive</a></li>
-                <li style="float: right;"><a href="..">Back</a></li>
-            </ul>
-        </div> i may switch back to this style later who knows -->
-        <div id="iamlooking">
-            <img src="img/banner.png" alt="banner">
-            <div id="topitems">
-                <a href="archive"><img src="img/archive.png" alt="archive"></a>
-                <a href="about"><img src="img/about.png" alt="about"></a>
-                <a href="."><img src="img/back.png" alt="back"></a>
-            </div>
-            <ul>
-                <li><a href="">0 - :)</a></li>
-            </ul>
-            <br>
-            <img src="../img/construction.gif" alt="in construction">
-        </div>
-        <div id="bottomuwu">
-            <p>copyleft 2020 lily b.</p>
-        </div>
-    </body>
-</html>
+---
+layout: universe
+title: our little archive
+---
 
-<!-- is this going to sit here for months without getting worked on? or will i actually get around to it soon? who knows
-
-either way, i'm glad i have the chance to share my friends with whoever comes across here :)-->
+<ul>
+    {% for post in site.universe %}
+        <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
+<br>
