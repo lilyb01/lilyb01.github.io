@@ -6,17 +6,11 @@
     </head>
     <body>
         <div id="iamlooking">
-            <img src="img/banner.png" alt="banner">
-            <div id="topitems">
-                <a href="."><img src="img/home.png" alt="home"></a>
-                <a href="archive"><img src="img/archive.png" alt="archive"></a>
-                <a href="about"><img src="img/about.png" alt="about"></a>
-                <a href="/"><img src="img/back.png" alt="heypumpk.in"></a>
-            </div>
+            {% include universeheader.html %}
             <div id="thething">
                 {{ content }}
             </div>
         </div>
-        {% include footer.html %}
+        {% include footer2.html %}
     </body>
 </html>

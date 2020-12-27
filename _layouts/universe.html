@@ -6,34 +6,28 @@
     </head>
     <body>
         <div id="iamlooking">
-            <img src="img/banner.png" alt="banner">
-            <div id="topitems">
-                <a href="."><img src="img/home.png" alt="home"></a>
-                <a href="archive"><img src="img/archive.png" alt="archive"></a>
-                <a href="about"><img src="img/about.png" alt="about"></a>
-                <a href="/"><img src="img/back.png" alt="heypumpk.in"></a>
-            </div>
+            {% include universeheader.html %}
             <div id="thething">
                 {{ content }}
             </div>
             <div id="navigator">
-                <a href=""><img src="img/first.png" alt="first"></a>
+                <a href="1"><img src="/assets/img/uni/first.png" alt="first"></a>
                 {% if page.previous.url %}
-                    <a href="{{ page.previous.url }}"><img src="img/previous.png" alt="previous"></a>
+                    <a href="{{ page.previous.url }}"><img src="/assets/img/uni/previous.png" alt="previous"></a>
                 {% endif %}
                 {% if page.latest %}
-                    <a href="{{ site.universe.last.previous.url }}"><img src="img/previous.png" alt="previous"></a>
+                    <a href="{{ site.universe.last.previous.url }}"><img src="/assets/img/uni/previous.png" alt="previous"></a>
                 {% endif %}
                 {% if page.next.url %}
                     {% if page.next.url == site.universe.last.url %}
-                        <a href="."><img src="img/next.png" alt="next"></a>
+                        <a href="."><img src="/assets/img/uni/next.png" alt="next"></a>
                     {% else %}
-                        <a href="{{ page.next.url }}"><img src="img/next.png" alt="next"></a>
+                        <a href="{{ page.next.url }}"><img src="/assets/img/uni/next.png" alt="next"></a>
                     {% endif %}
                 {% endif %}
-                <a href="."><img src="img/latest.png" alt="latest"></a>
+                <a href="."><img src="/assets/img/uni/latest.png" alt="latest"></a>
             </div>
         </div>
-        {% include footer.html %}
+        {% include footer2.html %}
     </body>
 </html>
