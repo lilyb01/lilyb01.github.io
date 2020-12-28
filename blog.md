@@ -14,7 +14,6 @@ title: blog
             <p style="font-size: 10px;">{{ post.date | date_to_string }} - {{ post.author }}</p>
             {{ post.excerpt }}
         </li>
+        <img src="/assets/img/dividers/linea.gif">
     {% endfor %}
 </ul>
-
-<img src="/assets/img/dividers/linea.gif">
