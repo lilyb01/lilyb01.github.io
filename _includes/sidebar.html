@@ -1,10 +1,10 @@
 <div id="sidebar">
-    <ul>
+    <ul id="side-nav">
         {% for item in site.data.navi %}
             <li><a href="{{ item.link }}">{{ item.name }}</a></li>
         {% endfor %}
     </ul><br>
-    <ul>
+    <ul id="side-social">
         {% for item in site.data.socials %}
             <li><a rel="me" href="{{ item.link }}">{{ item.name }}</a></li>
         {% endfor %}
@@ -23,7 +23,7 @@
     <img src="/assets/img/blinkies/iheartsanrio.gif"><br>
     <img src="/assets/img/blinkies/black1.gif"><br>
     <img src="/assets/img/blinkies/yeehaw.gif"><br> <!-- due to the unfortunate sizing of this blinkie i'll have to replace it with something else. this fact makes me very sad but what must be done must be done. sigh. -->
-    <br>part of the<br>
+    <br><p>part of the</p><br>
     <img src="/assets/img/worldwideweb_badge.gif"><br>
     <p>2020 lily b.</p>
 </div>

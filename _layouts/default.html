@@ -2,8 +2,19 @@
 <html>
     <head>
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="/assets/css/styles.css">
+        <link type="text/css" rel="stylesheet" href="/assets/css/styles.css" id="themecss">
     </head>
+    <script>
+        if (document.cookie.split(';').some(function(item) {
+            return item.trim().indexOf('theme=') == 0;
+        })) {
+            const theme = document.cookie
+                .split('; ')
+                .find(row => row.startsWith('theme'))
+                .split('=')[1];
+                document.getElementById('themecss').href = '/assets/css/' + theme;
+        };
+    </script>
     <body>
         {% include sidebar.html %}
         <div id="transrights">
