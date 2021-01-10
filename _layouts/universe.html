@@ -11,21 +11,21 @@
                 {{ content }}
             </div>
             <div id="navigator">
-                <a href="1"><img src="/assets/img/uni/first.png" alt="first"></a>
+                <a href="1">first</a>
                 {% if page.previous.url %}
-                    <a href="{{ page.previous.url }}"><img src="/assets/img/uni/previous.png" alt="previous"></a>
+                    <a href="{{ page.previous.url }}">previous</a>
                 {% endif %}
                 {% if page.latest %}
-                    <a href="{{ site.universe.last.previous.url }}"><img src="/assets/img/uni/previous.png" alt="previous"></a>
+                    <a href="{{ site.universe.last.previous.url }}">previous</a>
                 {% endif %}
                 {% if page.next.url %}
                     {% if page.next.url == site.universe.last.url %}
-                        <a href="."><img src="/assets/img/uni/next.png" alt="next"></a>
+                        <a href=".">next</a>
                     {% else %}
-                        <a href="{{ page.next.url }}"><img src="/assets/img/uni/next.png" alt="next"></a>
+                        <a href="{{ page.next.url }}">next</a>
                     {% endif %}
                 {% endif %}
-                <a href="."><img src="/assets/img/uni/latest.png" alt="latest"></a>
+                <a href=".">latest</a>
             </div>
         </div>
         {% include footer2.html %}

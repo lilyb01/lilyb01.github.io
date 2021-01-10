@@ -58,11 +58,6 @@ collections:
     permalink: /ourlittleuniverse/:name
     sort_by: num
 
-feed:
-  posts_limit: 20
-  collections:
-    - universe
-
 defaults:
   - 
     scope:
