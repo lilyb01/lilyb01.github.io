@@ -1,4 +1,5 @@
 <meta property="og:description" content="{% if page.is_post %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 <meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ page.title }}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
