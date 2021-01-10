@@ -59,3 +59,11 @@ collections:
     output: true
     permalink: /ourlittleuniverse/:name
     sort_by: num
+
+defaults:
+  - 
+    scope:
+      path: ""
+      type: posts
+    values:
+      is_post: true
