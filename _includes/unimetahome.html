@@ -1,0 +1,10 @@
+
+{% assign comic = site.universe.last %}
+<meta property="og:description" content="{{ comic.text }}">
+<meta property="og:site_name" content="our little universe">
+<meta property="og:title" content="{{ comic.title }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{{ comic.image }}">
+<meta property="og:image:alt" content="{{ comic.alt }}">
+<meta name="twitter:card" content="summary_large_image">

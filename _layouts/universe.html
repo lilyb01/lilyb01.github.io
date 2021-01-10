@@ -3,6 +3,11 @@
     <head>
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="/assets/css/universe.css">
+        {% if page.latest %}
+            {% include unimetahome.html %}
+        {% else %}
+            {% include unimeta.html %}
+        {% endif %}
     </head>
     <body>
         <div id="iamlooking">
