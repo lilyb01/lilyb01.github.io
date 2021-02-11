@@ -4,6 +4,7 @@ body {
     color: #000000;
     font-size: 12px;
     margin: 0px;
+    image-rendering: -webkit-optimize-contrast;
 }
 
 #iamlooking {
@@ -19,6 +20,12 @@ body {
 
 #iamlooking img {
     max-width: 100%;
+}
+
+#iamlooking h1 {
+    font-weight: normal;
+    font-size: 16px;
+    display: none;
 }
 
 #bottomuwu {
