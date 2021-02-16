@@ -15,5 +15,6 @@ title: blog
             {{ post.excerpt }}
         </li>
         <img src="/assets/img/dividers/linea.gif">
+        <br><br>
     {% endfor %}
 </ul>
