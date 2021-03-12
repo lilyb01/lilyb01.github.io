@@ -13,22 +13,16 @@
                 .split('; ')
                 .find(row => row.startsWith('theme'))
                 .split('=')[1];
-                document.getElementById('themecss').href = '{{ site.baseurl }}/assets/css/' + theme;
+                document.getElementById('themecss').href = '/assets/css/' + theme;
         };
     </script>
     <body>
-        <table cellspacing=0>
-            <tr>
-                <td id="sidebar">
-                    {% include sidebar.html %}
-                </td>
-                <td id="transrights">
-                    <p>
-                        {{ content }}
-                        {% include footer.html %}
-                    </p>
-                </td>
-            </tr>
-        </table>
+        <div id="sidebar">
+            {% include sidebar.html %}
+        </div>
+        <div id="transrights">
+            {{ content }}
+            {% include footer.html %}
+        </div>
     </body>
 </html>

@@ -5,9 +5,9 @@ layout: default
 title: t h e m e s
 ---
 
-<img src="/assets/img/dividers/stars.gif"><br><br>
+<img src="{{ site.baseurl }}/assets/img/dividers/stars.gif"><br><br>
 <b>holy shit themes</b><br><br>
-<img src="/assets/img/dividers/stars.gif"><br><br>
+<img src="{{ site.baseurl }}/assets/img/dividers/stars.gif"><br><br>
 <p>this is just an experiment tbh. my friend visited my site with some dark mode addon in his browser and i thought the result looked cool. but of course i don't want to lose my pink theme :)</p>
 <p>visitor beware, however. this functionality uses cookies. i'm not tracking you or anything, it's literally there only for remembering what you chose.</p>
 
@@ -18,7 +18,7 @@ title: t h e m e s
 
 <script>
     function themeApply(theme) { 
-        document.getElementById('themecss').href = '/assets/css/' + theme;
+        document.getElementById('themecss').href = '{{ site.baseurl }}/assets/css/' + theme;
         document.cookie = "theme=" + theme +"; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT";
     };
 </script>
