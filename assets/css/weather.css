@@ -4,24 +4,27 @@ html {
 }
 
 body {
-    font-family: Verdana;
-    background-image: url("../img/bg/bgbluedots.jpg");
-    background-color: #000;
-    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #27886c;
+    background-image: url(../img/bg/weather_wide_transparent2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+    color: #000000;
     font-size: 12px;
     margin: 0px;
-    height: 100%
+    height: 100%;
 }
 
+a {
+    color:rgb(45, 5, 90);
+}
 a:link {
     text-decoration: none;
 }
-
 a:visited {
     text-decoration: none;
-    color: aquamarine;
 }
-
 a:hover {
     text-decoration: underline;
 }
@@ -39,10 +42,9 @@ table {
     padding-left: 5px;
     padding-right: 5px;
     text-align: center;
-    background-color: #161d20;
-    background-image: url("../img/bg/design.jpg");
-    border-right: solid;
-    border-right-color:#1a1a1a;
+    background-color: #3ba182;
+    border-right: 0px;
+    border-right-color:#3ba182;
     top: 0;
     bottom: 0;
     left:0;
@@ -62,6 +64,7 @@ table {
 
 #transrights {
     text-align: center;
+    float: center;
     padding: 50px;
     padding-top: 20px;
     padding-bottom: 5px;

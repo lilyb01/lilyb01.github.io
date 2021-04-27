@@ -6,15 +6,32 @@
         {% include meta.html %}
     </head>
     <script>
-        if (document.cookie.split(';').some(function(item) {
-            return item.trim().indexOf('theme=') == 0;
-        })) {
-            const theme = document.cookie
-                .split('; ')
-                .find(row => row.startsWith('theme'))
-                .split('=')[1];
+        function randomize() {
+            var randomtheme = [
+                'weather.css',
+                'weather_purple.css',
+                'weather_fall.css',
+                'weather_heypumpkin.css'
+            ];
+            document.getElementById('themecss').href = '{{ site.baseurl }}/assets/css/' + randomtheme[Math.floor(Math.random()*randomtheme.length)]
+        }
+
+        if (document.cookie.indexOf("theme=") >= 0) {
+            var cook = document.cookie.split('; ');
+            for (var i = 0; i < cook.length; i++) {
+                name = cook[i].split('=')[0];
+                if (name === "theme") {
+                    theme = cook[i].split('=')[1];
+                }
+            }
+            if (theme === "random") {
+                randomize();
+            } else {
                 document.getElementById('themecss').href = '{{ site.baseurl }}/assets/css/' + theme;
-        };
+            }
+        } else {
+            randomize();
+        }
     </script>
     <body>
         <table cellspacing=0>
