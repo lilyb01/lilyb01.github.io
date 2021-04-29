@@ -16,7 +16,7 @@ title: a mistake
 <a href="#" onClick="themeApply('dark.css')">dark</a> <br>
 <a href="#" onClick="themeApply('bgs.css')">backgrounds :)</a> <br>
 <a href="#" onClick="themeApply('topbartest.css')">top bar test (<b>broken</b> as of march 11th 2021)</a> <br>
-<a href="#" onClick="themeApply('weather.css')">weather rain</a><br>
+<a href="#" onClick="themeApply('weather.css')">weather spring</a><br>
 <a href="#" onClick="themeApply('weather_purple.css')">weather night</a><br>
 <a href="#" onClick="themeApply('weather_fall.css')">weather fall</a><br>
 <a href="#" onClick="themeApply('weather_heypumpkin.css')">weather heypumpk.in pink</a><br>

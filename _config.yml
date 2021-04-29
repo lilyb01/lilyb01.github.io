@@ -59,7 +59,7 @@ exclude:
 collections:
   universe:
     output: true
-    permalink: /ourlittleuniverse/:name
+    permalink: /hazelandrobyn/:name
     sort_by: num
 
 defaults:
