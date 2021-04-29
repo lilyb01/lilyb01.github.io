@@ -4,9 +4,9 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>our little universe</title>
+    <title>hazel and robyn</title>
     <description>description</description>
-    <link>{{ site.url }}/ourlittleuniverse</link>
+    <link>{{ site.url }}/hazelandrobyn</link>
     <atom:link href="{{ "/universe.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
