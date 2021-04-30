@@ -5,9 +5,15 @@ title: archive
 
 <ul>
     {% for post in site.universe %}
-        <li>
-            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </li>
+        {% if post.url == site.universe.last.url %}
+            <li>
+                <a href=".">{{ post.title }}</a>
+            </li>
+        {% else %}
+            <li>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+            </li>
+        {% endif %}
     {% endfor %}
 </ul>
 <br>
