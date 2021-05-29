@@ -1,77 +1,15 @@
-html {
-    height: 100%;
-    position: relative;
-}
-
 body {
-    font-family: Verdana;
     background-image: url("../img/bg/bgbluedots.jpg");
     background-color: #000;
     color: #fff;
-    font-size: 12px;
-    margin: 0px;
-    height: 100%
 }
 
-a:link {
-    text-decoration: none;
+a {
+    color: #fff;
 }
-
-a:visited {
-    text-decoration: none;
-    color: aquamarine;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-table {
-    width: 100%;
-    height: 100%;
-}
-
 #sidebar {
-    width: 185px;
-    height: 100%;
-    min-width: 150px;
-    max-width: 200px;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-align: center;
     background-color: #161d20;
     background-image: url("../img/bg/design.jpg");
     border-right: solid;
     border-right-color:#1a1a1a;
-    top: 0;
-    bottom: 0;
-    left:0;
-    right:0;
-    overflow: clip;
-    padding-top: 20px;
-    vertical-align: top;
-}
-#sidebar p {
-    font-size: 10px;
-}
-#sidebar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#transrights {
-    text-align: center;
-    padding: 50px;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    vertical-align: top;
-}
-#transrights ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-#bottomuwu {
-    font-size: 10px;
 }

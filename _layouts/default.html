@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>{{ page.title }}</title>
-        <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/assets/css/default.css" id="themecss">
+        <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/assets/css/default.css">
         {% include meta.html %}
     </head>
     <script>
@@ -13,7 +13,8 @@
                 'weather_fall.css',
                 'weather_heypumpkin.css'
             ];
-            document.getElementById('themecss').href = '{{ site.baseurl }}/assets/css/' + randomtheme[Math.floor(Math.random()*randomtheme.length)]
+
+            document.head.insertAdjacentHTML('beforeend', '<link rel=stylesheet href={{ site.baseurl }}/assets/css/' + randomtheme[Math.floor(Math.random()*randomtheme.length)] + ' id=themecss>');
         }
 
         if (document.cookie.indexOf("theme=") >= 0) {
@@ -27,7 +28,7 @@
             if (theme === "random") {
                 randomize();
             } else {
-                document.getElementById('themecss').href = '{{ site.baseurl }}/assets/css/' + theme;
+                document.head.insertAdjacentHTML('beforeend', '<link rel=stylesheet href={{ site.baseurl }}/assets/css/' + theme + ' id=themecss>');
             }
         } else {
             randomize();
