@@ -1,14 +1,17 @@
 - name: home
   link: /
-- name: blog
-  link: /blog
 - name: about
   link: /about
+- name: bunny broadcast system
+  link: /blog
+- name: <br>
 - name: hazel and robyn
   link: /hazelandrobyn
+- name: project sanctuary
+  link: /sanctuary
+- name: <br>
 - name: misc
   link: /misc
-- name: links
-  link: /links
 - name: theme
   link: /theme
+  

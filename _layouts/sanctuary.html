@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/sanctuary.css">
+    </head>
+    <body>
+        <div id="iamlooking">
+            {% include sancheader.html %}
+            <div id="thething">
+                {{ content }}
+            </div>
+        </div>
+        {% include footer2.html %}
+    </body>
+</html>

@@ -1,0 +1,41 @@
+body {
+    font-family: MS Gothic;
+    background-color:  #000;
+    color: #fff;
+    font-size: 12px;
+    margin: 0px;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+a {
+    color: #fff;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+#iamlooking {
+    text-align: center;
+    padding: 18px 15% 18px 15%;
+}
+#iamlooking ul {
+    list-style-type: none;
+    margin: 15px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#iamlooking img {
+    max-width: 80%;
+}
+
+#iamlooking h1 {
+    font-weight: normal;
+    font-size: 16px;
+    display: none;
+}
+
+#bottomuwu {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+}
