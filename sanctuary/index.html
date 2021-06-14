@@ -1,6 +1,8 @@
 ---
 layout: sanctuary
 title: sanctuary
+latest: true
 ---
 
-<p>:</p>
+{% assign posts = site.sanctuary %}
+{{ posts.last.content }}

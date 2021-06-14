@@ -61,6 +61,10 @@ collections:
     output: true
     permalink: /hazelandrobyn/:name
     sort_by: num
+  sanctuary:
+    output: true
+    permalink: /sanctuary/:name
+    sort_by: num
 
 defaults:
   - 
