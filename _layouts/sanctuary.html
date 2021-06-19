@@ -10,6 +10,41 @@
             <div id="thething">
                 {{ content }}
             </div>
+            <style>
+                /* absolutely do not do what i'm about to do */
+                /* ok the above comment was made when i was going to solve this problem using a table
+                   i didn't use a table lmao i forgot to delete this comment when i decided not to use a table
+                   it's ok tho it's funny */
+                #selector {
+                    font-size: 0;
+                }
+                #selector > .left, .right {
+                    font-size: 12px;
+                    display: inline-block;
+                    width: 20%;
+                }
+                .left {
+                    text-align: left;
+                }
+                .right {
+                    text-align: right;
+                }
+            </style>
+            <div id="selector">
+                <div class="left">
+                    {% if page.previous.url %}
+                        <a style="color: #1a1a1a;" href="{{ site.baseurl }}{{ page.previous.url }}">previous</a>
+                    {% endif %}
+                    {% if page.latest %}
+                        <a style="color: #1a1a1a;" href="{{ site.baseurl }}{{ site.sanctuary.last.previous.url }}">previous</a>
+                    {% endif %}
+                </div>
+                <div class="right">
+                    {% if page.next.url %}
+                        <a style="color: #1a1a1a;" href="{{ site.baseurl }}{{ page.next.url }}">next</a>
+                    {% endif %}
+                </div>
+            </div>
         </div>
         {% include footer2.html %}
     </body>
