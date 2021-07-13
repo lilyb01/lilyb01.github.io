@@ -65,6 +65,10 @@ collections:
     output: true
     permalink: /sanctuary/:name
     sort_by: num
+  flower:
+    output: true
+    permalink: /flower/:name
+    sort_by: num
 
 defaults:
   - 
