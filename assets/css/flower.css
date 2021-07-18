@@ -1,0 +1,58 @@
+body {
+    font-family: MS Gothic, 'Courier New', Courier, monospace;
+    font-size: 12px;
+    margin: 0px;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+a {
+    color: #696969;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+
+#iamlooking {
+    text-align: center;
+    padding: 18px 15% 5px 15%;
+}
+#iamlooking ul {
+    list-style-type: none;
+    margin: 15px 0 0 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#iamlooking img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#iamlooking h1 {
+    font-weight: normal;
+    font-size: 16px;
+    display: none;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#selector {
+    font-size: 0;
+}
+#selector > .left, .right {
+    font-size: 12px;
+    display: inline-block;
+    width: 20%;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}

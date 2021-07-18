@@ -1,5 +1,5 @@
 body {
-    font-family: MS Gothic;
+    font-family: MS Gothic, 'Courier New', Courier, monospace;
     background-color:  #000;
     color: #fff;
     font-size: 12px;
@@ -32,6 +32,21 @@ a {
     font-weight: normal;
     font-size: 16px;
     display: none;
+}
+
+#selector {
+    font-size: 0;
+}
+#selector > .left, .right {
+    font-size: 12px;
+    display: inline-block;
+    width: 20%;
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
 }
 
 #bottomuwu {

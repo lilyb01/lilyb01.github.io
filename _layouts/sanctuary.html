@@ -3,6 +3,7 @@
     <head>
         <title>{{ page.title }}</title>
         <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/sanctuary.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <div id="iamlooking">
@@ -10,26 +11,6 @@
             <div id="thething">
                 {{ content }}
             </div>
-            <style>
-                /* absolutely do not do what i'm about to do */
-                /* ok the above comment was made when i was going to solve this problem using a table
-                   i didn't use a table lmao i forgot to delete this comment when i decided not to use a table
-                   it's ok tho it's funny */
-                #selector {
-                    font-size: 0;
-                }
-                #selector > .left, .right {
-                    font-size: 12px;
-                    display: inline-block;
-                    width: 20%;
-                }
-                .left {
-                    text-align: left;
-                }
-                .right {
-                    text-align: right;
-                }
-            </style>
             <div id="selector">
                 <div class="left">
                     {% if page.previous.url %}

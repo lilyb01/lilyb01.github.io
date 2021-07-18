@@ -1,0 +1,13 @@
+---
+layout: flower
+title: 🌷
+---
+
+<ul>
+    {% for post in site.flower %}
+        <li>
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </li>
+    {% endfor %}
+</ul>
+<br>

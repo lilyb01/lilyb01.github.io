@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    font-family: MS Gothic;
+    font-family: MS Gothic, 'Courier New', Courier, monospace;
     background-color:  #ffccff;
     color: #000000;
     font-size: 12px;
@@ -49,6 +49,26 @@ table {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+#mobilenav {
+    display: none;
+}
+#mobilenav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+#mobilenav li {
+    padding: 3px;
+}
+
+@media screen and (max-width: 700px) {
+    #sidebar {
+        display: none;
+    }
+    #mobilenav {
+        display: inline;
+    }
 }
 
 #transrights {
