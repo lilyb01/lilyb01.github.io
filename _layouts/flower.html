@@ -11,23 +11,23 @@
                 {{ content }}
             </div>
             <div id="footer">
-                <div id="selector">
-                    <div class="left">
-                        {% if page.previous.url %}
-                            <a style="color: #696969;" href="{{ site.baseurl }}{{ page.previous.url }}">previous</a>
-                        {% endif %}
-                        {% if page.latest %}
-                            <a style="color: #696969;" href="{{ site.baseurl }}{{ site.flower.last.previous.url }}">previous</a>
-                        {% endif %}
+                {% if page.latest != true %}
+                    <div id="selector">
+                        <div class="left">
+                            {% if page.previous.url %}
+                                <a style="color: #696969;" href="{{ site.baseurl }}{{ page.previous.url }}">previous</a>
+                            {% endif %}
+                        </div>
+                        <div class="right">
+                            {% if page.next.url %}
+                                <a style="color: #696969;" href="{{ site.baseurl }}{{ page.next.url }}">next</a>
+                            {% endif %}
+                        </div>
                     </div>
-                    <div class="right">
-                        {% if page.next.url %}
-                            <a style="color: #696969;" href="{{ site.baseurl }}{{ page.next.url }}">next</a>
-                        {% endif %}
-                    </div>
-                </div>
+                {% endif %}
                 <br>
                 <a href="{{ site.baseurl }}/">hpmk.in</a></li>
+                <a href="{{ site.baseurl }}/flower">index</a></li>
                 <a href="archive">archive</a></li>
             </div>
         </div>

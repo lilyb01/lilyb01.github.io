@@ -4,7 +4,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom right;
-
+    color: #fff;
+}
+a {
+    color: #fff;
 }
 
 #sidebar {
