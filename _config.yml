@@ -67,7 +67,7 @@ collections:
     sort_by: num
   flower:
     output: true
-    permalink: /flower/:name
+    permalink: /lament/:name
     sort_by: num
 
 defaults:
