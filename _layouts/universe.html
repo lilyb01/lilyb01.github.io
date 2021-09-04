@@ -13,26 +13,12 @@
     <body>
         <div id="iamlooking">
             {% include universeheader.html %}
+            <br>
+            {% include uninav.html %}
             <div id="thething">
                 {{ content }}
             </div>
-            <div id="navigator">
-                <a href="1">first</a>
-                {% if page.previous.url %}
-                    <a href="{{ site.baseurl }}{{ page.previous.url }}">previous</a>
-                {% endif %}
-                {% if page.latest %}
-                    <a href="{{ site.baseurl }}{{ site.universe.last.previous.url }}">previous</a>
-                {% endif %}
-                {% if page.next.url %}
-                    {% if page.next.url == site.universe.last.url %}
-                        <a href=".">next</a>
-                    {% else %}
-                        <a href="{{ site.baseurl }}{{ page.next.url }}">next</a>
-                    {% endif %}
-                {% endif %}
-                <a href=".">latest</a>
-            </div>
+            {% include uninav.html %}
         </div>
         {% include footer2.html %}
     </body>
