@@ -9,26 +9,45 @@ title: a mistake
 <b>themes</b><br><br>
 <img src="{{ site.baseurl }}/assets/img/dividers/stars.gif"><br><br>
 <p>this is just an experiment tbh. my friend visited my site with some dark mode addon in his browser and i thought the result looked cool. but of course i don't want to lose my pink theme :)</p>
-<p>visitor beware, however. this functionality uses cookies. i'm not tracking you or anything, it's literally there only for remembering what you chose.</p> <br>
+<p>historically, this "feature" used cookies, partially due to browser compatibility, and partially because i am not very smart. i wasn't able to get the browser compatibility i wanted anyway, so i changed this to use localstorage instead. if you had a cookie on this site, it has been deleted, and replaced with a localstorage key with the same value</p> <br>
 
-<a href="#" onClick="applyCookie('random')">randomize (just the good ones tho)</a> <br><br>
-<a href="#" onClick="themeApply('default.css')">heypumpk.in</a> <br>
-<a href="#" onClick="themeApply('dark.css')">dark</a> <br>
+<a href="#" onClick="deleteTheme(); randomize();">randomize (just the good ones tho)</a> <br><br>
+<a href="#" onClick="themeApply('weather_heypumpkin.css')">weather - pink (default 2021)</a><br>
+<a href="#" onClick="themeApply('weather.css')">weather - spring</a><br>
+<a href="#" onClick="themeApply('weather_fall.css')">weather - fall</a><br>
+<a href="#" onClick="themeApply('weather_purple.css')">weather - night</a><br>
+<a href="#" onClick="themeApply('default.css')">heypumpk.in default (2020)</a> <br>
+<a href="#" onClick="themeApply('classic.css')">heypumpk.in classic (late 2018 - early 2019)</a> <br>
+<a href="#" onClick="themeApply('thecoolerclassic.css')">classic enhanced</a> <br>
+<a href="#" onClick="themeApply('dark.css')">dark</a> <br><br>
+<span>test, meme, or otherwise bad themes</span><br>
 <a href="#" onClick="themeApply('bgs.css')">backgrounds :)</a> <br>
 <a href="#" onClick="themeApply('topbartest.css')">top bar test (<b>broken</b> as of march 11th 2021)</a> <br>
-<a href="#" onClick="themeApply('weather.css')">weather spring</a><br>
-<a href="#" onClick="themeApply('weather_purple.css')">weather night</a><br>
-<a href="#" onClick="themeApply('weather_fall.css')">weather fall</a><br>
-<a href="#" onClick="themeApply('weather_heypumpkin.css')">weather heypumpk.in pink</a><br>
-<a href="#" onClick="themeApply('weathersvg.css')">weather (vector)</a><br>
+<a href="#" onClick="themeApply('weathersvg.css')">weather - spring (vector)</a><br>
 
 <script>
     function themeApply(theme) { 
         document.getElementById('themecss').href = '{{ site.baseurl }}/assets/css/' + theme;
-        document.cookie = "theme=" + theme +"; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+        window.localStorage.setItem('theme', theme);
     };
 
     function applyCookie(theme) {
-        document.cookie = "theme=" + theme +"; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+        window.localStorage.setItem('theme', theme);
+    }
+    function deleteTheme() {
+        window.localStorage.removeItem('theme');
+    }
+
+    function randomize() {
+        var randomtheme = [
+            'weather.css',
+            'weather_purple.css',
+            'weather_fall.css',
+            'weather_heypumpkin.css'
+        ];
+        
+        var oldsheet = document.getElementById('themecss');
+        oldsheet.remove();
+        document.head.insertAdjacentHTML('beforeend', '<link rel=stylesheet href=/assets/css/' + randomtheme[Math.floor(Math.random()*randomtheme.length)] + ' id=themecss>');
     }
 </script>

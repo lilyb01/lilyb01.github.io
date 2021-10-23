@@ -1,0 +1,104 @@
+/* topuwubarizing */
+
+/* shoutouts to ZumiIsawhat?#5982 for figuring this out randomly */
+
+body {
+    font-family: Bitstream Vera Sans, Tahoma, sans-serif !important;
+}
+
+#sidebar, #transrights {
+    display: block;
+}
+
+#sidebar {
+  max-width: 100vw;
+  width: 100%;
+  text-align: left;
+}
+
+#transrights { 
+  font-size: 11px;
+  max-width: 100vw;
+  padding: 12px 15% 12px 15%;
+}
+
+#sidebar img, #sidebar p, #sidebar br{
+    display: none;
+}
+
+#sidebar ul {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#sidebar ul li{
+    display: inline-block;
+}
+
+/* remove blank link hack */
+#side-nav li a[href=''] {
+  display: none;
+} 
+
+/* color theme */
+#sidebar {
+    background-color: #000;
+    font-size: 9px;
+    padding: 0;
+    border-right: 0;
+    border-bottom: 2px solid #ff9bff;
+}
+
+#sidebar li a {
+    display: block;
+    color: #ddd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#sidebar li a:hover {
+    background-color: #212121;
+}
+
+body {
+    font-family: Verdana;
+    background-color: #121212;
+    color: #ddd;
+    font-size: 12px;
+    margin: 0;
+    height: 100%;
+}
+
+a:link {
+    text-decoration: none;
+    color: #ff0;
+}
+
+a:visited {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#side-social {
+    display: none !important;
+}
+
+#bottomuwu {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #090909;
+    text-align: center;
+    font-size: 9px;
+    padding: 10px;
+}
+#mobilenav {
+  display: none;
+}

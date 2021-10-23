@@ -12,6 +12,10 @@ body {
     height: 100%;
 }
 
+#sidebar img, #sidebar p, #sidebar br{
+    display: none;
+}
+
 a:link {
     text-decoration: none;
 }

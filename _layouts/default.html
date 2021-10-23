@@ -6,37 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         {% include meta.html %}
     </head>
-    <script>
-        // i have no idea how to get this script working in IE5
-        // the rest of the website functions perfectly in it, with the exception of image scaling
-        function randomize() {
-            var randomtheme = [
-                'weather.css',
-                'weather_purple.css',
-                'weather_fall.css',
-                'weather_heypumpkin.css'
-            ];
-
-            document.head.insertAdjacentHTML('beforeend', '<link rel=stylesheet href={{ site.baseurl }}/assets/css/' + randomtheme[Math.floor(Math.random()*randomtheme.length)] + ' id=themecss>');
-        }
-
-        if (document.cookie.indexOf("theme=") >= 0) {
-            var cook = document.cookie.split('; ');
-            for (var i = 0; i < cook.length; i++) {
-                name = cook[i].split('=')[0];
-                if (name === "theme") {
-                    theme = cook[i].split('=')[1];
-                }
-            }
-            if (theme === "random") {
-                randomize();
-            } else {
-                document.head.insertAdjacentHTML('beforeend', '<link rel=stylesheet href={{ site.baseurl }}/assets/css/' + theme + ' id=themecss>');
-            }
-        } else {
-            randomize();
-        }
-    </script>
+    <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
     <noscript>
         <link type="text/css" rel="stylesheet" href="{{ site.baseurl }}/assets/css/weather_heypumpkin.css">
     </noscript>
