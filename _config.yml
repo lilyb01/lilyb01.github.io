@@ -27,7 +27,7 @@ url: "https://heypumpk.in" # the base hostname & protocol for your site, e.g. ht
 twitter_username: lilyb2001
 github_username:  lilyb01
 
-permalink: /blog/:year/:month/:day/:title:output_ext
+permalink: /bbs/:year/:month/:day/:title:output_ext
 
 # Build settings
 plugins:

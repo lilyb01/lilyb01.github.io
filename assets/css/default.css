@@ -77,11 +77,16 @@ table {
     padding-top: 20px;
     padding-bottom: 5px;
     vertical-align: top;
+    max-width: 1000px;
 }
 #transrights ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+}
+#divrights {
+    max-width: 1200px;
+    margin: auto;
 }
 #bottomuwu {
     font-size: 10px;
