@@ -6,12 +6,7 @@ vendor
 update.sh
 update.bat
 heypumpkin
-assets/img/flw/36.png
-assets/img/flw/37.png
-assets/img/flw/38.png
-assets/img/flw/39.png
-assets/img/flw/40.png
-assets/img/flw/42.png
-assets/img/flw/42alt.png
-assets/img/flw/43.png
 _posts/2021-10-23-die.md
+_flower/generate.bat
+_flower/rename.sh
+assets/img/flw/rename.sh
