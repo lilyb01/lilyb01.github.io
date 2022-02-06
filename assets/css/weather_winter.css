@@ -1,0 +1,13 @@
+body {
+    background-color: #8997ba;
+    background-image: url(../img/bg/weather_winter_wide_t2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+}
+
+#sidebar {
+    background-color: #a7b1c5;
+    border-right: 0px;
+    border-right-color:#a7b1c5;
+}

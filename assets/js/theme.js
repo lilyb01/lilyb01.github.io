@@ -1,9 +1,11 @@
 function randomize() {
     var randomtheme = [
+        'weather_heypumpkin.css',
+        'weather_winter.css',
         'weather.css',
-        'weather_purple.css',
+        'weather_summer.css',
         'weather_fall.css',
-        'weather_heypumpkin.css'
+        'weather_purple.css'
     ];
 
     document.head.insertAdjacentHTML('beforeend', '<link rel=stylesheet href=/assets/css/' + randomtheme[Math.floor(Math.random()*randomtheme.length)] + ' id=themecss>');
