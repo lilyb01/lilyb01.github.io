@@ -23,7 +23,7 @@ email: rainiskies17@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   hi i'm a person who breathes
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "//heypumpk.in" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://heypumpk.in" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: lilyb2001
 github_username:  lilyb01
 
