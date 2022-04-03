@@ -1,9 +1,13 @@
 - name: home
   link: /
-- name: about
-  link: /about
+- name: projects
+  link: /projects
 - name: bunny broadcast system
   link: /bbs
+- name: theme
+  link: /theme
+- name: about
+  link: /about
 - name: <br>
 - name: hazel and robyn
   link: /hazelandrobyn
@@ -11,9 +15,5 @@
   link: /lament
 - name: project sanctuary
   link: /sanctuary
-- name: <br>
-- name: misc
-  link: /misc
-- name: theme
-  link: /theme
+
   

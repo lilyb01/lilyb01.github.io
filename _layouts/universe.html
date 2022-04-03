@@ -20,6 +20,12 @@
                 {{ content }}
             </div>
             {% include uninav.html %}
+            <div style="width: 50%; margin-left: auto; margin-right: auto">
+                <p style="text-align:left"><span style="font-size: 20px;">{{ page.title }}</span></br> by {{ page.author }} on {{ page.date | date_to_string | date: "%b. %d, %Y" | downcase }}</p>
+                {% if page.description %}
+                    <p style="text-align:left">{{ page.description }}</span>
+                {% endif %}
+            </div>
         </div>
         {% include footer2.html %}
     </body>
