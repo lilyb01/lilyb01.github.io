@@ -1,6 +1,6 @@
 body {
-    font-family: MS Gothic, 'Courier New', Courier, monospace;
-    font-size: 12px;
+    font-family: 'MS UI Gothic', 'MS Gothic', 'Tahoma', 'Helvetica', 'Courier New', Courier, monospace;
+    font-size: 13px;
     margin: 0px;
     image-rendering: -webkit-optimize-contrast;
 }
