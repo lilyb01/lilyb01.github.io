@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" media="screen" href="https://cdn.conversejs.org/9.1.1/dist/converse.min.css">
+<script src="https://cdn.conversejs.org/9.1.1/dist/converse.min.js" charset="utf-8"></script>
+        <script>window.HELP_IMPROVE_VIDEOJS = false;</script>
+        <link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
+        <script src="//vjs.zencdn.net/7.10.2/video.min.js"></script>
         <title>BUNNY BROADCAST SYSTEM - CHANNEL 3</title>
         <link rel="stylesheet" type="text/css" href="universe.css">
         <meta property="og:site_name" content="heypumpk.in">
@@ -9,8 +14,42 @@
         <meta property="og:description" content="WEB DESIGN IS MY PASSION">
         <meta property="og:type" content="website">
         <meta property="og:image" content="/assets/img/spinningcd.gif">
+        <style>
+            body {
+                padding: 15px;
+            }
+        </style>
     </head>
     <body>
-        <video src="http://hopscotch.buny.plus:8088/hls/sd.m3u8"></video>
+        <video
+            id="my-player"
+            class="video-js"
+            controls
+            preload="auto"
+            poster="//vjs.zencdn.net/v/oceans.png"
+            data-setup='{}'>
+        <source src="http://hopscotch.buny.plus:8088/hls/sd.m3u8" type="application/x-mpegURL"></source>
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading to a
+            web browser that
+            <a href="https://videojs.com/html5-video-support/" target="_blank">
+            supports HTML5 video
+            </a>
+        </p>
+        </video>
+        <p>proof of concept. powered by <a href="https://hopscotch.buny.plus">hopscotch</a></p>
     </body>
+    <script>
+        converse.initialize({
+            bosh_service_url: 'https://conversejs.org/http-bind/', // Please use this connection manager only for testing purposes
+            show_controlbox_by_default: true,
+            jid: 'lupin.poppy.heypumpk.in',
+            default_domain: 'lupin.poppy.heypumpk.in',
+            muc_domain: 'lilac.poppy.heypumpk.in',
+            locked_muc_domain: true,
+            auto_join_rooms: ['bbs@lilac.poppy.heypumpk.in'],
+            authentication: 'anonymous',
+            auto_login: true
+        });
+    </script>
 </html>
