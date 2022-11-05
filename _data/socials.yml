@@ -1,6 +1,8 @@
 - name: twitter
   link: https://twitter.com/BUNyPLUS_
-- name: mastodon
-  link: https://sleeping.town/@lily
 - name: tumblr
   link: https://sagebunendec.tumblr.com
+- name: mastodon
+  link: https://sleeping.town/@lily
+- name: cohost
+  link: https://cohost.org/bunyplus
