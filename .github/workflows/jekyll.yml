@@ -58,6 +58,7 @@ jobs:
           port: ${{ secrets.PORT }}
           source: "./_site/*"
           target: "/var/www/buny.plus/."
+          strip_components: 1
 
   # Deployment job
   #deploy:
