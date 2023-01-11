@@ -63,6 +63,10 @@ keep_files:
 
 # collections
 collections:
+  art:
+    output: true
+    permalink: /art/:name
+    sort_by: date
   universe:
     output: true
     permalink: /hazelandrobyn/:name
