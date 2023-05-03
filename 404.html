@@ -1,9 +1,45 @@
----
-permalink: /404.html
-layout: default
----
-
-<div class="container">
-  <p><b>404</b></p>
-  <p><b>Page not found :(</b></p>
-</div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>so no head?</title>
+    <style>
+      @font-face {
+        font-family: Elinor;
+        src: url("assets/fonts/elinor.otf") format("opentype");
+      }
+      body {
+        font-family: Elinor;
+        font-size: 22px;
+      }
+      #uhoh {
+        width: 800px;
+        margin: 0 auto;
+        
+      }
+      #uhoh h1 {
+        font-size: 64px;
+        margin-bottom: 5px;
+        text-align: center;
+        color: #FFDC66;
+        -webkit-text-stroke: 0.2px #ED6F22;
+        text-shadow: 2px 3px #681F80;
+      }
+      #uhoh a {
+        color: #ffd240;
+      }
+      #elihmm {
+        float: left;
+        margin: 0 15px 0 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="uhoh">
+      <img src="assets/img/elihmm.png" height="600px" alt="Elinor" id="elihmm"/>
+      <h1>Uh Oh!</h1>
+      <p>We seem to be having difficulties trying to find the page you are looking for.</p>
+      <p>Click <a href="{{ site.url }}">here</a> to go back, or click <a href="{{ site.url }}">here</a> to go to the home page.</p>
+      <p>Your curiousity means as much as ours.</p>
+    </div>
+  </body>
+</html>
