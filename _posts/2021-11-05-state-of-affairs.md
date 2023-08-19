@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "heypumpk.in state of affairs, november 2021"
+title:  "buny.plus state of affairs, november 2021"
 author: "lily b."
-date:   2021-11-07 12:05:39 -0500
+date: 2021-11-07 12:05:39 -0500
 tags: update hazel_and_robyn evergreen_lament project_sanctuary
 excerpt_separator: <!--more-->
 ---
