@@ -2,19 +2,21 @@
 layout: default
 ---
 
-<meta name="twitter:site" content="@hott4tsexdotgov"> <!-- shoutouts to jasmine for this idea -->
+<!-- <meta name="twitter:site" content="@hott4tsexdotgov"> shoutouts to jasmine for this idea -->
 <meta name="twitter:title" content="{{ page.title }}">
 <meta name="twitter:description" content="{{ page.description }}">
 <meta name="twitter:card" content="summary_large_card">
 
-<img src="{{ site.baseurl }}/assets/img/dividers/stars.gif"><br><br>
+<!--<img src="{{ site.baseurl }}/assets/img/dividers/stars.gif"><br><br>
 <b>{{ page.title }}</b><br><br>
 <img src="{{ site.baseurl }}/assets/img/dividers/stars.gif"><br>
-<p style="font-size: 10px;">{{ page.date | date_to_string }} - {{ page.author }}</p><br>
-<!--tagged under:
+<p style="font-size: 10px;">{{ page.date | date_to_string }}</p><br>
+tagged under:
 {% for tag in page.tags %}
     <a href="{{ site.baseurl }}/bbs/tag/{{ tag }}">{{ tag }}</a>,
 {% endfor %}</p><br>-->
+
+<a href="{{ page.image }}"><img src="{{ page.image }}" style="max-width:100%;max-height:100vh"></a>
 
 {{ content }}
 <br>
