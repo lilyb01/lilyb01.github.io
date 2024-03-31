@@ -2,7 +2,7 @@
 layout: art
 title: "hazel and robyn - christmas 2023"
 date: "2023-12-25 8:55:00"
-image: "/art/hzrb_xmas2023.jpg"
+image: "/art/2023/hzrb/hzrb_xmas2023.jpg"
 tags: hazel_and_robyn
 ---
 
