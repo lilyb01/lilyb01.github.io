@@ -58,7 +58,6 @@ exclude:
 
 keep_files:
   - assets/
-  - art/
   - stuff/
 
 # collections
