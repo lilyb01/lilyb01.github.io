@@ -5,6 +5,10 @@ modified from https://mikmik3.github.io/flatstyle_pth/flatstyle_amethyst_dark_v2
 @import url('https://mikmik3.github.io/flatstyle_pth/flatstyle_emerald_white_v2.css');
 @import url('https://mikmik3.github.io/flatstyle_pth/flatstyle_dark.css');
 
+#userinfo_stats,#userinfo_minor {
+    float:right;
+}
+
 body {
 background: #000 !important;
 }
