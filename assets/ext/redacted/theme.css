@@ -21,9 +21,11 @@ tr,tr.rowa,ul.nobullet,.pad,.torrent_table tr.group,.torrent_table tr.torrent,.b
 #logo {
     background-image: unset !important;
     width: 199px !important;
+    top: 22px !important;
 }
 
 #logo a {
+  width: 199px !important;
   background-position: 0;
   background-repeat: no-repeat;
   background-size: 398px 40px;
