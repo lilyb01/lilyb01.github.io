@@ -1,0 +1,17 @@
+ChangeLog.txt
+<—————
+Thanks for reading. Last edited by Trenton on OS X on Thursday, February 10th 2019
+
+These are the events that happened on Wed, February 9th 2019.
+	— ChangeLog was created
+	— Randomized background code implemented
+	— ‘Copyrights footer’ tag added to HTML
+	— New audio files & buttons added
+
+These are the events that happened on Thursday, February 10th 2019. 
+	- Sound 48 button was removed. Sound source and file still remain in document.
+	- IIS server was updated at 4PM. Now is visible to public.
+
+—————>
+
+End of document.

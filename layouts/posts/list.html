@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <b>bunny blogging system</b><br><br>
+  <img src="/assets/img/dividers/stars.gif"><br><br>
+  <ul>
+  {{ range .Pages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ .Summary }}
+    {{ if .Truncated }}
+      <a href="{{ .RelPermalink }}">Read more...</a>
+    {{ end }}
+  {{ end }}
+  </ul>
+{{ end }}

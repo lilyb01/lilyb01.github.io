@@ -1,0 +1,131 @@
+/*
+modified from https://mikmik3.github.io/flatstyle_pth/flatstyle_amethyst_dark_v2.css
+*/
+
+@import url('https://mikmik3.github.io/flatstyle_pth/flatstyle_emerald_white_v2.css');
+@import url('https://mikmik3.github.io/flatstyle_pth/flatstyle_dark.css');
+
+#userinfo_stats,#userinfo_minor {
+    float:right;
+}
+
+body {
+background: #000 !important;
+}
+
+tr,tr.rowa,ul.nobullet,.pad,.torrent_table tr.group,.torrent_table tr.torrent,.body,#torrent_details .group_torrent,#add_cover_div,.box_image,td.avatar{
+	/*! background: #2c3e50; */
+	background: #242222 !important;
+}
+
+#logo {
+    background-image: unset !important;
+    width: 199px !important;
+    top: 22px !important;
+}
+
+#logo a {
+  width: 199px !important;
+  background-position: 0;
+  background-repeat: no-repeat;
+  background-size: 398px 40px;
+  display: block;
+  height: 40px;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  background-image: url("https://redacted.ch/static/styles/assets/logo/logo-sprite-dark.png") !important;
+}
+
+#extra1 {
+background: #b36791;
+}
+
+.colhead_dark {
+background: #b36791;
+color: #fff;
+}
+.head {
+background: #b36791;
+color: #fff;
+}
+.head stronge{
+    color:#fff;
+}
+
+.colhead_dark stronge a{
+    color:#fff;
+}
+
+.colhead_dark stronge a:hover{
+    color: #34495e;
+}
+
+.center_poll {
+    background:#b36791;
+}
+
+#searchbars input:focus {
+border-color: #b36791;
+background:#fff;
+color: #34495e;
+}
+
+.colhead {
+background: #b36791;
+color:#fff;
+}
+
+input[type=submit], input[type=button]{
+    background:#b36791;
+}
+
+input[type=submit]:hover, input[type=button]:hover{
+background-color: #ec7063;
+border-color: #ec7063;
+}
+
+input[type=submit]:focus, input[type=button]:focus {
+background-color: #ec7063;
+border-color: #ec7063;
+}
+
+textarea:hover,select:hover, input[type=text]:hover, input[type="email"]:hover, input[type="password"]:hover, input[type=search]:hover {
+border-color: #b36791;
+}
+
+textarea:active,select:active, input[type=text]:active, input[type="email"]:active, input[type="password"]:active, input[type=search]:active,
+textarea:focus,select:focus, input[type=text]:focus, input[type="email"]:focus, input[type="password"]:focus, input[type=search]:focus{
+border-color: #8e44ad;
+}
+
+.tooltipster-default {
+	border-radius: 5px;
+	border: 2px solid #34495e;
+	background: #8e44ad;
+	color: #fff!important;
+}
+
+.colhead_dark a{
+	color:#f7f7f7;
+}
+
+.colhead_dark a:hover{
+	color:#bdc3c7;
+}
+
+a{
+	color: #b36791;
+}
+
+.colhead_dark a,.colhead a,.head a{
+	color: #f7f7f7;
+}
+
+.colhead_dark a:hover,.colhead a:hover,.head a:hover {
+	color: #555;
+}
+
+.unread_locked_sticky::before,.unread_sticky::before,.unread_locked::before,.unread::before{
+	color: #b36791;
+}

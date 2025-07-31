@@ -1,0 +1,15 @@
+body {
+    background-image: url("../img/bg/bgbluedots.jpg");
+    background-color: #000;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+#sidebar {
+    background-color: #161d20;
+    background-image: url("../img/bg/design.jpg");
+    border-right: solid;
+    border-right-color:#1a1a1a;
+}

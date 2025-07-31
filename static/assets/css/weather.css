@@ -1,0 +1,13 @@
+body {
+    background-color: #27886c;
+    background-image: url(../img/bg/weather_wide_transparent2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+}
+
+#sidebar {
+    background-color: #3ba182;
+    border-right: 0px;
+    border-right-color:#3ba182;
+}

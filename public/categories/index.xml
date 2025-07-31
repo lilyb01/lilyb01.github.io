@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on lily&#39;s corner of the web &lt;3</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on lily&#39;s corner of the web &lt;3</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Feb 2021 15:05:39 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/categories/test/</link>
+      <pubDate>Tue, 16 Feb 2021 15:05:39 -0500</pubDate>
+      <guid>http://localhost:1313/categories/test/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Jekyll Update</title>
+      <link>http://localhost:1313/categories/jekyll-update/</link>
+      <pubDate>Sat, 26 Dec 2020 15:05:39 -0500</pubDate>
+      <guid>http://localhost:1313/categories/jekyll-update/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

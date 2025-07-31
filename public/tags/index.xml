@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on lily&#39;s corner of the web &lt;3</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on lily&#39;s corner of the web &lt;3</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 28 Jul 2025 12:05:39 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hazel_and_robyn</title>
+      <link>http://localhost:1313/tags/hazel_and_robyn/</link>
+      <pubDate>Mon, 28 Jul 2025 12:05:39 -0500</pubDate>
+      <guid>http://localhost:1313/tags/hazel_and_robyn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Work_it_out_wombats, Fanart</title>
+      <link>http://localhost:1313/tags/work_it_out_wombats-fanart/</link>
+      <pubDate>Tue, 19 Mar 2024 12:05:39 -0500</pubDate>
+      <guid>http://localhost:1313/tags/work_it_out_wombats-fanart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fanart</title>
+      <link>http://localhost:1313/tags/fanart/</link>
+      <pubDate>Mon, 01 Jan 2024 12:05:39 -0500</pubDate>
+      <guid>http://localhost:1313/tags/fanart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Paprika</title>
+      <link>http://localhost:1313/tags/paprika/</link>
+      <pubDate>Sun, 01 Jan 2023 12:05:39 -0500</pubDate>
+      <guid>http://localhost:1313/tags/paprika/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bali, Fanart</title>
+      <link>http://localhost:1313/tags/bali-fanart/</link>
+      <pubDate>Fri, 25 Nov 2022 12:05:39 -0500</pubDate>
+      <guid>http://localhost:1313/tags/bali-fanart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project_sanctuary</title>
+      <link>http://localhost:1313/tags/project_sanctuary/</link>
+      <pubDate>Sun, 13 Nov 2022 12:05:39 -0500</pubDate>
+      <guid>http://localhost:1313/tags/project_sanctuary/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Evergreen_lament</title>
+      <link>http://localhost:1313/tags/evergreen_lament/</link>
+      <pubDate>Mon, 18 Jul 2022 12:05:39 -0500</pubDate>
+      <guid>http://localhost:1313/tags/evergreen_lament/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elinor_wonders_why, Fanart</title>
+      <link>http://localhost:1313/tags/elinor_wonders_why-fanart/</link>
+      <pubDate>Mon, 30 May 2022 12:05:39 -0500</pubDate>
+      <guid>http://localhost:1313/tags/elinor_wonders_why-fanart/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Update Hazel_and_robyn Evergreen_lament Project_sanctuary</title>
+      <link>http://localhost:1313/tags/update-hazel_and_robyn-evergreen_lament-project_sanctuary/</link>
+      <pubDate>Sun, 07 Nov 2021 12:05:39 -0500</pubDate>
+      <guid>http://localhost:1313/tags/update-hazel_and_robyn-evergreen_lament-project_sanctuary/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

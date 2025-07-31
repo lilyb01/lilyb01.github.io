@@ -1,0 +1,14 @@
+body {
+    background-color:  rgb(38, 41, 43);
+    color: #fff;
+}
+
+a {
+    color: #fff;
+}
+
+#sidebar {
+    background-color: #161d20;
+    border-right: solid;
+    border-right-color:#0f1518;
+}

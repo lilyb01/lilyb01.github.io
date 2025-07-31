@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bunny Blogging System on lily&#39;s corner of the web &lt;3</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Bunny Blogging System on lily&#39;s corner of the web &lt;3</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Nov 2021 12:05:39 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>buny.plus state of affairs, november 2021</title>
+      <link>http://localhost:1313/blog/2021/buny.plus-state-of-affairs-november-2021/</link>
+      <pubDate>Sun, 07 Nov 2021 12:05:39 -0500</pubDate>
+      <guid>http://localhost:1313/blog/2021/buny.plus-state-of-affairs-november-2021/</guid>
+      <description>&lt;p&gt;for the two people who have kept up with any of my projects, it&amp;rsquo;s been a while huh? it&amp;rsquo;s been about a month since there&amp;rsquo;s been an update to hazel and robyn, which is unfortunately not the first time this has happened. so like, i haven&amp;rsquo;t had the proper time to work on my stuff recently. i&amp;rsquo;ve recently started a new job, and while it pays well it&amp;rsquo;s really tiring. i haven&amp;rsquo;t really had the energy to work on anything and it&amp;rsquo;s really starting to bother me. here&amp;rsquo;s what i have to say specifically:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>this is the test of the lily broadcast system</title>
+      <link>http://localhost:1313/blog/2021/this-is-the-test-of-the-lily-broadcast-system/</link>
+      <pubDate>Tue, 16 Feb 2021 15:05:39 -0500</pubDate>
+      <guid>http://localhost:1313/blog/2021/this-is-the-test-of-the-lily-broadcast-system/</guid>
+      <description>&lt;p&gt;this is a test of the lily broadcast system. for the next 60 seconds, this station will conduct a test of the lily broadcast system. this is only a test. (beep) had this been a real lily, you would&amp;rsquo;ve been slightly annoyed, and possibly endangered. this station serves the heypumpk.in area. this concludes the test of the lily broadcast system.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to Jekyll!</title>
+      <link>http://localhost:1313/blog/2020/welcome-to-jekyll/</link>
+      <pubDate>Sat, 26 Dec 2020 15:05:39 -0500</pubDate>
+      <guid>http://localhost:1313/blog/2020/welcome-to-jekyll/</guid>
+      <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;&#xA;&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;Where &lt;code&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code&gt;MONTH&lt;/code&gt; and &lt;code&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

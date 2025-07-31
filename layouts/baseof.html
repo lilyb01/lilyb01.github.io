@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ .Page.Title }}</title>
+        <link type="text/css" rel="stylesheet" href="/assets/css/new.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {{ partial "meta.html" . }}
+    </head>
+    <body>
+
+        <div id="wrapper">
+        <div class="header" id="header"></div>
+        <script src="/assets/js/banner.js"></script>
+        
+        <table id="yayyy" cellspacing=0>
+            <colgroup>
+                <col id="colnav" style="width: 150px">
+                <col id="colmain" style="width: 480px">
+                <col id="colnav" style="width: 150px">
+            </colgroup>
+
+            <!-- main -->
+            <tr>
+                <td class="nav">
+                    {{ partial "nav.html" }}
+                </td>
+                <td class="main">
+                    {{ block "main" . }}
+                    {{ end }}
+                </td>
+                <td class="rightnav">
+                    {{ partial "rightnav.html" }}
+                </td>
+            </tr>
+
+            <tr>
+                <td class="afternav" colspan="3">
+                    {{ block "after" . }}
+                    {{ end }}
+                </td>
+            </tr>
+
+            <!-- footer -->
+            <tr>
+                <td class="footer" colspan="3">
+                    {{ partial "footer.html" }}
+                </td>
+            </tr>
+
+        </table>
+    </div>
+    </body>
+</html>

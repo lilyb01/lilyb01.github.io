@@ -1,0 +1,5 @@
+baseURL = 'https://buny.plus/'
+languageCode = 'en-us'
+title = "lily's corner of the web <3"
+[permalinks]
+posts = "/blog/:year/:title/"

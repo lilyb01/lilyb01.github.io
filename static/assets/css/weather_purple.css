@@ -1,0 +1,17 @@
+body {
+    background-color: #673491;
+    background-image: url(../img/bg/weather_purple_wide_t2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom right;
+    color: #fff;
+}
+a {
+    color: #fff;
+}
+
+#sidebar {
+    background-color: #77599f;
+    border-right: 0px;
+    border-right-color:#77599f;
+    }

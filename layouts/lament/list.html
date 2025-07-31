@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <b>art !!</b><br><br>
+  <img src="/assets/img/dividers/stars.gif"><br><br>
+  {{ range (where .Site.RegularPages "Type" "in" (slice "art")).GroupByDate "2006" }}
+    <b>{{ .Key }}</b><br>
+    {{ range .Pages }}
+        <a href="{{ .Permalink }}"><img class="galleryimg" src="{{ .Params.image }}" title="{{ .Title }} - {{ .Date.Format "January 2, 2006" }}" width="250px"></a>
+    {{ end }}
+  {{ end }}
+{{ end }}

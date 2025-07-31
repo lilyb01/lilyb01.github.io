@@ -1,0 +1,36 @@
+{{ define "main" }}
+  <style>
+    .main, .afternav {
+      text-align: center;
+    }
+  </style>
+  <div style="padding-bottom:10px;"><b>art !!</b></div>
+  <img style="padding-bottom:100px;" src="/assets/img/dividers/stars.gif"><br>
+  <p>ominous whitespace jumpscare</p>
+{{ end }}
+
+{{ define "after" }}
+  {{ range (where .Site.RegularPages "Type" "in" (slice "art")).GroupByDate "2006" }}
+    <div style="padding-bottom:6px;"><b>{{ .Key }}</b></div>
+    {{ range .Pages }}
+      {{  if not (.Param "sketch") }}
+        <a href="{{ .Permalink }}"><img class="galleryimg" src="/assets/thumbnails{{ .Params.image }}" title="{{ .Title }} - {{ .Date.Format "January 2, 2006" }}" width="250px"></a>
+      {{ end }}
+    {{ end }}
+    <br><br>
+  {{ end }}
+
+      <!-- {{  if not (.Param "sketch") }} -->
+      <!-- {{ end }} -->
+
+<!--  <div style="padding-bottom:10px;">sketches:</div>
+  {{ range (where .Site.RegularPages "Type" "in" (slice "art")).GroupByDate "2006" }}
+    <div style="padding-bottom:6px;"><b>{{ .Key }}</b></div>
+    {{ range .Pages }}
+      {{  if (.Param "sketch") }}
+        <a href="{{ .Permalink }}"><img class="galleryimg" src="/assets/thumbnails{{ .Params.image }}" title="{{ .Title }} - {{ .Date.Format "January 2, 2006" }}" width="250px"></a>
+      {{ end }}
+    {{ end }}
+    <br><br>
+  {{ end }} -->
+{{ end }}
