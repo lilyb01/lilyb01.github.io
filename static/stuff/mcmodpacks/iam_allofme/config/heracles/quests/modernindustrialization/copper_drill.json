@@ -1,0 +1,83 @@
+{
+  "dependencies": [
+    "steel_hatches"
+  ],
+  "tasks": {
+    "copper_drill_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:copper_drill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eCopper Drill",
+      "<br/>",
+      "  This is the /b/Copper Drill/b/. This will give you /6/stones and dirts/6/, mostly used as building materials. Check the outputs in REI and make sure you know that /6/the drill has a chance of breaking/6/, so don't just make one.",
+      "<br/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          415,
+          -125
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:copper_drill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Copper Drill"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

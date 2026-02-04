@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "Milk"
+  ],
+  "tasks": {
+    "meadow_cheese_press": {
+      "type": "heracles:item",
+      "item": "meadow:cheese_form",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "meadow_milk": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:wooden_milk_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Now that you have the milk you will need a cheese press to turn it into cheese and you will need renet made in the cauldron",
+      "<br/>",
+      "<br/>",
+      "The cheese press will turn villagers into cheesemakers, they will sell ingredients, cheeses and decorations to help you in your cheese making journey"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          0,
+          -535
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "meadow:cheese_form",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Basics of Cheese Making"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

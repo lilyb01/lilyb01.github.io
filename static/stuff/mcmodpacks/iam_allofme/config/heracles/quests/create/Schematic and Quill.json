@@ -1,0 +1,79 @@
+{
+  "dependencies": [
+    "Crafting Blueprint"
+  ],
+  "tasks": {
+    "7625AC75CF47A965": {
+      "type": "heracles:item",
+      "item": "create:schematic_and_quill",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "3AE348CB80C51BFF": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 2,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "I know you're doing it from a creative world first"
+    },
+    "description": [
+      "<h2>I know you're doing it from a creative world first</h2>",
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          -192,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:schematic_and_quill",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Schematic and Quill"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

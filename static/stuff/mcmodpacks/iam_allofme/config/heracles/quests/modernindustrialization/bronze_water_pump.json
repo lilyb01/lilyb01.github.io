@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "bronze_boiler"
+  ],
+  "tasks": {
+    "bronze_water_pump_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_water_pump",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eBronze Water Pump",
+      "<br/>",
+      "  Wondering about automatic /b/Water/b/ pumping are you? Good thing you can do nearly anything you want! A /b/Water Pump/b/ will automatically collect /b/Water/b/ and /6/transfer it to adjacent blocks/6/. Make sure to place water sources surrounding the pump horizontally, give it /b/Steam/b/, and it will start producing /b/Water/b/ for 1 EU/t.",
+      "<br/>",
+      "  The /b/Bronze Water Pump/b/ will produce /6/125mb of /b/Water/b/ for every adjacent water source every 5 seconds/6/, allowing for a maximum output of 1000mb every 5 seconds.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          300,
+          35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:bronze_water_pump",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bronze Water Pump"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

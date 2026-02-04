@@ -1,0 +1,13 @@
+name = "[Deprecated]CTOV - More villagers compatibility pack"
+filename = "ctov-mores-villager-add-on-v2-0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ef204b71c04fb81e5b4118c5052794f3c15ec792"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4602564
+project-id = 648065

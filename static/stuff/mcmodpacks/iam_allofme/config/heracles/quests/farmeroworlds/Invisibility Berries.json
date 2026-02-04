@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "Berries Assemble"
+  ],
+  "tasks": {
+    "sbib": {
+      "type": "heracles:item",
+      "item": "strangeberries:invisibility_berries",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "invisibility": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "strangeberries:invisibility_berries",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Found in caves and ancient cities on skulk or deepslate",
+      "<br/>",
+      "Can be used to make invisibility potions"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -205,
+          209
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "strangeberries:invisibility_berries",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Invisibility Berries"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

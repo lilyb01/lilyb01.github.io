@@ -1,0 +1,113 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "a_map_how_task": {
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "a_map_how_reward": {
+      "xptype": "POINTS",
+      "amount": 15,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "<br/>",
+      "  This question I wont answer; 'tis a stupid question. Just take these manifestations of matter I might provide to you. Sometimes they won't be just matter but a mix of ||secret|| and ||more secret||.",
+      "<br/>",
+      "<p>  Ah, you can't understand that yet. Never mind, carry on with good questions next time.</p>",
+      "<br/>",
+      "<br/>",
+      "<columns template='38 24 38'>",
+      "<column>",
+      "<item align='right' id='ad_astra:mercury_globe' scale='1.3'>&#32;</item>",
+      "</column>",
+      "<column valign='top'>",
+      "<item id='ad_astra:earth_globe' scale='2.5'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item align='left' id='ad_astra:moon_globe' scale='1.6'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "<columns template='32 36 32'>",
+      "<column>",
+      "<item align='right' id='ad_astra:mars_globe' scale='1.4'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<p>&#160;</p>",
+      "</column>",
+      "<column>",
+      "<item align='left' id='ad_astra:glacio_globe' scale='2.25'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "<columns template='29 42 29'>",
+      "<column>",
+      "<item align='right' id='ad_astra:earth_globe' scale='2'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<entity scale='1' tag='{VillagerData:{profession:nitwit}}' type='villager'>&#32;</entity>",
+      "</column>",
+      "<column>",
+      "<item align='left' id='ad_astra:venus_globe' scale='1.8'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "<columns template='32 36 32'>",
+      "<column>",
+      "<item align='right' id='ad_astra:moon_globe' scale='2.2'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<p>&#160;</p>",
+      "</column>",
+      "<column>",
+      "<item align='left' id='ad_astra:mercury_globe' scale='1.3'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "<columns template='38 24 38'>",
+      "<column>",
+      "<item align='right' id='ad_astra:mars_globe' scale='1.1'>&#32;</item>",
+      "</column>",
+      "<column valign='bottom'>",
+      "<item id='ad_astra:glacio_globe' scale='1.9'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item align='left' id='ad_astra:venus_globe' scale='1.25'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          50,
+          -1
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ad_astra:earth_globe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "A map how?"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

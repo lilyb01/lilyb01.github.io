@@ -1,0 +1,72 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3615732C6A2C7334": {
+      "type": "heracles:item",
+      "item": "#advancednetherite:tiers/tools",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "53F18A9AA229B505": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16103753,
+          "Loot": "aof:loot_bags/misc/artifacts",
+          "Name": "Artifact Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "5042EEAE31068F62": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Every Netherite tier has its own unique properties."
+    },
+    "description": [
+      "<h2>Every Netherite tier has its own unique properties.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          61,
+          -44
+        ]
+      }
+    },
+    "icon": {
+      "item": "#advancednetherite:tiers/tools",
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§cAdvanced Netherite"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

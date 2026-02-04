@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "The Basics of Cheese Making"
+  ],
+  "tasks": {
+    "meadow_amethyst_cheese_wheel": {
+      "type": "heracles:item",
+      "item": "meadow:amethyst_cheese_block",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "meadow_amethyst_crystal": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:amethyst_cluster",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "meadow_rennet": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:rennet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "You are not sure how good of an idea it is to eat a cheese full of crystals, maybe they are strawberry flavored"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          0,
+          -570
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "meadow:amethyst_cheese_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Amethyst Cheese Wheel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

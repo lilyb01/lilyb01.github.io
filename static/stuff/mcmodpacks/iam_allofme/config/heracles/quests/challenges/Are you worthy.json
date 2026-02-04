@@ -1,0 +1,155 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3A9ABB487CD82821": {
+      "icon": {
+        "item": {
+          "id": "minecraft:dragon_head",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "minecraft:ender_dragon"
+      },
+      "amount": 1,
+      "title": "",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "431C0986E611D988": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:ender_dragon"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Kill the Ender Dragon to unlock challenges."
+    },
+    "description": [
+      "<br/>",
+      "<columns template='0 100'>",
+      "<column>",
+      "<columns>",
+      "<column valign='top'>",
+      "<h2 background='8 #aa000000' border='0 #01000000' color='#44000000' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column valign='bottom'>",
+      "<h2 background='8 #aaff00ff' border='2 #01ff00ff' color='#44ff00ff' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column>",
+      "<h2 background='8 #aa800080' border='5 #01800080' color='#44800080' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns template='20 82'>",
+      "<column>",
+      "<item border='0 #88777777' id='trofers:medium_pillar' scale='7' tag='{BlockEntityTag:{Trophy:&#39;trofers:ender_dragon&#39;}}'>&#32;</item>",
+      "</column>",
+      "<column valign='middle'>",
+      "<hr/>",
+      "<br/>",
+      "<h2 italic='true'>Looking for some Challenges?</h2>",
+      "<br/>",
+      "<p>&#160;&#160;Excellent!</p>",
+      "<br/>",
+      "<p>&#160;&#160;Let's start at the end... kill the Ender Dragon.</p>",
+      "<br/>",
+      "<hr/>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<br/>",
+      "<p align='center' background='1 #44800080' color='purple' italic='true'>Yes, please, kill it! Kill it fast!</p>",
+      "<br/>",
+      "<columns>",
+      "<column>",
+      "<columns>",
+      "<column></column>",
+      "<column>",
+      "<entity type='endermanoverhaul:end_islands_enderman'>&#32;</entity>",
+      "</column>",
+      "<column>",
+      "<entity type='enderman'>&#32;</entity>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns>",
+      "<column>",
+      "<entity type='endermanoverhaul:end_islands_enderman'>&#32;</entity>",
+      "</column>",
+      "<column>",
+      "<entity type='enderman'>&#32;</entity>",
+      "</column>",
+      "<column>",
+      "<entity type='endermanoverhaul:end_enderman'>&#32;</entity>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns>",
+      "<column>",
+      "<entity type='enderman'>&#32;</entity>",
+      "</column>",
+      "<column valign='bottom'>",
+      "<entity type='endermanoverhaul:coral_enderman'>&#32;</entity>",
+      "</column>",
+      "<column></column>",
+      "</columns>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "<p align='center' background='1 #44800080' color='purple' italic='true'>And stop staring at us... it's rude!</p>"
+    ],
+    "groups": {
+      "Challenges": {
+        "position": [
+          0,
+          200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:dragon_head",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "§3Are You Worthy?"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

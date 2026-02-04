@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "your_first_bronze"
+  ],
+  "tasks": {
+    "bronze_macerator_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_macerator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eBronze Macerator",
+      "<br/>",
+      "  Now you can /6/hemiquadruple your ores/6/! This means you'll have a 50% chance to extract an extra dust from your /b/Raw Ore/b/. You can also turn a /b/Full Ore/b/ and extract a lot of /b/Raw Ore/b/ from it using the /b/Macerator/b/.",
+      "<br/>",
+      "  Being a /b/Macerator/b/, you can throw some metal items in to /6/recycle them back into dusts/6/, good way to get a little bit out of an adventuring trip or an old tool.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          250,
+          105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:bronze_macerator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bronze Macerator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

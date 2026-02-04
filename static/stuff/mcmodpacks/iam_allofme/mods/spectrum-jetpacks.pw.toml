@@ -1,0 +1,13 @@
+name = "Spectrum Jetpacks"
+filename = "spectrum-jetpacks-1.0.3+1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1617edd9ff1e2c06672f6e66a20eed96a115bb3b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4998052
+project-id = 824498

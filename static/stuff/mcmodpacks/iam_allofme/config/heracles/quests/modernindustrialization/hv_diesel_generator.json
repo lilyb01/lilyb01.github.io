@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "the_lategame_age"
+  ],
+  "tasks": {
+    "hv_diesel_general_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:hv_diesel_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mi_epic_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/epic",
+          "Name": "Modern Industrialization Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "hv_diesel_general_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:boosted_diesel_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eHV Diesel Generator",
+      "<br/>",
+      "  The best single block /b/Diesel Generator/b/ you can make. /6/It'll output up to 1024 eu/t/6/ from any of the various fluids listed in your REI.",
+      "<br/>",
+      "  Now, this isn't the best generator that'll take fluid fuels. There's such thing as a /b/Large Diesel Generator/b/ which will ask for /b/Highly Advanced Machine Hulls/b/; though it's worth it when you hear /6/it'll generate up to 16,384 eu/t/6/!",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1020,
+          -122
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:hv_diesel_generator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "HV Diesel Generator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

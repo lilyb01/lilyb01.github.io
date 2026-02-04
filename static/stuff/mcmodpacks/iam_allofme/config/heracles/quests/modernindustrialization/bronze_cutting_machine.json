@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "your_first_bronze"
+  ],
+  "tasks": {
+    "bronze_cutting_machine": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_cutting_machine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eBronze Cutting Machine",
+      "<br/>",
+      "  A sleek bronze casing with a vicious spinning blade inside will give you even /6/better cutting ratios/6/ than you ever experienced using your /b/Forge Hammer/b/. /a/Time for extra bolts, gears, rings, and rods!/a/",
+      "<br/>",
+      "  Just remember that you can't cut for free. This machine runs off /b/Steam/b/ and uses /b/Lubricant/b/ to make clean cuts without overheating. /b/Lubricant/b/ can be produced inside of the /b/Mixer/b/, using /b/Redstone/b/ and one of the various hydrocarbons. I suggest checking out the /b/Coke Oven's/b/ products. You may find something to /6/mix/6/ with /b/Redstone/b/!",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          250,
+          -105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:bronze_cutting_machine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bronze Cutting Machine"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

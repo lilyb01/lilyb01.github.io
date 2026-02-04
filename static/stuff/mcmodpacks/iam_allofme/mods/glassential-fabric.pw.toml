@@ -1,0 +1,13 @@
+name = "Glassential (Fabric/Quilt)"
+filename = "glassential-fabric-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7774fffc099501bef4777a26d7f399e3a4e84507"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5109352
+project-id = 320778

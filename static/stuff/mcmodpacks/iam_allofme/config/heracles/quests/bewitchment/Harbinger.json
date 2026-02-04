@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Demon Horn"
+  ],
+  "tasks": {
+    "6CDB1DB5399B31F8": {
+      "type": "heracles:item",
+      "item": "bewitchment:harbinger",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Acquired by defeating the Vampire Queen in battle, these shoes have a protection comparable to Netherite Boots."
+    },
+    "description": [
+      "<h2>Acquired by defeating the Vampire Queen in battle, these shoes have a protection comparable to Netherite Boots.</h2>",
+      "---",
+      "Because of their dark energies, the undead are neutral to the wearer.",
+      "",
+      "Harbinger can be repaired using Netherite Ingots.",
+      "---"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          256,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:harbinger",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Harbinger"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

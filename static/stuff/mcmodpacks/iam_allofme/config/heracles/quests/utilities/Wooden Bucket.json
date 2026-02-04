@@ -1,0 +1,61 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1ED3DDCCED07436B": {
+      "type": "heracles:item",
+      "item": "kibe:wooden_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1B497B28D4E228B4": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---"
+    ],
+    "groups": {
+      "Utilities": {
+        "position": [
+          240,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:wooden_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Wooden Bucket"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

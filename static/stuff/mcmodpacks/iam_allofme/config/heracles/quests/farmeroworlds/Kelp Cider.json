@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Wine ageing"
+  ],
+  "tasks": {
+    "vkc": {
+      "type": "heracles:item",
+      "item": "vinery:kelp_cider",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "vinery:kelp_cider",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Allows to walk on water, who needs boats anymore!"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          290,
+          -215
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:kelp_cider",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Kelp Cider"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

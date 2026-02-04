@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Chalk"
+  ],
+  "tasks": {
+    "416484CF2AB4D71B": {
+      "type": "heracles:item",
+      "item": "bewitchment:demon_horn",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "snake": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bewitchment:snake_tongue",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          304,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:demon_horn",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Demon Horn"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

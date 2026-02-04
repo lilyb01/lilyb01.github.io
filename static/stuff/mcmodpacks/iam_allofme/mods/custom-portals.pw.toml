@@ -1,0 +1,13 @@
+name = "Custom Portals"
+filename = "custom-portals-3.4.0-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8b21a6961e8a9feb66c8939cd7b363c552ce1c18"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5509682
+project-id = 409341

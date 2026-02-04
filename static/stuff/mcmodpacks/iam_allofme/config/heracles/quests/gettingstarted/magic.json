@@ -1,0 +1,107 @@
+{
+  "dependencies": [
+    "a_map_how"
+  ],
+  "tasks": {
+    "magic_task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "magic_reward": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 20,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<br/>",
+      "<p align='center' bold='true' italic='true'>You mentioned Magic?</p>",
+      "<p align='center'>Magic? That I did. The body and mind form a pathway to many abilities some consider to be unnatural.</p>",
+      "<br/>",
+      "<columns template='49 3 48'>",
+      "<column>",
+      "<columns>",
+      "<column>",
+      "<p align='right'>Most are ignorant of magic in this world.</p>",
+      "<br/>",
+      "<p align='right'>Once you recognize the methods of activation, power will be at your fingertips.</p>",
+      "</column>",
+      "<column>",
+      "<item align='right' background='0 #1e90ff' id='bewitchment:demon_heart' scale='4' valign='bottom'>&#32;</item>",
+      "<p align='right' color='#333333' italic='true' obfuscated='true' shadowed='true'>01234567890</p>",
+      "<item align='right' background='0 #32cd32' id='spectrum:perturbed_eye' scale='4' valign='top'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<p align='center' background='2 #000000' color='#333333' italic='true' obfuscated='true' shadowed='true'>01234567890123</p>",
+      "</column>",
+      "<column>",
+      "<columns>",
+      "<column>",
+      "<item align='left' background='0 #ffd700' id='botania:mana_pylon' scale='4' valign='bottom'>&#32;</item>",
+      "<p align='left' background='1 #000000' color='#333333' italic='true' obfuscated='true' sadowed='true'>01234567890</p>",
+      "<item align='left' background='0 #dc143c' id='jewelry:netherite_jade_necklace' scale='4' valign='top'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<p align='left'>There are magics sublime, arcane, and profane.</p>",
+      "<br/>",
+      "<p align='left'>Magics infused with the colors of the world.</p>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "<p align='center'>Mana-based magic that can transmute and create,</p>",
+      "<p align='center'>Magic to take control of one's soul, or grant demi-invincibility.</p>",
+      "<br/>"
+    ],
+    "groups": {
+      "Getting Started": {
+        "position": [
+          100,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:amethyst_shard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Magic"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

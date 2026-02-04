@@ -1,0 +1,97 @@
+{
+  "dependencies": [
+    "oil_drilling_rig"
+  ],
+  "tasks": {
+    "distillery_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:distillery",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mi_rare_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "distillery_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:steam_cracked_naphtha_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eDistillery",
+      "<br/>",
+      "  With your freshly drilled /b/Crude Oil/b/ you can make a large array of items, however /6/you will need to refine it to use it/6/. Currently it's pretty useless in an industrial sense. That's where the /b/Distillery/b/ comes into play! /6/You can refine or --distill-- fluids into it's lighter parts/6/. With this /b/Distillery/b/ you can only refine down to one fluid at a time. Just keep working, soon enough you'll be able to extract many fluids at once.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          915,
+          -87
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:distillery",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Distillery"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

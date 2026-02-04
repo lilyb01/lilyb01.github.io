@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Utilities"
+  ],
+  "tasks": {
+    "vsws": {
+      "type": "heracles:item",
+      "item": "vinery:cherry_wine_rack_small",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "vinery:cherry_wine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The small wine rack allows to store up to 4 small wines in a stylish manner, they can be placed and picked up with right click"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          210,
+          150
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vinery:wine_rack_2",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Small Wine Rack"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

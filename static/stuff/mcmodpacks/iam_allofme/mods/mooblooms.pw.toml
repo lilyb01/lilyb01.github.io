@@ -1,0 +1,13 @@
+name = "Mooblooms"
+filename = "mooblooms-1.6.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "662be61ae1e6517ad1fa7ab00d18901973044215"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4793377
+project-id = 333946

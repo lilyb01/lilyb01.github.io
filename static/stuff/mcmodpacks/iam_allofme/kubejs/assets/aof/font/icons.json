@@ -1,0 +1,33 @@
+{
+    "providers": [
+		{
+            "type": "bitmap",
+            "file": "aof:other/aof7_a.png",
+			"ascent": 7,
+            "height": 60,
+            "chars": ["a"]
+        },
+        		{
+            "type": "bitmap",
+            "file": "aof:other/aof7_b.png",
+			"ascent": 7,
+            "height": 60,
+            "chars": ["b"]
+        },
+        {
+            "type": "bitmap",
+            "file": "aof:other/aof7_c.png",
+			"ascent": 7,
+            "height": 60,
+            "chars": ["c"]
+        },
+		{
+            "type": "space",
+            "advances": {
+                " ": 4,
+                ".": -1,
+                "-": -91
+            }
+        }
+    ]
+}

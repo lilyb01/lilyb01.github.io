@@ -1,0 +1,88 @@
+{
+  "dependencies": [
+    "your_first_bronze"
+  ],
+  "tasks": {
+    "mi_wrench_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:wrench",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eWrench",
+      "<br/>",
+      "  This is no /b/Monkey Wrench/b/, but you better hope you can move like one in the future.",
+      "<br/>",
+      "  Using a /b/Wrench/b/, you can /6/rotate/6/ --almost-- /b/any machine/b/ by /6/right-clicking/6/ and /6/pick up/6/ --almost-- any /b/pipe/b/, /b/fluid/b/ or /b/not/b/.",
+      "<br/>",
+      "  You can /6/shift-right-click/6/ on a /b/machine/b/ to /6/configure/6/ the /b/output side/b/. When you're /6/holding/6/ the /b/Wrench/b/, you can /6/hover/6/ over any face of the /b/machine/b/ and you'll get a /b/grid/b/ of sorts. /6/Shift-rick-clicking/6/ on the /b/middle square/b/ will set the /b/output face/b/ to the side the /b/grid/b/ is on. Doing so to the rectangles will /6/place the output/6/ to the face /6/90/6/ degrees relative to the corner elected to allow for /6/configuration/6/ in hard to reach spaces. Finally the small /b/squares/b/ in each corner will set the output to the /b/opposite/b/ side of the grid.",
+      "<br/>",
+      "  Remember, you cannot /6/break/6/ the machine using the /b/Wrench/b/, it WILL /6/destroy/6/ it and you /6/wont/6/ get it back. Just use your trusty /b/Pickaxe/b/ instead.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          150,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:wrench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wrench"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

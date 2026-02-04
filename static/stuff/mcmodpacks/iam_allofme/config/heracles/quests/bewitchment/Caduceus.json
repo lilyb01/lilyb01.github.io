@@ -1,0 +1,66 @@
+{
+  "dependencies": [
+    "Demon Horn"
+  ],
+  "tasks": {
+    "5AD904C0970364E4": {
+      "type": "heracles:item",
+      "item": "bewitchment:caduceus",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Baphomet's Tool of Choice."
+    },
+    "description": [
+      "<h2>Baphomet's tool of choice.</h2>",
+      "---",
+      "It has multiple-tool functionality comparable to Netherite.",
+      "",
+      "It can also be used to throw powerful fireballs at the cost of some ME.",
+      "",
+      "The Caduceus can be repaired with Netherite Ingots.",
+      "---"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          288,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:caduceus",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Caduceus"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

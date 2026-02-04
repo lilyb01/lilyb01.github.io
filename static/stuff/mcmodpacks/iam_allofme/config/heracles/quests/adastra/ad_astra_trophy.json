@@ -1,0 +1,110 @@
+{
+  "dependencies": [
+    "Energizer",
+    "Rover",
+    "Oxygen Distributor",
+    "Water Pump",
+    "Cryo Freezer",
+    "Solar Panels",
+    "Glacio",
+    "Space Stations",
+    "Jet Suit",
+    "Mercury",
+    "Oxygen Sensor"
+  ],
+  "tasks": {
+    "ad_astra_trophy": {
+      "title": "§cAd Astra 100%",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "trophy": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:ad_astra"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Complete all quests to obtain the trophy!"
+    },
+    "description": [
+      "<br/>",
+      "<columns template='0 100'>",
+      "<column>",
+      "<columns>",
+      "<column valign='top'>",
+      "<h2 background='8 #88dc143c' border='0 #01dc143c' color='#44dc143c' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column valign='bottom'>",
+      "<h2 background='8 #880000ff' border='2 #010000ff' color='#440000ff' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column>",
+      "<h2 background='8 #88fffafa' border='5 #01fffafa' color='#44fffafa' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns template='20 80'>",
+      "<column valign=\"bottom\">",
+      "<item border='0 #88777777' id='trofers:medium_pillar' scale='7' tag=\"{BlockEntityTag:{Trophy:'trofers:ad_astra'}}\">&#32;</item>",
+      "</column>",
+      "<column valign='middle'>",
+      "<h1 align='center' background='3 #220000ff' border='1 #bbffffff' italic='true' shadowed='true'>Ad Astra</h1>",
+      "",
+      "---",
+      "",
+      "<p align=\"center\" italic=\"true\">Non est ad astra mollis e terris via.</p>",
+      "",
+      "<p align=\"center\">— Seneca the Younger</p>",
+      "",
+      "",
+      "  And yet... you have done it!",
+      "",
+      "---",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Ad Astra": {
+        "position": [
+          638,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:ad_astra"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "§c§lAd Astra 100%"
+    }
+  },
+  "settings": {
+    "unlockNotification": true,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

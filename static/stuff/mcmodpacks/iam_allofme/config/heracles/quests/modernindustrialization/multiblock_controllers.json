@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "coke_oven"
+  ],
+  "tasks": {
+    "multiblock_controllers": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eMultiblock Controllers",
+      "<br/>",
+      "  Now, you might have noticed I said \"usually\" when talking about interacting with the controller. This means items and /6/fluids cannot be inputted or outputted from the controller/6/, but information can; in the sense of statistics. Looking into the controller you will see a few things: Shape Validity, Status, Progress, Recipe Base, and Recipe Current.",
+      "<br/>",
+      "  The Shape Validation will let you know if the /6/multiblock is built correctly or not/6/. It will not tell you if you are missing or have too many hatches on the multiblock, so you need to decide that for yourself.",
+      "<br/>",
+      "  Status will let you know the current status of the Multiblock. If it's idle or if it's active.",
+      "<br/>",
+      "  Progress will show you the progress, slowly building a percent to 100%. Depending on the speed of the process, the faster the percent will rise.",
+      "<br/>",
+      "  Recipe Base shows the /6/base recipe energy/steam consumption/6/. Depending on what you're making, it uses a minimum amount of energy/steam, but it can use more to speed up the process. This doesn't happen on steam machines so I won't got too far into it now.",
+      "<br/>",
+      "  Recipe Current is the/6/ current amount of energy/steam being actually consumed/6/.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          300,
+          1
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "computercraft:wired_modem_full",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Multiblock Controllers"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

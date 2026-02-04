@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "electric_blast_furnace"
+  ],
+  "tasks": {
+    "the_midgame_age_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:electronic_circuit",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "the_midgame_age_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:electronic_circuit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "mi_rare_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eThe Midgame Age!",
+      "<br/>",
+      "  Even more advanced electronics! These circuit boards are aluminum based and allow for more complex machinery.",
+      "<br/>",
+      "  /6/I'd recommend automating the /b/Electronic Circuit/b/ as you'll need them/6/ for many of the MV upgrades as well as the new machines you'll be able to make.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          740,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:electronic_circuit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Midgame Age!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

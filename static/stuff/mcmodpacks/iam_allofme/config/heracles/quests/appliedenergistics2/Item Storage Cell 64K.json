@@ -1,0 +1,90 @@
+{
+  "dependencies": [
+    "AE2 Drive"
+  ],
+  "tasks": {
+    "7FAF15C54C21DDF8": {
+      "type": "heracles:item",
+      "item": "ae2:item_storage_cell_64k",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Highest Tier Storage Cell, which can contain 65,536 bytes of storage."
+    },
+    "description": [
+      "<hr/>",
+      "## &&eThe Best! Or Is It?",
+      "<br/>",
+      "  Highest Tier Storage Cell, which can contain /6/65,536 bytes of storage/6/.",
+      "65,536 bytes of storage can hold /6/8,128 Stacks of a single item. or 4,160 Stacks,while holding 63 Different items/6/. The 64k Storage Cell uses 512 bytes of data to store a single type.",
+      "/4/This is truly the best... unless... theres something more /d/mega/d/-uber-elite out there./4/",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"7FAF15C54C21DDF8\" quest=\"Item Storage Cell 64K\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Item Storage Cell 64K\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -304,
+          -304
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:item_storage_cell_64k",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Item Storage Cell 64K"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

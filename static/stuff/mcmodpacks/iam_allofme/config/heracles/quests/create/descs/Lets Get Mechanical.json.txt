@@ -1,0 +1,9 @@
+This is where you get creative with your farms
+---
+> Mechanical Harvesters Harvests crops and replants them
+> Mechanical Saws can cut Trees and damage Mobs. Farming them automatically has to wait until the Brass Age
+> Mechanical drills can mine pickaxe minable blocks. It doesn't have Silk Touch however. It can also damage Mobs. 
+> Mechanical Plough acts as a Hoe, however, you're more likely to use it to take out any no-collision blocks
+> Mechanical Mixer needs a basin to work. This is your first step in getting to Brass Age.
+> Mechanical Bearing spins. Yep
+---

@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "Athame"
+  ],
+  "tasks": {
+    "7B461B5FFCDEE357": {
+      "type": "heracles:item",
+      "item": "bewitchment:wood_ash",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "wood_ash": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bewitchment:wood_ash",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Created by putting Bark on a Campfire."
+    },
+    "description": [
+      "<h2>Created by putting Bark on a Campfire.</h2>",
+      "---",
+      "When thrown into a filled Witch Cauldron it will immediately empty it.",
+      "---"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          240,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:wood_ash",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Wood Ash"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "dependencies": [
+    "Demon Heart"
+  ],
+  "tasks": {
+    "7C20D7008EA37334": {
+      "type": "heracles:item",
+      "item": "bewitchment:grotesque_stew",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "demon": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "spectrum:demon_tea",
+        "count": 6
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Gross."
+    },
+    "description": [
+      "<h2>Gross.</h2>",
+      "---",
+      "This questionable stew is part of the pledging rite.",
+      "",
+      "By drinking while deeply looking into the eyes of a Greater Demon, a witch can pledge to them.",
+      "",
+      "Pledging to a Greater Demon has unique benefits depending on the Demon.",
+      "---"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          432,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:grotesque_stew",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Grotesque Stew"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

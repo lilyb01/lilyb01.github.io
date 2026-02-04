@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "your_first_steel"
+  ],
+  "tasks": {
+    "steel_unpacker_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_unpacker",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eSteel Unpacker",
+      "<br/>",
+      "  A new machine, the little sibling to the /b/Packer/b/! This one can only be made in steel, it really needs that extra strength. /6/The unpacker can perform simple crafts for you, such as converting dusts into tiny dusts/6/. Check your REI for more recipes.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          415,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:steel_unpacker",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steel Unpacker"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

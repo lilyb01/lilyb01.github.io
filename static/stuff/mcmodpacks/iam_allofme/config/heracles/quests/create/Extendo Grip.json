@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "Mechanical Crafters"
+  ],
+  "tasks": {
+    "6886E9FB38FC363D": {
+      "type": "heracles:item",
+      "item": "create:extendo_grip",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "6F0CA1CB40339EA2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/epic",
+          "Name": "Create Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Also try Terraria!"
+    },
+    "description": [
+      "<h2>Also try Terraria!</h2>",
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          304,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:extendo_grip",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Extendo Grip"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

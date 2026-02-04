@@ -1,0 +1,13 @@
+name = "Bewitchment REI"
+filename = "bewitchment-rei-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "73787a42538bf559c622ad8c4ac71c2d0cae21de"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5161378
+project-id = 844235

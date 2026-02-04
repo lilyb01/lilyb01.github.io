@@ -1,0 +1,61 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "basic capacitor task": {
+      "type": "heracles:item",
+      "item": "powah:capacitor_basic",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "capacitor reward": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/common",
+          "Name": "Powah! Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<item id=\"powah:capacitor_basic\" scale=\"4\" />"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          -152,
+          -108
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:capacitor_basic_tiny",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Basic Capacitor"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

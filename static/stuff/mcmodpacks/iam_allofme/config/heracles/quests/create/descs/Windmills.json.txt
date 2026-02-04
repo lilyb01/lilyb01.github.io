@@ -1,0 +1,7 @@
+In case of nether, break water wheel
+---
+> While the water wheel is useful, you need water(duh) to move it. What if you're in the nether? Use Lava? Actualy I haven't checked that- What do you mean Magma Wheel advancement?
+> Ehem, what I mean is that you can use windmills instead! 
+> Windmill's rotational force increases the more sails you attach, but you must start with 8.
+> Yes, you can attach 8 sails to just one side. But that looks ugly.
+---

@@ -1,0 +1,101 @@
+{
+  "dependencies": [
+    "machine_hull",
+    "conveyor_belt",
+    "pistons",
+    "motors",
+    "robotic_arms"
+  ],
+  "tasks": {
+    "assembler_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:assembler",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "assembler_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:assembler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eAssembler",
+      "<br/>",
+      "  Your first taste of true /4/a/4//6/u/6//e/t/e//2/o/2//a/m/a//b/a/b//3/t/3//9/i/9//d/o/d//5/n/5/! This is also the first machine you'll want to make a lot of. The /b/Assembler/b/ allows you to &&6automate&&r almost all recipes related to the machines. Check your &&bREI&&r to see which recipes you are allowed to automate using the /b/Assembler/b/. You can setup up to &&63 recipes in one assembler&&r by using &&6slot locking&&r. Just remember that it will make as many of the first recipe before it moves onto the next, /6/so never put multiple high demand recipes into a single assemble/6/r.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          570,
+          -150
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:assembler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Assembler"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "dependencies": [
+    "Book of Shadows",
+    "Athame"
+  ],
+  "tasks": {
+    "38B08483C8E278D3": {
+      "type": "heracles:item",
+      "item": "bewitchment:oak_bark",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "experience": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 2,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "stone": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:stone",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Some say that Bark is the most magically potent part of the tree."
+    },
+    "description": [
+      "<h2>Some say that Bark is the most magically potent part of the tree.</h2>",
+      "---",
+      "Early witches learned to strip bark from wood using an Athame.",
+      "",
+      "Do note that some woods are simply too hard to strip Bark from.",
+      "",
+      "Bark can be used for many things, one of those being Wood Ash.",
+      "---"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          304,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:oak_bark",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Oak Bark"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

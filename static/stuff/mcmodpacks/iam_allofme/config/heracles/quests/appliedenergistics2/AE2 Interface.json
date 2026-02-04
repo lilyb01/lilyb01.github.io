@@ -1,0 +1,71 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5F3D81B7D3F27CA2": {
+      "type": "heracles:item",
+      "item": "ae2:interface",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Read ME Pattern Provider quest for more info."
+    },
+    "description": [
+      "<hr/>",
+      "# &&eME Interface",
+      "<br/>",
+      "Read ME Pattern Provider quest for more info.",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"5F3D81B7D3F27CA2\" quest=\"AE2 Interface\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"AE2 Interface\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          64,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:interface",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Interface"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

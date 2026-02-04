@@ -1,0 +1,41 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "If we were meant to stay in one place, we’d have roots instead of feet."
+    },
+    "description": [
+      "<h2>If we were meant to stay in one place, we’d have roots instead of feet.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Adventurer": {
+        "position": [
+          -16,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "heracles:quest_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Adventures and Mysteries"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

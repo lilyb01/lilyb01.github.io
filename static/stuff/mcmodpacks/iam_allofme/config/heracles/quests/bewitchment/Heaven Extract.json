@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "Witch Cauldron"
+  ],
+  "tasks": {
+    "6F651059DED11014": {
+      "type": "heracles:item",
+      "item": "bewitchment:heaven_extract",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "heaven_extract": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bewitchment:heaven_extract",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "experience": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 8,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          32,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:heaven_extract",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Heaven Extract"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

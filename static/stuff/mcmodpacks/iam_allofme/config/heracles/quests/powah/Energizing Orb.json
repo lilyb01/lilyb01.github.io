@@ -1,0 +1,65 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "energizing orb task": {
+      "type": "heracles:item",
+      "item": "powah:energizing_orb",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "energizing orb reward": {
+      "title": "Powah! Rare Lootbag",
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 14731911,
+          "Loot": "aof:loot_bags/powah/rare",
+          "Name": "Powah! Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "",
+      "---"
+    ],
+    "groups": {
+      "Powah": {
+        "position": [
+          0,
+          -102
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "powah:energizing_orb",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Energizing Orb"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

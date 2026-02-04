@@ -1,0 +1,94 @@
+{
+  "dependencies": [
+    "Fan it Up"
+  ],
+  "tasks": {
+    "43168C6D8B02F900": {
+      "type": "heracles:item",
+      "item": "create:haunted_bell",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "171ACD486F3F96C0": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/rare",
+          "Name": "Create Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "02B4529C59249460": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:torch",
+        "count": 64
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "This is why the creeper blew up your chests"
+    },
+    "description": [
+      "<h2>This is why the creeper blew up your chests</h2>",
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          256,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:haunted_bell",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Haunted Bell"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

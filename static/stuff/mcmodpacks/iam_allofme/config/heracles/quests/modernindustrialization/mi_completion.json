@@ -1,0 +1,220 @@
+{
+  "dependencies": [
+	"MI",
+	"advanced_large_steam_boiler",
+	"aluminum",
+	"aluminum_drill",
+	"assembler",
+	"blastproof_alloy_plate",
+	"bronze_boiler",
+	"bronze_compressor",
+	"bronze_cutting_machine",
+	"bronze_drill",
+	"bronze_furnace",
+	"bronze_macerator",
+	"bronze_mixer",
+	"bronze_water_pump",
+	"centrifuge",
+	"chemical_reactor",
+	"coke",
+	"coke_oven",
+	"conveyor_belt",
+	"copper_drill",
+	"diesel_accessories",
+	"diesel_generator",
+	"distillation_tower",
+	"distillery",
+	"electric_blast_furnace",
+	"electric_quarry",
+	"electrolyzer",
+	"energy_transfer",
+	"faster_machines",
+	"fire_clay",
+	"fluid_transportation",
+	"fusion_reactor",
+	"give_up",
+	"gold_drill",
+	"gravichestplate",
+	"heat_exchanger",
+	"highly_advanced_upgrade",
+	"hull_upgrade",
+	"hv_diesel_generator",
+	"hv_steam_turbine",
+	"implosion_compressor",
+	"infinite_resources",
+	"item_transportation",
+	"kanthal_coils",
+	"large_steam_boiler",
+	"lignite_coal",
+	"lv_energy_input_hatch",
+	"lv_steam_turbine",
+	"machine_hull",
+	"mi_wrench",
+	"mixed_iridium_ingot",
+	"modern_industrialization",
+	"motors",
+	"multiblock_controllers",
+	"mv_steam_turbine",
+	"nuclear_reactor",
+	"nuke",
+	"oil_drilling_rig",
+	"pistons",
+	"plasma_turbine",
+	"polarizer",
+	"poor_mans_compressor",
+	"pressurizer",
+	"processing_unit",
+	"quantum_upgrade",
+	"quarry_tips",
+	"raw_iridium",
+	"robotic_arms",
+	"rubber",
+	"singularity",
+	"stainless_steel",
+	"stainless_steel_drill",
+	"steam_blast_furnace",
+	"steam_mining_drill",
+	"steel_drill",
+	"steel_hatches",
+	"steel_packer",
+	"steel_unpacker",
+	"steel_wiremill",
+	"superconductor_cable",
+	"the_electric_age",
+	"the_endgame",
+	"the_lategame_age",
+	"the_midgame_age",
+	"tick",
+	"titanium",
+	"titanium_drill",
+	"upgrades",
+	"uu_matter_bucket",
+	"vaccum_freezer",
+	"your_first_bronze",
+	"your_first_steel"
+  ],
+  "tasks": {
+    "mi_check_completion": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "mi_trophy": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:modernindustrialization"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Complete all quests to obtain the trophy!"
+    },
+    "description": [
+      "<br/>",
+      "<columns template='0 100'>",
+      "<column>",
+      "<columns>",
+      "<column valign='top'>",
+      "<h2 background='8 #88000000' border='0 #01000000' color='#44000000' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column valign='bottom'>",
+      "<h2 background='8 #88dc143c' border='2 #01dc143c' color='#44dc143c' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column>",
+      "<h2 background='8 #88ffff00' border='5 #01ffff00' color='#44ffff00' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns template='20 82'>",
+      "<column>",
+      "<item border='0 #88777777' id='trofers:medium_pillar' scale='7' tag='{BlockEntityTag:{Trophy:&#39;trofers:modernindustrialization&#39;}}'>&#32;</item>",
+      "</column>",
+      "<column valign='middle'>",
+      "<h1 align='center' background='3 #22000000' border='1 #bbffffff' italic='true' shadowed='true'>Modern Industrialization</h1>",
+      "",
+      "---",
+      "",
+      "<h2 align=\"left\">&&o Oh, MI!</h2>",
+      "",
+      "  You did it.",
+      "  You --actually-- did it, you crazy &&kplayer&&r !",
+      "",
+      "  Not only tried to do it.",
+      "  Not just planned to do it.",
+      "",
+      "  Didn't stop at steel",
+      "  Didn't aquiesce at aluminum.",
+      "",
+      "  Grinded. Grew.",
+      "  Struggled. Agonized.",
+      "  Tore down and rebuilt.",
+      "  Expanded, improvised, and improved.",
+      "",
+      "  Quarried. Distilled.",
+      "  Ran down bottlenecks.",
+      "  Slot locked, upgraded, and over-clocked.",
+      "  And piped. So much piping.",
+      "",
+      "---",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1500,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:modernindustrialization"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "§6§lMI 100%"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

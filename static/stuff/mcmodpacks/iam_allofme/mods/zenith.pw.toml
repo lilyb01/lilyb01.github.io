@@ -1,0 +1,13 @@
+name = "Zenith"
+filename = "zenith-1.2.3-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e776b12165a92abec7c2408e57b7eef08d852d9a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5576528
+project-id = 620928

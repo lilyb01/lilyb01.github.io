@@ -1,0 +1,8 @@
+Pushing and Pulling Entities
+---
+The Encased Fan is a mechanical component that can create air streams.
+
+Encased Fans are used for moving entities, Bulk Washing, Bulk Blasting, Bulk Haunting, and Bulk Smoking.
+
+The Encased Fan connects to other rotational components from the back.
+---

@@ -1,0 +1,72 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "2641A595A151CEC8": {
+      "type": "heracles:item",
+      "item": "ae2:crafting_unit",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "This particular block provides the CPU with no additional features, but can be used as a \"filler\" block."
+    },
+    "description": [
+      "<hr/>",
+      "# &&eCrafting Unit",
+      "<br/>",
+      "  This particular block provides the CPU with no additional features, but can be used as a \"filler\" block.",
+      "  It is the base for crafting the other functional components of a crafting CPU.",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"2641A595A151CEC8\" quest=\"Crafting Unit\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Crafting Unit\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          128,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:crafting_unit",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crafting Unit"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

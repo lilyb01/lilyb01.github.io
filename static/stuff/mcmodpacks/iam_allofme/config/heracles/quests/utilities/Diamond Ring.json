@@ -1,0 +1,62 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "017BC2F70596CEBC": {
+      "type": "heracles:item",
+      "item": "kibe:diamond_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "142A217EEBF6CA4E": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Used for crafting other rings."
+    },
+    "description": [
+      "<h2>Used for crafting other rings.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Utilities": {
+        "position": [
+          208,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:diamond_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Diamond Ring"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

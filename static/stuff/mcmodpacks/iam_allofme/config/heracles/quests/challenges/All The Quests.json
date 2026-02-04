@@ -1,0 +1,123 @@
+{
+  "dependencies": [
+    "Complete AE2",
+    "Complete Bewitchment",
+    "Completed DML",
+    "Complete Tech Reborn",
+    "botania_trophy",
+    "Are you worthy",
+    "fow_completion",
+    "Complete IndRev",
+    "Powah Completed",
+    "154FDDB80C66F42C",
+    "ad_astra_trophy",
+    "Complete Create",
+    "mi_completion"
+  ],
+  "tasks": {
+    "406DD97392361D8E": {
+      "title": "All The Quests",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "18FE9FDF00364A9A": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:allthequests"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Yes, I meant it. Complete ALL quest chapters!"
+    },
+    "description": [
+      "<br/>",
+      "<columns template='0 100'>",
+      "<column>",
+      "<columns>",
+      "<column valign='top'>",
+      "<h2 background='8 #ddffd700' border='0 #01ffd700' color='#44ffd700' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column valign='bottom'>",
+      "<h2 background='8 #ccb8860b' border='2 #01b8860b' color='#44b8860b' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column>",
+      "<h2 background='8 #aadc143c' border='5 #01dc143c' color='#44dc143c' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns template='20 82'>",
+      "<column>",
+      "<item border='0 #88777777' id='trofers:medium_pillar' scale='7' tag='{BlockEntityTag:{Trophy:&#39;trofers:allthequests&#39;}}'>&#32;</item>",
+      "</column>",
+      "<column valign='middle'>",
+      "<h1 align='center' background='3 #ccb8860b' bold='true' border='1 #ccffd700' color='#ffdc143c' italic='true' shadowed='true'>&#160;All the Quests&#160;</h1>",
+      "<br/>",
+      "<hr/>",
+      "<br/>",
+      "<p align='center'>Chapters to complete:</p>",
+      "<br/>",
+      "<columns>",
+      "<column align='top'>",
+      "<p align='right'>&&e&&lTech &#160;</p>",
+      "<p align='right'>&&6Ad Astra&&r &#8226;&#160;</p>",
+      "<p align='right'>&&6Create&&r &#8226;&#160;</p>",
+      "<p align='right'>&&6Deep Mob Learning&&r &#8226;&#160;</p>",
+      "<p align='right'>&&6Industrial Revolution&&r &#8226;&#160;</p>",
+      "<p align='right'>&&6Modern Industrialization&&r &#8226;&#160;</p>",
+      "<p align='right'>&&6Powah&&r &#8226;&#160;</p>",
+      "<p align='right'>&&6Tech Reborn&&r &#8226;&#160;</p>",
+      "</column>",
+      "<column align='top'>",
+      "<p>&#160; &&a&&lMagic</p>",
+      "<li>&#160;&#8226; &&dBewitchment</li>",
+      "<li>&#160;&#8226; &&dBotania</li>",
+      "<li>&#160;&#8226; &&dSpectrum</li>",
+      "<br/>",
+      "<p>&#160; &&9&&lMisc</p>",
+      "<li>&#160;&#8226; &&cApplied Energistics</li>",
+      "<li>&#160;&#8226; &&cFarmer O' Worlds</li>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Challenges": {
+        "position": [
+          -30,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kubejs:quester",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "§6All The Quests"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

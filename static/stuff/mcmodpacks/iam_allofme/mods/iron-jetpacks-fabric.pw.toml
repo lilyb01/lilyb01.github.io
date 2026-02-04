@@ -1,0 +1,13 @@
+name = "Iron Jetpacks Fabric"
+filename = "iron-jetpacks-0.4.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "159afe3f9289c22373d34e0545304156bd9b4987"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4594926
+project-id = 386892

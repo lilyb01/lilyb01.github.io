@@ -1,0 +1,130 @@
+{
+  "dependencies": [
+    "Trial Keystone",
+    "Data Model",
+    "Simulation Chamber",
+    "DML Machine Casing",
+    "Deep Learner",
+    "Trial Key",
+    "Soot Redstone",
+    "Matter Condenser",
+    "Any Data Model",
+    "Glitch Ingot",
+    "Loot Fabricator"
+  ],
+  "tasks": {
+    "2F6B49B0F2C9ADEA": {
+      "title": "§bDeep Mob Learning 100%",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "1BD2F5AAB8F13744": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:dml"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Complete all quests to obtain the trophy!"
+    },
+    "description": [
+      "<br/>",
+      "<columns template='0 100'>",
+      "<column>",
+      "<columns>",
+      "<column valign='top'>",
+      "<h2 background='8 #88dc143c' border='0 #01dc143c' color='#44dc143c' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column valign='bottom'>",
+      "<h2 background='8 #8800bfff' border='2 #0100bfff' color='#4400bfff' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column>",
+      "<h2 background='8 #88800080' border='5 #01800080' color='#44800080' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns template='20 80'>",
+      "<column>",
+      "<item border='0 #88777777' id='trofers:medium_pillar' scale='7' tag=\"{BlockEntityTag:{Trophy:'trofers:dml'}}\">&#32;</item>",
+      "</column>",
+      "<column valign='middle'>",
+      "<h1 align='center' background='3 #88800080' border='1 #bbffffff' italic='true' shadowed='true'>&#160;Deep Mob Learning&#160;</h1>",
+      "",
+      "---",
+      "",
+      "  **/b/Overworldian/b/**.",
+      "",
+      "  **__/4/Hellish/4/__**.",
+      "",
+      "  **--/5/Extraterrestrial/5/--**.",
+      "",
+      "  What --is-- the matter with you? xD",
+      "",
+      "",
+      "",
+      "  But seriously... what did your mobs learn today?",
+      "",
+      "---",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -209,
+          -138
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:dml"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "§b§lDeep Mob Learning 100%"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

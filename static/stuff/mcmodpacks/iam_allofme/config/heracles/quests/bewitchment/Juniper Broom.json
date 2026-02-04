@@ -1,0 +1,91 @@
+{
+  "dependencies": [
+    "Crystal Ball",
+    "Demon Heart"
+  ],
+  "tasks": {
+    "304B313C6A41FD87": {
+      "type": "heracles:item",
+      "item": "bewitchment:juniper_broom",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "elytra": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:elytra",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Brooms are magical devices commonly used by witches."
+    },
+    "description": [
+      "<h2>Brooms are magical devices commonly used by witches.</h2>",
+      "---",
+      "They enable the user to fly through the skies. Brooms come in four variants, each with unique properties:",
+      "",
+      "- Juniper",
+      "The fastest of all brooms, without any other special properties.",
+      "",
+      "- Cypress",
+      "Wards the user, reducing both damage input and output.",
+      "",
+      "- Elder",
+      "Will return the user to where they mounted it after dismounting.",
+      "",
+      "- Dragon's Blood",
+      "Can have Active Sigils applied to them, much like any other Dragon's Blood block.",
+      "---"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          432,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:juniper_broom",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Juniper Broom"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

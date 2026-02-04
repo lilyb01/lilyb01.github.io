@@ -1,0 +1,13 @@
+name = "Extra Sponges"
+filename = "extrasponges-1.5.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "80fffc15ee3a609ca1c5c55c962bfbd2ee2ed8b2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4576290
+project-id = 457043

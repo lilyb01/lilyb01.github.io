@@ -1,0 +1,13 @@
+name = "Distracting Trims"
+filename = "DistractingTrims-Fabric-1.20.1-2.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bcc87f2d8f11b0de3c8f5ec5e9330cd56452e3e8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5368403
+project-id = 862201

@@ -1,0 +1,103 @@
+{
+  "dependencies": [
+    "distillery"
+  ],
+  "tasks": {
+    "diesel_generator_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:mv_diesel_generator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mi_rare_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "diesel_generator_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:diesel_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eDiesel Generator",
+      "<br/>",
+      "  There are three /b/Small Diesel Generators/b/ that are the beginning of power generation via fluids or gases. You can use your REI to check for how much EU will be produced per millibucket of each type of fuel.",
+      "<br/>",
+      "  The /b/LV Diesel Generator/b/ will produce up to 64 eu/t, the /b/MV Diesel Generator/b/ will produce up to 256 eu/t, and the /b/HV Diesel Generator/b/ will produce up to 1024 eu/t.",
+      "<br/>",
+      "  /6//b/Diesel Generators/b/ will only use fuel when they need to/6/, so don't worry about wasting fuel when you aren't actually using any power. Although, if you need a constant supply of energy, you can put these fluid fuels into the /b/Large Steam Boiler/b/ (and higher tiers of of it) instead of only items.",
+      "<br/>",
+      "  A fully heated /6//b/Large Steam Boiler/b/ will produce the same amount of energy as a /b/MV Diesel Generator/b//6/ would produce using the same quantity of fuel.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          915,
+          -122
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:mv_diesel_generator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diesel Generator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,13 @@
+name = "Tamago"
+filename = "tamago-3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d71a7086cb0f3075ad7d0898257182c706d94a4a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5292049
+project-id = 688418

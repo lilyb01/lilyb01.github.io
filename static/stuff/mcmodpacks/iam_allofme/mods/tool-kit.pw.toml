@@ -1,0 +1,13 @@
+name = "Tool Kit"
+filename = "ToolKit-fabric-3.0.3-build.25+mc1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8c3506cf80ba636f39424ebd80cd01efc94ead77"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4843361
+project-id = 324888

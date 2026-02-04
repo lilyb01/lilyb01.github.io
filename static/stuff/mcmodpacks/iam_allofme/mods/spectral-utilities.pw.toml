@@ -1,0 +1,13 @@
+name = "Spectral Utilities"
+filename = "specutils-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dc97aa80f434f2059820ab7156e51ee00d8ac3c5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5129301
+project-id = 976584

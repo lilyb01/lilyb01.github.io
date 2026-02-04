@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    "your_first_bronze"
+  ],
+  "tasks": {
+    "bronze_compressor_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_compressor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eBronze Compressor",
+      "<br/>",
+      "  This is the /b/Compressor/b/ and probably the first machine you'd want to build. Being able to /6/turn ingots into plates/6/ at a 1:1 ratio is extremely helpful during the steam age. You save on resources and won't need to burn through hammers just to collect enough plates for your first project. It can also take those /b/Double Ingots/b/ that you can stack with the forge hammer into --2-- plates, saving steam and time.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          250,
+          70
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:bronze_compressor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bronze Compressor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3188B4D5D16B9220": {
+      "type": "heracles:item",
+      "item": "techreborn:omni_tool",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2739B93C7FCDA002": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 3706623,
+          "Loot": "aof:loot_bags/tech_reborn/rare",
+          "Name": "Tech Reborn Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Universal tool that combines Pickaxe, Axe, Shovel, Shear and even Swords in one simple rod."
+    },
+    "description": [
+      "<h2>Universal tool that combines Pickaxe, Axe, Shovel, Shear and even Swords in one simple rod.</h2>",
+      "---",
+      "Its mining level on par with diamond made tools. One mined block will cost 100 Energy and it will use 125 Energy on entity hit.",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -75,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "techreborn:omni_tool",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Omni Tool"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "dependencies": [
+    "Crafting Terminal",
+    "Terminal"
+  ],
+  "tasks": {
+    "2A1935843BEBBF9F": {
+      "type": "heracles:item",
+      "item": "ae2:pattern_encoding_terminal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A specialized version of the ME Crafting Terminal designed to encode Blank Pattern into Crafting Pattern or Processing Pattern."
+    },
+    "description": [
+      "<hr/>",
+      "## &&ePatterns For Dayz!",
+      "<br/>",
+      "  A specialized version of the /b/ME Crafting Terminal/b/ designed to encode /b/Blank Patterns/b/ into a /b/Crafting Pattern/b/ or /b/Processing Pattern/b/. It also Lets you browse the contents of your network like other terminals, but also contains an area for designing patterns.",
+      "<br/>",
+      "  There are two modes for pattern encoding. /b/Crafting Patterns/b/, and /b/Processing Patterns/b/.",
+      "<br/>",
+      "  /b/Processing patterns/b/ are designed for use with /6/machines that do not use standard crafting recipes/6/; such as furnaces, or other machines. ",
+      "<br/>",
+      "  To select between modes, click the button to the right of the interface; when it shows a standard crafting table, it will create /b/Crafting Patterns/b/, and when it shows a furnace, it will create /b/Processing Patterns/b/.",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"2A1935843BEBBF9F\" quest=\"Pattern Encording Terminal\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Pattern Encording Terminal\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -256,
+          -224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:pattern_encoding_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pattern Encoding Terminal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

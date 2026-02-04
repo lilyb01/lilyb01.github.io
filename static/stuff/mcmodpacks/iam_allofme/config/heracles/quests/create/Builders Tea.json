@@ -1,0 +1,79 @@
+{
+  "dependencies": [
+    "Fluid Transport"
+  ],
+  "tasks": {
+    "735486F36BD795C3": {
+      "type": "heracles:item",
+      "item": "create:builders_tea",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "0403C09973EF08E3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "It's tea time"
+    },
+    "description": [
+      "<h2>It's tea time</h2>",
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          128,
+          208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:builders_tea",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Builders Tea"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

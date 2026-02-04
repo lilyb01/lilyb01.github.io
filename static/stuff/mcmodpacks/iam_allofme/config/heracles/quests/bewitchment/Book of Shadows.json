@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "30B4F2FED61C13F4": {
+      "type": "heracles:item",
+      "item": "bewitchment:book_of_shadows",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "xp": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "An introduction to the world of witchcraft."
+    },
+    "description": [
+      "<h2>An introduction to the world of witchcraft.</h2>",
+      "---",
+      "Bewitchment offers pacts with powerful demons, the ability to become a vampire or werewolf, brew powerful potions, cast rituals, curse your enemies (or friends), and so much more.",
+      "",
+      "To get started, craft the Book of Shadows with a Book and a Mandrake Root, the seeds of which are dropped from grass.",
+      "",
+      "Feel lost? Check the book!",
+      "---"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          176,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:book_of_shadows",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Book of Shadows"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

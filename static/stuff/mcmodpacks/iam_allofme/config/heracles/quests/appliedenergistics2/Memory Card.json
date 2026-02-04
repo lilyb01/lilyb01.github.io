@@ -1,0 +1,104 @@
+{
+  "dependencies": [
+    "ME P2P Tunnel"
+  ],
+  "tasks": {
+    "07906B740B4ADB80": {
+      "type": "heracles:item",
+      "item": "ae2:memory_card",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "dyes": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:red_dye",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eMemory Cards",
+      "<br/>",
+      "  As stated before /b/Memory Cards/b/ are used to configure /b/ME P2P Tunnels/b/ and come in different colors so you can configure multiple at time. Better get on those mega-factories!",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"07906B740B4ADB80\" quest=\"Memory Card\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Memory Card\"/>",
+      "<reward reward=\"dyes\" quest=\"Memory Card\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -352,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:memory_card",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Memory Card"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

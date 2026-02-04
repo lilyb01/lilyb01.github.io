@@ -1,0 +1,19 @@
+{
+  "name": "electrum",
+  "disable": false,
+  "tier": 4,
+  "color": "e9c976",
+  "armorPoints": 3,
+  "enchantability": 18,
+  "craftingMaterial": "modern_industrialization:electrum_ingot",
+  "rarity": 0,
+  "capacity": 6E6,
+  "usage": 833.0,
+  "speedVertical": 0.45,
+  "accelVertical": 0.10,
+  "speedSideways": 0.04,
+  "speedHoverDescend": 0.45,
+  "speedHover": 0.025,
+  "sprintSpeedMulti": 1.1,
+  "sprintFuelMulti": 3
+}

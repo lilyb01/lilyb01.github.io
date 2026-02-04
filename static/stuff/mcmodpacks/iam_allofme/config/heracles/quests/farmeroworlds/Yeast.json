@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Bakery"
+  ],
+  "tasks": {
+    "by": {
+      "type": "heracles:item",
+      "item": "bakery:yeast",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "yeast1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:brown_mushroom",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "yeast2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:sugar",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "An essential ingredient for many pastries. Also useful for making a more efficient wheat dough recipe."
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -105,
+          -240
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bakery:yeast",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Yeast"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,13 @@
+name = "Tank Storage"
+filename = "tankstorage-0.1.1+1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "66cfdbf8ff27f8cf0874475f7ff158c59aa07e2c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5593269
+project-id = 1032670

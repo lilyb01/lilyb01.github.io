@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Croptopia1"
+  ],
+  "tasks": {
+    "TBB": {
+      "type": "heracles:item",
+      "item": "croptopia:the_big_breakfast",
+      "amount": 32,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "bigbreak1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:eggplant_parmesan",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "bigbreak2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "croptopia:the_big_breakfast",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The pinnacle in breakfast engineering"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          0,
+          300
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "croptopia:the_big_breakfast",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Big Breakfast"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

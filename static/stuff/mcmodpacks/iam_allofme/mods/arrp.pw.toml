@@ -1,0 +1,13 @@
+name = "ARRP"
+filename = "arrp-0.8.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c615b514078bf337e0bdfdcaf427a83f980580a3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5018841
+project-id = 463113

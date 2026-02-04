@@ -1,0 +1,56 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4B6651B07849440F": {
+      "title": "Handy dandy utilities",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "7C2E9EEEB3C4B7B4": {
+      "item": {
+        "id": "ae2:certus_quartz_cutting_knife",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---"
+    ],
+    "groups": {
+      "Utilities": {
+        "position": [
+          208,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "heracles:quest_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Handy Dandy Utilities"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

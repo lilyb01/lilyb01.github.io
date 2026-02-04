@@ -1,0 +1,13 @@
+name = "[Deprecated]CTOV - Chef's delight compatibility pack"
+filename = "ctov-chefs-delight-add-on-v2-0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "836cb19b85b82b2ede6b0de5818b824c7a0e02c0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4602230
+project-id = 834282

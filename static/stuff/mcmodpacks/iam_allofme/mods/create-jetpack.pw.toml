@@ -1,0 +1,13 @@
+name = "Create Jetpack"
+filename = "create_jetpack-fabric-4.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6fdd2d1f93c4d51ec2eea6063b7026326b59fdd9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5184594
+project-id = 655608

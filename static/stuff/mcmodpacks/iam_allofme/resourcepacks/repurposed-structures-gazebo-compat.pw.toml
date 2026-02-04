@@ -1,0 +1,13 @@
+name = "Repurposed Structures - Gazebo Compat Datapack"
+filename = "Repurposed_Structures-Gazebo_v2.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "81645df8fd47118fdcdb877468d80e72b9c914ef"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4714404
+project-id = 904898

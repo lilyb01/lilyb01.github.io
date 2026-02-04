@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "stainless_steel"
+  ],
+  "tasks": {
+    "kanthal_coils_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:kanthal_coil",
+      "amount": 16,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "kanthal_coils_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:kanthal_coil",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "mi_rare_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eKanthal Coils",
+      "<br/>",
+      "  /b/Kanthal Coils/b/ are a new type of coiling for your /b/EBF/b/, /6/allowing for a higher power draw/6/ and the capability to generate even more heat. Be careful, don't want to get burned. Ouch!",
+      "<br/>",
+      "/b/Kanthal Coils/b/ wont automatically cause your /b/EBF/b/ to start heating up to the /6/higher temperatures/6/. The controlling computer has the capabilities, you just need to adjust values to allow it to take full advantage of the upgrade. In this case, it's been simplified for you. Enter the /b/controller GUI/b/ and in the /6/top left corner/6/, you'll see a set of arrows. Press the one pointing to the right and it will change the settings from /b/Cupronickel/b/ tier to /b/Kanthal/b/ tier. Easy, right?",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          1037,
+          87
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:kanthal_coil",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Kanthal Coils"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,13 @@
+name = "ItemFavorites"
+filename = "itemfavorites-1.0.4+1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bc42f7adab6354ca53ebd5ab379cc9860b1fd77b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4597740
+project-id = 832021

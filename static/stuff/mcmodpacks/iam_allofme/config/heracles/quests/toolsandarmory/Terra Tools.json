@@ -1,0 +1,70 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1B21CF9911521FE4": {
+      "type": "heracles:item",
+      "item": "botania:terra_axe",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "0EBC1A262BACB90E": {
+      "type": "heracles:item",
+      "item": "botania:terra_pick",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1F58E0896CECAB48": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16103753,
+          "Loot": "aof:loot_bags/misc/artifacts",
+          "Name": "Artifact Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -61,
+          -44
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "botania:terra_pick",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§aTools of Terra"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

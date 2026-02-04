@@ -1,0 +1,90 @@
+{
+  "dependencies": [
+    "your_first_bronze"
+  ],
+  "tasks": {
+    "bronze_boiler_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_boiler",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eBronze Boiler",
+      "<br/>",
+      "  Steam machines need, well, /b/Steam/b/! The way to get it is to make a /b/Steam Boiler/b/! The /b/Steam Boiler/b/ will gradually consume almost any /6/fuel/6/ you give it to heat up. When it's at a high enough temperature, it will begin to produce /b/Steam/b/ so long as there is /b/Water/b/ in it's /6/internal tank/6/; if not, you'd be wasting fuel.",
+      "<br/>",
+      "  Or you can put a /b/Water Bucket/b/ into a /b/Furnace/b/ to obtain a /b/Steam Bucket/b/. In this world is seems that fluid containers keep any fluid inside of them, having a persistent temperature and bound to the confined container; so don't worry about it condensing down into water or escaping. With /b/Steam/b/ pre-boiler, you can make a /b/Compressor/b/ to save on /b/Bronze Plates/b/.",
+      "<br/>",
+      "  It might seem a bit expensive at this current moment, but remember that you can practically triple your ores using the /b/Forge Hammer/b/. Not to mention that in due time, when you have your first two machines, it will become more than twice less expensive than before!",
+      "<br/>",
+      "  The /b/Boiler/b/ will automatically begin to produce and send the /b/Steam/b/ to adjacent machines or connected pipes, /6/up to 8 millibuckets per tick./6/ ",
+      "<br/>",
+      "  Bronze machines can only process recipes up to 2 energy unit per tick. You might see it as \"2 EU/t\" when using the machines. 1 millibucket of steam is the same as 1 EU; I for one am really glad it's a very simple conversion cause I'm not a fan of math. Once your /b/Boiler/b/ is at maximum temperature, it can supply 4 machines with /b/Steam/b/ simultaneously! Now --that's-- hot.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          250,
+          35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:bronze_boiler",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bronze Boiler"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

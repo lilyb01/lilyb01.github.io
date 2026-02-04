@@ -1,0 +1,89 @@
+{
+  "dependencies": [
+    "Fluix Crystal"
+  ],
+  "tasks": {
+    "7C8924F839D8D61E": {
+      "type": "heracles:item",
+      "item": "ae2:energy_acceptor",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Converts energy from external systems into AE and stores it in the network."
+    },
+    "description": [
+      "<hr/>",
+      "# &&eEnergy Acceptor",
+      "<br/>",
+      "Converts energy from external systems into AE and stores it in the network.",
+      "",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"7C8924F839D8D61E\" quest=\"Energy Acceptor\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Energy Acceptor\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -112,
+          -272
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:energy_acceptor",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energy Acceptor"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "dependencies": [
+    "AE2 Drive"
+  ],
+  "tasks": {
+    "3FDDED57431181C3": {
+      "type": "heracles:item",
+      "item": "ae2:item_storage_cell_1k",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Lowest Tier Storage Cell, which can contain 1,024 bytes of storage."
+    },
+    "description": [
+      "<hr/>",
+      "# &&eYou Can Do Better!",
+      "<br/>",
+      "  Lowest Tier Storage Cell, which can contain /6/1,024 bytes of storage/6/.",
+      "1,024 bytes of storage can hold /6/127 Stacks of a single item. or 65 Stacks,while holding 63 Different items/6/. The 1k Storage Cell uses 8 bytes of data to store a single type.",
+      "",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"3FDDED57431181C3\" quest=\"Item Storage Cell 1K\"/>",
+      "<hr/>",
+      "## &&eRewards",
+      "<reward reward=\"utilities_lootbag\" quest=\"Item Storage Cell 1K\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -400,
+          -304
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:item_storage_cell_1k",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Item Storage Cell 1K"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

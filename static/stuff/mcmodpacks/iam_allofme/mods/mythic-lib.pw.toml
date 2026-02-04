@@ -1,0 +1,13 @@
+name = "Mythic Compat"
+filename = "mythiclib-1.1.0+1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "de015c7571a7e8f376c9ce389684aac87657f5a7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5513046
+project-id = 1014057

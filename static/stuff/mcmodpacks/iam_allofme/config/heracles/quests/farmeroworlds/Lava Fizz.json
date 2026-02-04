@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Nether Vinery"
+  ],
+  "tasks": {
+    "nvlf": {
+      "type": "heracles:item",
+      "item": "nethervinery:lava_fizz",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lava_fizz": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "nethervinery:lava_fizz",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Teleports you to the place where you last died"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          90,
+          -65
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "nethervinery:lava_fizz",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lava Fizz"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

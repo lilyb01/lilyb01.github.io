@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "The Basics of Cheese Making"
+  ],
+  "tasks": {
+    "meadow_grain_cheese_wheel": {
+      "type": "heracles:item",
+      "item": "meadow:grain_cheese_block",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "meadow_wheat": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:wheat",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "meadow_rennet": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:rennet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Shouldn't this be a dough?"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -25,
+          -570
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "meadow:grain_cheese_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Grain Cheese Wheel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

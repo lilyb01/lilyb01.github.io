@@ -1,0 +1,13 @@
+name = "Anvil Repairing"
+filename = "AnvilRepairing-Fabric-1.20.1-4.0.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "56438ced2d64dd1f2b3b394945fc8a2569a98f1d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5439815
+project-id = 889205

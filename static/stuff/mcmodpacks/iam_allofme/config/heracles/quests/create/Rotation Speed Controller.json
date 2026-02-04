@@ -1,0 +1,94 @@
+{
+  "dependencies": [
+    "Precision Mechanisms"
+  ],
+  "tasks": {
+    "39125E2551F0473A": {
+      "type": "heracles:item",
+      "item": "create:rotation_speed_controller",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "69E4AC1C529FDB32": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:large_cogwheel",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "27B6B0447715E83F": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/epic",
+          "Name": "Create Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The fast and the furious"
+    },
+    "description": [
+      "<h2>The fast and the furious</h2>",
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          448,
+          -112
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:rotation_speed_controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rotation Speed Controll"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

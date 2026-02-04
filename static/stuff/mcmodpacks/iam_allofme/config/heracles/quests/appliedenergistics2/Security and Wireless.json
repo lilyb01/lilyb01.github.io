@@ -1,0 +1,43 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "## &&eNeed a hookup?",
+      "<br/>",
+      "Finaly no more running back and forth to your ME Network!"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -208,
+          -96
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "heracles:quest_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Wireless and Beyond"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "Witch Cauldron"
+  ],
+  "tasks": {
+    "3183D796C616263D": {
+      "type": "heracles:item",
+      "item": "bewitchment:cleansing_balm",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "experience": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 8,
+      "title": "",
+      "type": "heracles:xp"
+    },
+    "cleansing_balm": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bewitchment:cleansing_balm",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          -32,
+          128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:cleansing_balm",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Cleansing Balm"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

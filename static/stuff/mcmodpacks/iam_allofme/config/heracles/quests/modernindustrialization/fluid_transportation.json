@@ -1,0 +1,107 @@
+{
+  "dependencies": [
+    "your_first_bronze"
+  ],
+  "tasks": {
+    "fluid_transportation_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:fluid_pipe",
+      "amount": 16,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "fluid_transportation_reward_1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:red_dye",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eFluid Transportation",
+      "<br/>",
+      "  The /b/pipes/b/ you'll /6/craft/6/ to /6/transport/6/ the many /b/liquids/b/ and /b/gasses/b/ /6/can only contain a single/6/ type of /b/fluid/b/ at a time and they /6/wont/6/ connect directly to /6/empty/6/ /b/pipes/b/ or /b/containers/b/ and /b/machines/b/ automatically, so make sure to use that /b/Wrench/b/ to /6/configure/6/ them properly.",
+      "<br/>",
+      "  You can /6/forcefully/6/ initiate a connection by /6/right-clicking/6/ the center of the /b/pipe/b/ with your /b/Wrench/b/, or by /6/right-clicking/6/ a /b/block/b/ with a /b/pipe/b/ in /b/your hand/b/; thought it /6/won't consume/6/ the /b/pipe/b/, just connect it.",
+      "<br/>",
+      "  /a/Every tick/a/, ",
+      "the /b/Fluid Pipe/b/ will /6/attempt/6/ to evenly /6/extract/6/ from all /b/connected blocks/b/ and then attempt to /6/insert/6/ that into all other /b/connected blocks/b/. ",
+      "<br/>",
+      "  /a/Few other tips you might enjoy/a/:",
+      "Use them wisely and abuse them to your /6/complete advantage/6/: You can have up to /6/3/6/ /b/pipes/b/ in a/b/ single block/b/ for ultimate compact-ness! Luckily, /b/pipes/b/ of /b/different color/b/ will /6/--never-- connect/6/. Finally, /6/right-clicking/6/ a /b/pipe/b/ with a /b/Wrench/b/ will /6/change/6/ the connection type and /6/shift-right-clicking/6/ will drop the pipe.",
+      "<br/>",
+      "  /c/Time for some spaghetti?/c/",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          150,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:fluid_pipe",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fluid Transportation"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,13 @@
+name = "Pling"
+filename = "pling-1.8.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bcaaa8d0464942a21c3665f1ba0d7c8901ba88bd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5429935
+project-id = 365521

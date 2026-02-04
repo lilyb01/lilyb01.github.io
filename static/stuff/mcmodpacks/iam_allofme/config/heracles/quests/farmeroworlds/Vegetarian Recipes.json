@@ -1,0 +1,150 @@
+{
+  "dependencies": [
+    "Crops and Plants"
+  ],
+  "tasks": {
+    "edcfp": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_flower_pie",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "edcc": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_cookie",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "edcpfs": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_fruit_pie_slice",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "edems": {
+      "type": "heracles:item",
+      "item": "ends_delight:end_mixed_salad",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "eddbcs": {
+      "type": "heracles:item",
+      "item": "ends_delight:dragon_breath_and_chorus_soup",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "edcfp1": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_fruit_pie",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "edsrc": {
+      "type": "heracles:item",
+      "item": "ends_delight:stuffed_rice_cake",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "edcfp0": {
+      "type": "heracles:item",
+      "item": "ends_delight:chorus_fruit_popsicle",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "edas": {
+      "type": "heracles:item",
+      "item": "ends_delight:assorted_salad",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1": {
+      "item": {
+        "id": "minecraft:wheat",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "2": {
+      "item": {
+        "id": "farmersdelight:cabbage",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "chorus_flower": {
+      "item": {
+        "id": "minecraft:chorus_flower",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "3": {
+      "item": {
+        "id": "farmersdelight:tomato",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "chorus_fruit": {
+      "item": {
+        "id": "minecraft:chorus_fruit",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "chorus": {
+      "item": {
+        "id": "ends_delight:dragon_breath_and_chorus_soup",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "chorus2": {
+      "item": {
+        "id": "phantasm:chorus_fruit_salad",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This are recipes made mostly from chorus succulents and grains without using any of the meats",
+      "<br/>",
+      "<br/>",
+      "The chorus fruit pie can be placed and eaten from there or be cut on a cutting board"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -610,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ends_delight:chorus_flower_pie",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Vegetarian Recipes"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

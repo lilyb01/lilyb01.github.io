@@ -1,0 +1,62 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "17E02EA331F7D7A6": {
+      "type": "heracles:item",
+      "item": "kibe:fluid_hopper",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "692A6F3191014FCA": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Exactly like vanilla Hoppers but that moves fluids instead of items."
+    },
+    "description": [
+      "<h2>Exactly like vanilla Hoppers but that moves fluids instead of items.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Utilities": {
+        "position": [
+          -16,
+          -224
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:fluid_hopper",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Fluid Hopper"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "dependencies": [
+    "bronze_furnace",
+    "coke",
+    "bronze_water_pump"
+  ],
+  "tasks": {
+    "steam_blast_furnace_task_4": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_item_input_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "steam_blast_furnace_task_3": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_fluid_input_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "steam_blast_furnace_task_5": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:bronze_item_output_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "steam_blast_furnace_task_2": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steam_blast_furnace",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "steam_blast_furnace_task_1": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:fire_clay_bricks",
+      "amount": 29,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eSteam Blast Furnace",
+      "<br/>",
+      "  Your second multiblock: The /b/Steam Blast Furnace/b/! This one is nearly the same, with the only difference being it's one taller and uses /b/Fire Clay Bricks/b/ instead of regular /b/Bricks/b/.",
+      "<br/>",
+      "  Use the same trick with the /b/Wrench/b/ /6/to show you the block placements/6/ and don't forget you'll need only /6/3 hatches/6/ this time. They're the same as the /b/Coke Oven/b/, without the fluid output hatch, not yet anyway!",
+      "<br/>",
+      "  You will use this /b/Steam Blast Furnace/b/ to make your first /b/Steel/b/!",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          400,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:steam_blast_furnace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steam Blast Furnace"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
