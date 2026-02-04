@@ -2,13 +2,8 @@
   "badgeVisible": false,
   "builtinServers": [
     {
-      "name": "Europe Central",
-      "address": "aof7eu.modded.fun",
-      "forced": false
-    },
-    {
-      "name": "North America",
-      "address": "nw.alloffabric.com",
+      "name": "so uh you come here often?",
+      "address": "tapioca.buny.plus",
       "forced": false
     }
   ]

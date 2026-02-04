@@ -45,68 +45,6 @@ scroll_list_customization {
 }
 
 element {
-  button_element_executable_block_identifier = be5482e1-91a3-4128-b581-c4c93e202353-1706827965878
-  [executable_action_instance:84131f79-a861-42a9-8715-85a1c5e9f287-1706827965879][action_type:openlink] = https://discord.gg/6rkdm48
-  [executable_block:be5482e1-91a3-4128-b581-c4c93e202353-1706827965878][type:generic] = [executables:84131f79-a861-42a9-8715-85a1c5e9f287-1706827965879;]
-  backgroundnormal = [source:local]config/fancymenu/assets/discord_button.png
-  backgroundhovered = [source:local]config/fancymenu/assets/discord_button_hovered.png
-  restartbackgroundanimations = true
-  loopbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  label = 
-  navigatable = true
-  element_type = custom_button
-  instance_identifier = 2ac88b90-ee9c-4f12-88ee-0b6c48c3b8ea1691258192189
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = mid-left
-  x = 86
-  y = 183
-  width = 25
-  height = 25
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = fcd8416e-2a73-416e-ade3-844ccb645679-1706827965880
-  [loading_requirement_container_meta:fcd8416e-2a73-416e-ade3-844ccb645679-1706827965880] = [groups:][instances:]
-}
-
-element {
-  button_element_executable_block_identifier = c82308fc-ef4b-42b6-b19c-8c58f2f162e1-1706827965880
-  [executable_action_instance:acdd78aa-8428-45d7-a574-f8f61a8d5165-1706827965880][action_type:openlink] = https://www.bisecthosting.com/AOF
-  [executable_block:c82308fc-ef4b-42b6-b19c-8c58f2f162e1-1706827965880][type:generic] = [executables:acdd78aa-8428-45d7-a574-f8f61a8d5165-1706827965880;]
-  backgroundnormal = [source:local]config/fancymenu/assets/button.png
-  backgroundhovered = [source:local]config/fancymenu/assets/button_hovered.png
-  restartbackgroundanimations = true
-  loopbackgroundanimations = true
-  nine_slice_custom_background = false
-  nine_slice_border_x = 5
-  nine_slice_border_y = 5
-  label = Rent a Server
-  navigatable = true
-  element_type = custom_button
-  instance_identifier = 1a8229a8-d95d-4451-8bf4-140b2498050b1691260459970
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = mid-left
-  x = 86
-  y = 149
-  width = 193
-  height = 25
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = false
-  element_loading_requirement_container_identifier = 8ff034d7-19b0-4786-b35b-e47e7d64fee5-1706827965880
-  [loading_requirement_container_meta:8ff034d7-19b0-4786-b35b-e47e7d64fee5-1706827965880] = [groups:][instances:]
-}
-
-element {
   button_element_executable_block_identifier = dde4d137-c9ba-4538-afeb-25ba95e42628-1706827965880
   [executable_action_instance:1e547967-b056-4065-82b4-9058d01248bb-1706827965880][action_type:opengui] = com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen
   [executable_block:dde4d137-c9ba-4538-afeb-25ba95e42628-1706827965880][type:generic] = [executables:1e547967-b056-4065-82b4-9058d01248bb-1706827965880;]
@@ -138,7 +76,7 @@ element {
 }
 
 element {
-  source = All of Fabric 7 - 2.5.3
+  source = All of Me 0.0.1 (based on All of Fabric 7)
   source_mode = direct
   shadow = true
   case_mode = normal

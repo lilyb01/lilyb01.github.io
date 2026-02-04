@@ -9366,6 +9366,16 @@ hash = "25be1764f98497d622e746d4b549d13518a8127e6fafe935a5259fc63f738fc7"
 metafile = true
 
 [[files]]
+file = "mods/dcintegration.pw.toml"
+hash = "a3f54d4b294683dbfe027dc01f9172bd828769afb435bb965f167e205640e7c3"
+metafile = true
+
+[[files]]
+file = "mods/decocraft.pw.toml"
+hash = "eb6633ce7d54e607bfeb8bcd551bd562b8fa369bce4dd628ae937c83ab5f90b5"
+metafile = true
+
+[[files]]
 file = "mods/decorative-blocks.pw.toml"
 hash = "887a37adbdf812404f0d4f0fbbdef024ba1cd23c0637b5594268dccc6f0c2f7a"
 metafile = true
@@ -9763,6 +9773,11 @@ metafile = true
 [[files]]
 file = "mods/jewelry.pw.toml"
 hash = "f1de7e0580ac0d7a3defd87cb8bb4a5597c4e0fd7b903227efc12678bc0dc5d4"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "c1cc1e05c95d769dd4929825e6a85d5ac8023d4a018569f40dd7bd972a81655e"
 metafile = true
 
 [[files]]

@@ -32,7 +32,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'All of Fabric 7';
+S:customwindowtitle = '(I am) All of Me';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 
