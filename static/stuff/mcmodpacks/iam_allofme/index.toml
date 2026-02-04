@@ -10441,6 +10441,11 @@ hash = "baf6966f04cac626678b4ebe59029795f9c83a05ccc85496dffd1b8ba225fee9"
 metafile = true
 
 [[files]]
+file = "mods/sidekick.pw.toml"
+hash = "e3363f718fea7dfb8fe9356f29bdd1ed77d9515742502c50db83ad1c6e71e18a"
+metafile = true
+
+[[files]]
 file = "mods/sihywtcamd.pw.toml"
 hash = "151e17d1795d72c4f899eda10cc0510d71f75f34bfe5748ecf905e578a2657e4"
 metafile = true
@@ -10583,6 +10588,11 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "e63f3f83f8e4a90b0a604ef29863cf371d9af163e763f1df5524c64341a830ed"
+metafile = true
+
+[[files]]
+file = "mods/swingthrough.pw.toml"
+hash = "7512ad9cbcbe6f6b1abf4f6b9911636c9cef8bb966792a2f8ece795e08dbda4c"
 metafile = true
 
 [[files]]
@@ -10821,6 +10831,16 @@ hash = "b41106b7632569e92faf1f79e8665704f05f43eb0f1743f667b156745e923e96"
 metafile = true
 
 [[files]]
+file = "mods/worldedit.pw.toml"
+hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
+metafile = true
+
+[[files]]
+file = "mods/worldeditcui-fabric.pw.toml"
+hash = "48c5a8213925efd652a9e13f40116d53e0516e9147b27d6d0e0ae8cf68f83f6d"
+metafile = true
+
+[[files]]
 file = "mods/wthit.pw.toml"
 hash = "9e40b85c81ff5dca7eaf0c36c48fa2ce50d541c49cd7cddf1dc7853d6b8d627b"
 metafile = true
@@ -10843,6 +10863,11 @@ metafile = true
 [[files]]
 file = "mods/youre-in-grave-danger.pw.toml"
 hash = "f3ac85b2e46c9e91c09e6f86dc6dde87ebf3547ab6f9a3c2890ae10ab9b29248"
+metafile = true
+
+[[files]]
+file = "mods/yttr.pw.toml"
+hash = "b420e2be68263d2247048e7e0220cca333e7ceb69adddd741fd6615b1ed868f3"
 metafile = true
 
 [[files]]
