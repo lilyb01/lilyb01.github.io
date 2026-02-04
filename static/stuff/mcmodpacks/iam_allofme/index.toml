@@ -368,7 +368,7 @@ hash = "34e9ccc5d052f8791f8feb8af97fe578c1c1435e7426accd87a75a687cfba544"
 
 [[files]]
 file = "config/builtinservers.json"
-hash = "b5bfb0ad1999e3b1815d5ecc394154e6d9837ccc5927a72b411c8a7ece1da6cd"
+hash = "265fee764d07b601440604510a6af1fe448949f1ffc38843221b025a674759b6"
 
 [[files]]
 file = "config/bwncr.toml"
@@ -672,7 +672,7 @@ hash = "2fd348af2ff54610a8489696c9e38bc43a6bfeb3438dd8105ead0cf632651295"
 
 [[files]]
 file = "config/fancymenu/assets/background.png"
-hash = "d06de1e545f5e73ca84287f07dedb4979e1f70de580baa37d1dcbc29ceceb083"
+hash = "147dbed46a46c6791e1def444e0bb8d69b45a79d84510a3c95d072029c3cf5f0"
 
 [[files]]
 file = "config/fancymenu/assets/button.png"
@@ -720,15 +720,15 @@ hash = "4cc6ca24a9c44e304e16802494788b4c1327a4b3aeb78c52d9a20fc93cbde1fc"
 
 [[files]]
 file = "config/fancymenu/assets/window_icon.png"
-hash = "40e315814a71eb94c1d4ea1a8eae4df82acf3b4c6a16c4006e0712ef3ca6e405"
+hash = "af3350e21f8bac739b2da95376756cbc87929c93addfe67594762b2280d11742"
 
 [[files]]
 file = "config/fancymenu/assets/window_icon_16x16.png"
-hash = "eb437e0c34ee0d63df7e7ee8bcc038ee25c541a5f892a4e267d7569d8a977130"
+hash = "68193e4d0d96b12ec27c1770c18325339929bd0fff5b0d502baa75456459dfab"
 
 [[files]]
 file = "config/fancymenu/config.txt"
-hash = "ffd196567e93733f32ae16ba6a7d78d30d77a1da043e416e348a07543e3f0c76"
+hash = "190dbb119fafc04c534b02189cfa1b22ffe57d34adb77c1ac5e1b11e9ade6467"
 
 [[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
@@ -740,7 +740,7 @@ hash = "3f7ffe2b6dda02f1bec12c1eba974c2ec7b91354e307794e9e27b4d8594f81fc"
 
 [[files]]
 file = "config/fancymenu/customization/aof7.txt"
-hash = "dd1b2c1d1c344b8c5cf2c7f5fe336880ace959dd0cfbd3b0f73aa9dfd6d5c31c"
+hash = "a3cc5a03e3faf203e2250a6e6d3ccb05fe05b4081c4ef52e2ce65077641a5f54"
 
 [[files]]
 file = "config/fancymenu/customization/sounds.txt"
@@ -9086,11 +9086,6 @@ hash = "daf8030dfb7a2c8c335982310e387a4a6825b26b340bbabc904a3895a9eea77a"
 metafile = true
 
 [[files]]
-file = "mods/bisecthosting-server-integration-menu-fabric.pw.toml"
-hash = "49cb5cf47febed6213ef2b523ad51d9cb349c1aa45fd221c731c5034bb985cae"
-metafile = true
-
-[[files]]
 file = "mods/blockus.pw.toml"
 hash = "fdc6ea619f61d2174f92af3c676dfb9f9398e7f7669de647f7988d13822c3be5"
 metafile = true
@@ -10448,11 +10443,6 @@ metafile = true
 [[files]]
 file = "mods/sihywtcamd.pw.toml"
 hash = "151e17d1795d72c4f899eda10cc0510d71f75f34bfe5748ecf905e578a2657e4"
-metafile = true
-
-[[files]]
-file = "mods/simple-discord-rich-presence.pw.toml"
-hash = "bcd72df4895f3acc6623bfb44e72845f7e88d004a44ed8c492c42d844e3cd892"
 metafile = true
 
 [[files]]
