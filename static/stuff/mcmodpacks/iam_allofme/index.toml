@@ -10926,11 +10926,6 @@ hash = "1fb94c5c45790145226562316c5cfddf807a1ad78f32ceeeaaf19c487658a901"
 metafile = true
 
 [[files]]
-file = "resourcepacks/ctov-farmer-delight-compat.pw.toml"
-hash = "988d13a2e472b4b14fc6c8c4e703f71898ccb660db1a6fbdb5e91c813c2c6bc6"
-metafile = true
-
-[[files]]
 file = "resourcepacks/ctov-gazebo-compat.pw.toml"
 hash = "cee92bf4b0143db502f65166c60c23379d3cc30b7276164dd3478f4f711d2468"
 metafile = true
