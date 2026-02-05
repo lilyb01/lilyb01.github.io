@@ -9308,11 +9308,6 @@ hash = "ea40b16505312b99a5bc5e1b88fa2ee4ee59c2bf62d26a039e293b71d2dece47"
 metafile = true
 
 [[files]]
-file = "mods/create-estrogen.pw.toml"
-hash = "1c5769334b61cdaaa85a38573cbc4677cfb7f7b30b9e2089048103e4c906e000"
-metafile = true
-
-[[files]]
 file = "mods/create-fabric.pw.toml"
 hash = "252878ad67eb85e89d725478bd36a64ce6f84b247c3ac8a1851f3b4f553f11f4"
 metafile = true
@@ -9360,11 +9355,6 @@ metafile = true
 [[files]]
 file = "mods/custom-portals.pw.toml"
 hash = "36f3629770c624dead724887529f7e4267bdddfea62ce4c82ce598da18d68c42"
-metafile = true
-
-[[files]]
-file = "mods/cynosure.pw.toml"
-hash = "9588e8b0289c498aa3fc55d2bdd2483dc703655abf102beb65fce24cbb34e399"
 metafile = true
 
 [[files]]
