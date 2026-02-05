@@ -715,6 +715,10 @@ file = "config/fancymenu/assets/languages_button_hovered.png"
 hash = "6d47617200073f071ae370be2d8bbb3670d96c0cab6fe0f0ec44ddb639b0eb83"
 
 [[files]]
+file = "config/fancymenu/assets/menutheme.ogg"
+hash = "b91dba030d4b841ce369e3e3cc5a5e3ce6a32328ddd5b95624a9c7d840bd330c"
+
+[[files]]
 file = "config/fancymenu/assets/window_icon.icns"
 hash = "4cc6ca24a9c44e304e16802494788b4c1327a4b3aeb78c52d9a20fc93cbde1fc"
 
@@ -736,19 +740,27 @@ hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
-hash = "3f7ffe2b6dda02f1bec12c1eba974c2ec7b91354e307794e9e27b4d8594f81fc"
+hash = "d6ca29c80174c72a754f29449181d393d152024671de59fb6b8c4c542e1bf359"
 
 [[files]]
 file = "config/fancymenu/customization/aof7.txt"
-hash = "a3cc5a03e3faf203e2250a6e6d3ccb05fe05b4081c4ef52e2ce65077641a5f54"
+hash = "2fdc1d355297f2796a067d828fbd6bbb594335f105ff8e22e7a617eabed44407"
+
+[[files]]
+file = "config/fancymenu/customization/canyouseeallofme.txt"
+hash = "3e7ca4b446f0182b8ab17389718518b8860a13f0bf587d10da126ad49c5b32d6"
 
 [[files]]
 file = "config/fancymenu/customization/sounds.txt"
 hash = "1761c7b58bc29f70c462ca20052c1f027afe8798f9364f2be8d71e24082fe8b8"
 
 [[files]]
+file = "config/fancymenu/customization/universal_layout.txt"
+hash = "ec6395a2a3123145a3274fd0d630be84401e6a639a922f6007caedfc60879c94"
+
+[[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+hash = "d4e66bc22fcfa56158ca7100017623c71b1437fb4722229b6e064e0a48a5f5de"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -796,7 +808,7 @@ hash = "8c7b40535501785759321ddcdc1f0dca5d341722beed9223b0ee62e802197d5e"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "9af61e24df49630bcbc18eb64e5ad621a84d106ce5209561d1b302dfe22f5714"
+hash = "7cedfa6d76882870ec99fc0bfc2a1ac8b71c5e811098a02b5bf5ef6ce0dfb28e"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
