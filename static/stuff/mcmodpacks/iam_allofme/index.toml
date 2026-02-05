@@ -9296,6 +9296,11 @@ hash = "ea40b16505312b99a5bc5e1b88fa2ee4ee59c2bf62d26a039e293b71d2dece47"
 metafile = true
 
 [[files]]
+file = "mods/create-estrogen.pw.toml"
+hash = "1c5769334b61cdaaa85a38573cbc4677cfb7f7b30b9e2089048103e4c906e000"
+metafile = true
+
+[[files]]
 file = "mods/create-fabric.pw.toml"
 hash = "252878ad67eb85e89d725478bd36a64ce6f84b247c3ac8a1851f3b4f553f11f4"
 metafile = true
@@ -9343,6 +9348,11 @@ metafile = true
 [[files]]
 file = "mods/custom-portals.pw.toml"
 hash = "36f3629770c624dead724887529f7e4267bdddfea62ce4c82ce598da18d68c42"
+metafile = true
+
+[[files]]
+file = "mods/cynosure.pw.toml"
+hash = "9588e8b0289c498aa3fc55d2bdd2483dc703655abf102beb65fce24cbb34e399"
 metafile = true
 
 [[files]]
@@ -9478,6 +9488,11 @@ metafile = true
 [[files]]
 file = "mods/equipment-compare-fabric.pw.toml"
 hash = "050f3778bd7e97d835c9ac45287df606d48da2f4e8e201dc979bd616aca73325"
+metafile = true
+
+[[files]]
+file = "mods/estrogen.pw.toml"
+hash = "28c3f62235e6d76c7f220910c97f1a6e3b96c2b1437bc6c667b9e4ebd766a419"
 metafile = true
 
 [[files]]
@@ -9768,11 +9783,6 @@ metafile = true
 [[files]]
 file = "mods/jewelry.pw.toml"
 hash = "f1de7e0580ac0d7a3defd87cb8bb4a5597c4e0fd7b903227efc12678bc0dc5d4"
-metafile = true
-
-[[files]]
-file = "mods/journeymap.pw.toml"
-hash = "c1cc1e05c95d769dd4929825e6a85d5ac8023d4a018569f40dd7bd972a81655e"
 metafile = true
 
 [[files]]
@@ -10737,7 +10747,7 @@ metafile = true
 
 [[files]]
 file = "mods/trinkets.pw.toml"
-hash = "d9bfec2cf36b6bae2d85a1136560e047ab8ce1b0e9798e7b6be5d0670f65fb55"
+hash = "ffdb79f5bc29f990e5889f5d159a043c7046b8cd8d79f17f54b44d7ccc2b242a"
 metafile = true
 
 [[files]]
