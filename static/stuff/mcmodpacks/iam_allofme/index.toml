@@ -9008,6 +9008,11 @@ hash = "5fb1e6efdc6b5c85b84138ded810954b9ee9f977978fa9d294157f61d6199cbc"
 metafile = true
 
 [[files]]
+file = "mods/azurelib.pw.toml"
+hash = "bf9711d674219c38d0190842da3f3b4ffe53f8d5f4dad908fbc98820050d56da"
+metafile = true
+
+[[files]]
 file = "mods/bad-wither-no-cookie-reloaded.pw.toml"
 hash = "9d08648ed0147eab36f0f02f4ab6812150ef3fb3f1f2658a9c3c6ecd11da974e"
 metafile = true
@@ -9638,6 +9643,11 @@ hash = "dc59c6208d7b2e6c2609e0a2d0aadbe4c24a2090abf9afaad1fd21f33b521a2d"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "960362b1fe6da267bff3411e3d53ca7a597429d49e7bc9d7a13331bb19595e4a"
+metafile = true
+
+[[files]]
 file = "mods/gag.pw.toml"
 hash = "9d32f823672de4b3e2677a3dc4765a6eea0baadfde60552dd62664150d2eb63b"
 metafile = true
@@ -9693,6 +9703,11 @@ hash = "9c3c544bdc1aa3c52b709b9fcec8e2f5bb7959c966f3e733ca156fa7410a4a28"
 metafile = true
 
 [[files]]
+file = "mods/homing-attack-and-boost.pw.toml"
+hash = "f415c09f28a62cab00c62760044920cea0046521a1e079da306bcac2178ef946"
+metafile = true
+
+[[files]]
 file = "mods/hopo-better-ruined-portals.pw.toml"
 hash = "a2b0ab62343fc5aa5d01f63e12a12f74588e8053abdbeb143c0a146aa76faa80"
 metafile = true
@@ -9715,6 +9730,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-armors.pw.toml"
 hash = "809c13f43e35f7792d420ba0d525fa2adb339886766b55c588ed52c0023e08af"
+metafile = true
+
+[[files]]
+file = "mods/immersive-guns.pw.toml"
+hash = "9d189c21f474853632889cf4bf3f30261dfd15f812940d279c36eeda7605253c"
 metafile = true
 
 [[files]]
@@ -10465,6 +10485,11 @@ metafile = true
 [[files]]
 file = "mods/simple-magnets.pw.toml"
 hash = "2fa0f2879577d55e16d3b55dadd2e5ae68d1c85d0eb82efe2d047bf3e52b16d4"
+metafile = true
+
+[[files]]
+file = "mods/simple-uncrafting-table.pw.toml"
+hash = "a14cded8b6f9437781886a9049a2f8ade0a06515e7d6373f9e20d34f1c86bd92"
 metafile = true
 
 [[files]]

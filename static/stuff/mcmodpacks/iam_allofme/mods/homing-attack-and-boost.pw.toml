@@ -1,0 +1,13 @@
+name = "Homing Attack and Boost"
+filename = "homing-1.20.1-1.7a.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9DPewlmy/versions/274p1swe/homing-1.20.1-1.7a.jar"
+hash-format = "sha512"
+hash = "f934df780152d2f2d49e706945d88cf3dd8857b70e9ce2d9d9a1712f8aaf9157f2b9a93e4be6723525f3a148d93be5ea41a16dcc4905d8940115967d9ec154f6"
+
+[update]
+[update.modrinth]
+mod-id = "9DPewlmy"
+version = "274p1swe"
