@@ -10013,6 +10013,11 @@ hash = "199384ba3fd4e298d9e3cfb3077c13d8bc1aef2a6371a5f3d9c90fe1ad765665"
 metafile = true
 
 [[files]]
+file = "mods/mcpitanlibarch.pw.toml"
+hash = "f303e0b8ba57ad9b96cc7813d1105af7319bff593b85208fd5183315862e5e8c"
+metafile = true
+
+[[files]]
 file = "mods/measurements.pw.toml"
 hash = "fc246bd85c6da38f867e00a8b369aba409fcd4b78da41afa32ec1a80eca26e82"
 metafile = true
