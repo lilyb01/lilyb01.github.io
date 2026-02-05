@@ -9733,11 +9733,6 @@ hash = "809c13f43e35f7792d420ba0d525fa2adb339886766b55c588ed52c0023e08af"
 metafile = true
 
 [[files]]
-file = "mods/immersive-guns.pw.toml"
-hash = "9d189c21f474853632889cf4bf3f30261dfd15f812940d279c36eeda7605253c"
-metafile = true
-
-[[files]]
 file = "mods/immersive-melodies.pw.toml"
 hash = "e89be82965870c2b2b314f932ab2fbfe9228687c8aa5e9784d46ee80cfc86ef4"
 metafile = true
@@ -10639,7 +10634,7 @@ metafile = true
 
 [[files]]
 file = "mods/tacz-refabricated.pw.toml"
-hash = "eaaef96483600f38e2256650639c0e1129e7b92f87e44d6bdbd087e4f3d665bb"
+hash = "e8bae2cf653014dd04990f768b1a76ea2ef56d88d1624640114eea0b6e379cf5"
 metafile = true
 
 [[files]]
@@ -10834,7 +10829,7 @@ metafile = true
 
 [[files]]
 file = "mods/vivecraft.pw.toml"
-hash = "de9e9634b8e70c70e3905856456967e3f28db9478e75babe115f452974a21ab9"
+hash = "f0e99d7e2883e3bf83f4f6e24aa415624f658c3544fd6ed5a2029afd0db57e7b"
 metafile = true
 
 [[files]]
