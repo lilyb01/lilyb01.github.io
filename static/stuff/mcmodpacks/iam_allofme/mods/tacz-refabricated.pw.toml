@@ -1,13 +1,13 @@
 name = "TaCZ: Refabricated"
-filename = "TACZ-Refabricated-1.20.1-0.1.2-forge1.1.6-hotfix.jar"
+filename = "TACZ-Refabricated-1.20.1-0.0.7-forge1.1.6-hotfix.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/1j76DVHU/versions/u7C7n2bV/TACZ-Refabricated-1.20.1-0.1.2-forge1.1.6-hotfix.jar"
+url = "https://cdn.modrinth.com/data/1j76DVHU/versions/DgsRqYDF/TACZ-Refabricated-1.20.1-0.0.7-forge1.1.6-hotfix.jar"
 hash-format = "sha512"
-hash = "2a8f70842de8eb529dbbfee64504beffd206e648ce09025f5f2d7744ce2b04d7a6367d5660de2cdbeefe89aa559a9a2848c41374449a055cc12bff619a08b0d0"
+hash = "5af8c1a54d170551e39ae3992546eda3d79ee181939714c775334496098211ae4d79b97d9ff147474be2f93321320d1d6497876a848515dc7b7bed190cb8ae16"
 
 [update]
 [update.modrinth]
 mod-id = "1j76DVHU"
-version = "u7C7n2bV"
+version = "DgsRqYDF"
