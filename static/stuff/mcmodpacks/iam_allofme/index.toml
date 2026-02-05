@@ -8843,6 +8843,11 @@ file = "kubejs/startup_scripts/worldgen.js"
 hash = "597766faa6fe119cee93af7faed6a15e6b081d59f9f16fa7bbd23e805b4cc050"
 
 [[files]]
+file = "makeup-ultra-fast-shader.pw.toml"
+hash = "e569821e398ed298d85515bd362828e622185e25abbc7d3faa3ebef0f81359c7"
+metafile = true
+
+[[files]]
 file = "mods/accelerated-decay.pw.toml"
 hash = "0a803263fdba63e5fb276931ec0c39a07839ec734bc7de1ac7249b8f365b1f1f"
 metafile = true
@@ -9524,12 +9529,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "8de441dd57379d434805fb87722233fa39e346a9152828e7ff49b0ed9b2bd518"
+hash = "1ee56d5feb0ede9397b26f3c5b7543a3556088146d154b55172ef0e8b1a97705"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "130d2b078d1a73c86271a0222fcefbd24f5f816df37d94fa780d37a5f1605119"
+hash = "61afd7af5c645ffd966b2bd86be944eacd1e48a8044e8f67082225d4d9989f0c"
 metafile = true
 
 [[files]]
@@ -9738,6 +9743,11 @@ hash = "e89be82965870c2b2b314f932ab2fbfe9228687c8aa5e9784d46ee80cfc86ef4"
 metafile = true
 
 [[files]]
+file = "mods/immersivemc.pw.toml"
+hash = "d8e06e76a6c7708b7f5fa986e9d9f98662fcfe96be36ce2c31d09f3f239867ff"
+metafile = true
+
+[[files]]
 file = "mods/industrial-revolution.pw.toml"
 hash = "adacdb4be2a9d80bc4854479961298015c595f65af74115198cb884c1fb4cddb"
 metafile = true
@@ -9815,6 +9825,11 @@ metafile = true
 [[files]]
 file = "mods/justenoughbreeding.pw.toml"
 hash = "0741701caa57917bfacbcbc5f67a66c2f7edd4713f0759aa86d0e8b16310a5be"
+metafile = true
+
+[[files]]
+file = "mods/keybind-fix-plus.pw.toml"
+hash = "7445621681be11726b05f44490b2b70f48494106fc56991c8fc4390d5b91d175"
 metafile = true
 
 [[files]]
