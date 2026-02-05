@@ -9594,7 +9594,7 @@ metafile = true
 
 [[files]]
 file = "mods/forge-config-api-port.pw.toml"
-hash = "5641148e6922cc3e6768726ff5db1d23088fb3969951a67e201ed3cc8183c700"
+hash = "adea09f1e1b05da68cf7407992a9391b15985acf5465a888e54ae076dbd543ab"
 metafile = true
 
 [[files]]
@@ -10630,6 +10630,11 @@ metafile = true
 [[files]]
 file = "mods/swingthrough.pw.toml"
 hash = "7512ad9cbcbe6f6b1abf4f6b9911636c9cef8bb966792a2f8ece795e08dbda4c"
+metafile = true
+
+[[files]]
+file = "mods/tacz-refabricated.pw.toml"
+hash = "e8bae2cf653014dd04990f768b1a76ea2ef56d88d1624640114eea0b6e379cf5"
 metafile = true
 
 [[files]]
