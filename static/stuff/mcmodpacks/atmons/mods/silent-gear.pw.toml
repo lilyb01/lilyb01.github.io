@@ -1,0 +1,13 @@
+name = "Silent Gear"
+filename = "silent-gear-1.21.1-neoforge-4.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "53a158bb8e242ce4effaeacb1527a76e3aa57d69"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7645685
+project-id = 297039

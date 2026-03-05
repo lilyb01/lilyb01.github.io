@@ -1,0 +1,13 @@
+name = "Cobbleloots: Loot Balls and More!"
+filename = "cobbleloots-neoforge-2.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "66ad2cd007b8601e188f7d029fde94c361167b05"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7665894
+project-id = 1037611

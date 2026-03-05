@@ -1,0 +1,13 @@
+name = "Radical Cobblemon Trainers API"
+filename = "rctapi-neoforge-1.21.1-0.14.8-beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5f7bce1dd9a8b7c983e97d4cb50a8d071eecb673"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7621869
+project-id = 1152792

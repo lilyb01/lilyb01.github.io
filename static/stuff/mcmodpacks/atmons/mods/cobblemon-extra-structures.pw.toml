@@ -1,0 +1,13 @@
+name = "Cobblemon: Extra Structures"
+filename = "cobblemonextrastructures-1.21.1-1.2.0-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "33e082c5a0c62b8b57d49ac7e8db0c7f0b2045fd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6992421
+project-id = 1202622

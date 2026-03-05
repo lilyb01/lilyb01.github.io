@@ -1,0 +1,13 @@
+name = "RFTools Storage"
+filename = "rftoolsstorage-1.21-6.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2ba2a45383876c373ee475f634fcde9f22b5dc58"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7041247
+project-id = 350006

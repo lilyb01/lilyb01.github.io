@@ -1,0 +1,13 @@
+name = "ExperienceLib"
+filename = "experiencelib-1.21.1-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "334df17d784f1e8cb70a09bca6a9865345f9d209"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6616717
+project-id = 1156551

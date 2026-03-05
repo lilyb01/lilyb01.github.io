@@ -1,0 +1,13 @@
+name = "Generator Galore"
+filename = "generatorgalore-1.21.1-1.6.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "31418972d718190c6f13d8a34f434b266af317e0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6799851
+project-id = 691049

@@ -1,0 +1,13 @@
+name = "Integrated Scripting"
+filename = "integratedscripting-1.21.1-neoforge-1.0.21-321.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e17d556e3cd98f984abf12b11d46502a460533c3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7657080
+project-id = 889785

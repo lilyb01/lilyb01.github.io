@@ -1,0 +1,13 @@
+name = "Utility Vest"
+filename = "utilityvest-1.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "581eb8805c7b265d109e0ddbbdb74360d85293b0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7652536
+project-id = 1284144

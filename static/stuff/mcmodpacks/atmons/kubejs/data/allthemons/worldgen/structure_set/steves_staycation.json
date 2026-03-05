@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "allthemons:steves_staycation",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 32,
+    "count": 128,
+    "spread": 3,
+	"preferred_biomes": "#c:is_plains",
+	"salt": 0
+  }
+}

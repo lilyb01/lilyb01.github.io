@@ -1,0 +1,20 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "radical_red"
+	group: "21FB9D458E942C6D"
+	id: "7A28EC3F22B15056"
+	order_index: 4
+	quest_links: [ ]
+	quests: [{
+		id: "06AC44758A00C280"
+		tasks: [{
+			advancement: "rctmod:trainers/defeat_leader_brock"
+			criterion: ""
+			id: "5A07C2CE8B7BBDAE"
+			type: "advancement"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+}

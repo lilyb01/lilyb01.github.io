@@ -1,0 +1,13 @@
+name = "[UNOFFICIAL] TaCZ 1.21.1 NeoForge Port"
+filename = "tacz-neoforge-1.21.1-1.1.7-hotfix-r4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OypNE65K/versions/9Jc8If0B/tacz-neoforge-1.21.1-1.1.7-hotfix-r4.jar"
+hash-format = "sha512"
+hash = "9574f28265b4f6c628747cd4845165ba017c71fc52b9c5d6a678d60b5ed085a06b56c35adbb011789a343ef48a0ebad96992801d78d41dd8bc8fc3918bb93b30"
+
+[update]
+[update.modrinth]
+mod-id = "OypNE65K"
+version = "9Jc8If0B"

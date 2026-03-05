@@ -1,0 +1,13 @@
+name = "SimpleTMs: TMs and TRs for Cobblemon"
+filename = "SimpleTMs-neoforge-2.3.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f30723c57a72ff9c9f4b54fe1652430273355607"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7319641
+project-id = 959184

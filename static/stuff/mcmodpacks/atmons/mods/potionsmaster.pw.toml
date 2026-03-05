@@ -1,0 +1,13 @@
+name = "Potions Master"
+filename = "potionsmaster-21.1.113-0.7.1-packdev.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0d16e805e506c389288c3216b0eff7c7b5703491"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6826199
+project-id = 356801

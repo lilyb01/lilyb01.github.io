@@ -1,0 +1,13 @@
+name = "Tesseract API (NeoForge)"
+filename = "tesseract-api-neoforge-1.11.8-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0df0445517710e30f4d43461fece8e783c8135d8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7564488
+project-id = 1067672

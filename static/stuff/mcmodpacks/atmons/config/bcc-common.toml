@@ -1,0 +1,5 @@
+[general]
+	modpackProjectID = 1356598
+	modpackName = "All the Mons"
+	modpackVersion = "0.11.0-beta"
+	useMetadata = false

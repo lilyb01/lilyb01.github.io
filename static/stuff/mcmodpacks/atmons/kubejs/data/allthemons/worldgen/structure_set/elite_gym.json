@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "allthemons:elite_gym",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 32,
+    "count": 128,
+    "spread": 3,
+	"preferred_biomes": "allthemons:ancient_apricorn_forest",
+	"salt": 0
+  }
+}
