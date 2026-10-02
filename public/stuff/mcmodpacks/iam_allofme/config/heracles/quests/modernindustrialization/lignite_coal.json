@@ -1,0 +1,76 @@
+{
+  "dependencies": [
+    "steam_mining_drill"
+  ],
+  "tasks": {
+    "lignite_coal_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:lignite_coal",
+      "amount": 64,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lignite_coal_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:lignite_coal_block",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eLignite Coal",
+      "<br/>",
+      "  /b/Lignite/b/ is a truly abundant /b/fuel source/b/ that can be /6/found/6/ in the world. It's pretty much /b/Coal/b/, but brown. It has a lower carbon content despite /6/burning/6/ the same amount as /b/Coal/b/; created the same way too. This means you can keep your real /b/Coal/b/ for other /6/projects/6/ or /6/recipes/6/, keep /b/Lignite/b/ to /6/fuel/6/ your /b/Steam Mining Drill/b/ instead.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          100,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:lignite_coal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lignite Coal"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,13 @@
+name = "Peripheralium"
+filename = "peripheralium-fabric-1.20.1-0.7.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "837ca31c0cac942d6cbff94eff40b004f2308a85"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5647716
+project-id = 621088

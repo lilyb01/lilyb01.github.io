@@ -1,0 +1,194 @@
+{
+  "dependencies": [
+    "Meadow"
+  ],
+  "tasks": {
+    "meadow_climbing_rope": {
+      "type": "heracles:item",
+      "item": "meadow:climbing_rope_topmount",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_fur_helmet": {
+      "type": "heracles:item",
+      "item": "meadow:fur_helmet",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_fur_leggins": {
+      "type": "heracles:item",
+      "item": "meadow:fur_leggings",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_watering_can": {
+      "type": "heracles:item",
+      "item": "meadow:watering_can",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_fur_chestplate": {
+      "type": "heracles:item",
+      "item": "meadow:fur_chestplate",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "meadow_fur_boots": {
+      "type": "heracles:item",
+      "item": "meadow:fur_boots",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "meadow_wheelbarrow": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:wheelbarrow",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "meadow_oil_lantern": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:oil_lantern",
+        "count": 4
+      },
+      "type": "heracles:item"
+    },
+    "meadow_climbing_rope": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:climbing_rope_topmount",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A couple utilities to help you farm and explore",
+      "<br/>",
+      "<br/>",
+      "The watering can works like bone meal and only needs water",
+      "<br/>",
+      "The climbing rope can be placed under blocks, it's 11 blocks tall and allows easily going up or down",
+      "<br/>",
+      "The fur armor will make you harder to push, just like a bear"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -30,
+          -420
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "meadow:climbing_rope_topmount",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Meadows Utilities"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

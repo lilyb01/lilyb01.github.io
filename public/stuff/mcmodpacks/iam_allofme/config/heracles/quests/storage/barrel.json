@@ -1,0 +1,70 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "barrel_task": {
+      "type": "heracles:item",
+      "item": "minecraft:barrel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "barrel_reward": {
+      "item": {
+        "id": "minecraft:oak_log",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "<br/>",
+      "<columns>",
+      "<column>",
+      "## Barrel",
+      "</column>",
+      "<column>",
+      "<item id=\"minecraft:barrel\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "   Barrels are a method of storage that is similar to the chest, but a barrel! They can be crafted using a handful of planks and slabs.",
+      "<br/>",
+      "   The basic barrel will store up to 27 types of items; up to 64 items in a stack. They can be chiseled to look like many different decorated barrels, so check your REI for the recipes.",
+      "<br/>",
+      "---"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          -40,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:barrel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Basic Barrels"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

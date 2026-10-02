@@ -1,0 +1,62 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "slime_sling": {
+      "type": "heracles:item",
+      "item": "kibe:slime_sling",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "303FED1AD57E48DB": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Usable item that throws the player in the sky when charged while aiming at a block."
+    },
+    "description": [
+      "<h2>Usable item that throws the player in the sky when charged while aiming at a block.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Utilities": {
+        "position": [
+          272,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:slime_sling",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Slime Sling"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

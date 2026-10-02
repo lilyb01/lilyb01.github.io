@@ -1,0 +1,13 @@
+name = "Underground Villages"
+filename = "UndergroundVillages-neoforge-1.21.1-4.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7eb055cfadf940882aac57dcc4a7162774a53a95"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6722723
+project-id = 606989

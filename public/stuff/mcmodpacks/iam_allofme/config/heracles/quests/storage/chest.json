@@ -1,0 +1,70 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "chest_task": {
+      "type": "heracles:item",
+      "item": "minecraft:chest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "chest_reward": {
+      "item": {
+        "id": "minecraft:oak_log",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "<br/>",
+      "<columns>",
+      "<column>",
+      "# Basic Chest",
+      "</column>",
+      "<column>",
+      "<item id=\"minecraft:chest\" scale=\"2\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "  Chests are going to most likely be your --first-- form of item storage. They just take a hand full of wood planks to make, assembled into a box shape, and will store up to 27 types of items, with up to 64 items in a stack.",
+      "<br/>",
+      "   They can be made out of many types of wood for different colors and designs, so check your REI to see which types you can make!",
+      "<br/>",
+      "---"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          0,
+          -220
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Basic Chests"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

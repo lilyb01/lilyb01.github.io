@@ -1,0 +1,81 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1A5F4DE4911B984A": {
+      "type": "heracles:item",
+      "item": "ae2:pattern_provider",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Recipes need to be encoded into patterns to be usable by crafting CPUs."
+    },
+    "description": [
+      "<hr/>",
+      "# &&ePattern Providers",
+      "<br/>",
+      "  Recipes need to be encoded into patterns to be usable by crafting CPUs.",
+      "<br/>",
+      "  The encoded patterns need to be put into pattern providers on the same network as the Crafting CPU itself.",
+      "<br/>",
+      "  When the crafting CPU then needs to craft the primary result of that pattern, it'll delegate this to the pattern provider.",
+      "<br/>",
+      "  Normally, the pattern provider will then push out the ingredients to an adjacent block (a Molecular Assembler for crafting recipes, for example), and crafting continues once the result enters the network again.",
+      "<br/>",
+      "  This can be achieved by pushing the crafting result back into the pattern provider, an ME Interface or any other means that would import the crafting result into the network.",
+      "<br/>",
+      "  Molecular assemblers are smart enough to automatically return the crafting result to the same pattern provider that provided the ingredients.",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"1A5F4DE4911B984A\" quest=\"Pattern Provider\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Pattern Provider\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          32,
+          -144
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:pattern_provider",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pattern Provider"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

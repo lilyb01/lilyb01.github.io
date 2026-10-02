@@ -1,0 +1,46 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eStorage and Transport",
+      "<br/>",
+      "  The main feature of /2/Applied Energistics 2/2/ is the /6/ME Network/6/ (pronounced Emm- Eee and stands for Matter Energy), which is a set of connected blocks, and /b/Fluix Cables/b/ grouped into a system, where storage, power and functions cooperate between multiple components.",
+      "---",
+      "<task task=\"35DEBD075D82821D\" quest=\"Storage and Transport\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -352,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "heracles:quest_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Storage and Transport"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

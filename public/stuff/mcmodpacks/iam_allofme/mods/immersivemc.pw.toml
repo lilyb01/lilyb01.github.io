@@ -1,0 +1,13 @@
+name = "ImmersiveMC"
+filename = "immersivemc-1.6.0-alpha2.1-1.20.1-fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bdb9cbf8ba27c0c173f62ea75bd4076e0f5edcea"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7568329
+project-id = 607017

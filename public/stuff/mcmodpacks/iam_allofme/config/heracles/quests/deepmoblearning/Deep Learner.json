@@ -1,0 +1,92 @@
+{
+  "dependencies": [
+    "Data Model",
+    "Any Data Model"
+  ],
+  "tasks": {
+    "1F74315ED1FF9FCB": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:deep_learner",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "4009893D92F2BBE3": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Collect data about the mobs you want to learn."
+    },
+    "description": [
+      "<h2>Collect data about the mobs you want to learn.</h2>",
+      "---",
+      "Right-click with it and you will be presented to its GUI.",
+      "",
+      "Pick your Data Model and put in one of the slots, you will be able to preview in the left side which mobs are in the category you chosen.",
+      "",
+      "A single Deep Learner supports 4 Data Models at the same time, you can navigate through them using the arrow buttons above the slots.",
+      "",
+      "The Deep Learner also shows the current model's Data Amount and Tier. You can also view this just by putting your mouse above the Data Model and looking at its tooltip.",
+      "",
+      "Just keep your Deep Learner in hands (in your hotbar) and start killing mobs!",
+      "",
+      "Just keep killing mobs and you will notice the Data Amount of your Data Models getting higher, and its Tier will be higher too.",
+      "---"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -208,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:deep_learner",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Deep Learner"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

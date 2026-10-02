@@ -1,0 +1,10 @@
+{
+  "badgeVisible": false,
+  "builtinServers": [
+    {
+      "name": "so uh you come here often?",
+      "address": "tapioca.buny.plus",
+      "forced": false
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "dependencies": [
+    "Charged Certus Quartz Crystal"
+  ],
+  "tasks": {
+    "2BDA459026191334": {
+      "type": "heracles:item",
+      "item": "ae2:inscriber",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Used to press items using various Inscriber Plates."
+    },
+    "description": [
+      "<hr/>",
+      "# &&eInscibers, Inscibe!",
+      "<br/>",
+      "  Used to press items using various /b/Inscriber Plates/b/. can also crush /b/skystone/b/ and crystals to dust!",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"2BDA459026191334\" quest=\"Inscriber\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Inscriber\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -112,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:inscriber",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Inscriber"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

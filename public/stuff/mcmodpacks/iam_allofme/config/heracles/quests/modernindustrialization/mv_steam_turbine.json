@@ -1,0 +1,114 @@
+{
+  "dependencies": [
+    "hull_upgrade"
+  ],
+  "tasks": {
+    "mv_steam_turbine_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:mv_steam_turbine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mv_steam_turbine_reward_1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:lv_mv_transformer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "mv_steam_turbine_reward_2": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:cupronickel_cable",
+        "count": 16
+      },
+      "type": "heracles:item"
+    },
+    "mi_rare_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eMV Steam Turbine",
+      "<br/>",
+      "  Time for a major upgrade! Previously you've only been able to produce electricity at 32 eu/t per turbine using the /b/LV Steam Turbine/b/, but now you'll be /6/able to make a maximum of 128 eu/t/6/ out of the brand new /b/MV Steam Turbine/b/! Aside from the increase in energy production four-fold, it acts just like the /b/LV Steam Turbine/b/.",
+      "<br/>",
+      "  One thing to keep in mind is that /6/you wont be able to use the same cables as you were able to before/6/. Now you'll need to use /b/Cupronickel/b/ or /b/Electrum/b/ cables to be able to transfer this new MV tier of power.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          880,
+          -53
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:mv_steam_turbine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "MV Steam Turbine"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

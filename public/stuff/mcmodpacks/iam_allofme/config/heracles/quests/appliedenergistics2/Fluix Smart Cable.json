@@ -1,0 +1,73 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "733C8308DEA8FB07": {
+      "type": "heracles:item",
+      "item": "ae2:fluix_smart_cable",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A smarter cable?"
+    },
+    "description": [
+      "<hr/>",
+      "# &&eA smarter cable?",
+      "<br/>",
+      "  While bearing some similarity to /b/Fluix ME Covered Cable/b/ in appearance, they provide diagnostic function by visualizing the channel usage on the cables, the /6/channels appear as lit colored lines that run along the black stripe on the cables/6/ giving you an understanding of how your channels are being used on your network.",
+      "<br/>",
+      "  The first four channels show as lines matching the color of the cable, the next four show as white lines.",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"733C8308DEA8FB07\" quest=\"Fluix Smart Cable\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Fluix Smart Cable\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -400,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:fluix_smart_cable",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Smart Cables"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

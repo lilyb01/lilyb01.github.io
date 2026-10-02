@@ -1,0 +1,4 @@
+The poor man's shulker box
+---
+> You can use items from a nearby placed toolbox without opening it.
+---

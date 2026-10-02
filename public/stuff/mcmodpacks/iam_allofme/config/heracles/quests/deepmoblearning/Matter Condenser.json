@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "DML Machine Casing"
+  ],
+  "tasks": {
+    "195D1CB694FDCF69": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:matter_condenser",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "14F32FFE7B104847": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Upgrade your armor!"
+    },
+    "description": [
+      "<h2>Upgrade your armor!</h2>",
+      "---",
+      "Grab a bit of Pristine Matter and start filling your Matter Condenser with the armor piece you want to upgrade and the matter.",
+      "",
+      "Its pretty expensive tho, but it may be worth it.",
+      "",
+      "The armor protection amounts will be increasing as the armor tier increases too. Soon there will be some sick extra features about that",
+      "---"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -352,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:matter_condenser",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Matter Condenser"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

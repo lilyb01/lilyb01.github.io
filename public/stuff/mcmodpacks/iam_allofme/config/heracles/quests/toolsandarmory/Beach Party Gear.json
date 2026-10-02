@@ -1,0 +1,182 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "bpst": {
+      "type": "heracles:item",
+      "item": "beachparty:trunks",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "bpbh": {
+      "type": "heracles:item",
+      "item": "beachparty:beach_hat",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "bpc": {
+      "type": "heracles:item",
+      "item": "beachparty:crocs",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "bpsg": {
+      "type": "heracles:item",
+      "item": "beachparty:sunglasses",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "bpsw": {
+      "type": "heracles:item",
+      "item": "beachparty:swim_wings",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "bpb": {
+      "type": "heracles:item",
+      "item": "beachparty:bikini",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1": {
+      "item": {
+        "id": "artifacts:flippers",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "",
+      "<h2 italic=\"true\">Beach Party!</h2>",
+      "",
+      "  Beach party swimwear acts like low-tier* armor but each piece word gives a 17% boost to your swim speed.",
+      "",
+      "  Wearing a full set also grants you --/3/Dolphin's Grace/3/-- and --/9/Water Breathing/9/--.",
+      "",
+      "<columns template='20 40 40'>",
+      "<column>",
+      "<p align='right'>Head:</p>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:sunglasses' scale='2'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:beach_hat' scale='2'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "<columns template='20 80'>",
+      "<column>",
+      "<p align='right'>Body:</p>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:swim_wings' scale='2'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "<columns template='20 40 40'>",
+      "<column>",
+      "<p align='right'>Legs:</p>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:trunks' scale='2'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:bikini' scale='2'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "<columns template='20 80'>",
+      "<column>",
+      "<p align='right'>Feet:</p>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:crocs' scale='2'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "<p>Rubber rings will also protect your torso, as an alternative to swim-wings.</p>",
+      "<br/>",
+      "<columns template='60 40'>",
+      "<column>",
+      "<columns>",
+      "<column>",
+      "<item id='beachparty:rubber_ring_blue' scale='2'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:rubber_ring_pink' scale='2'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:rubber_ring_stripped' scale='2'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns>",
+      "<column>",
+      "<item id='beachparty:rubber_ring_axolotl' scale='2'>&#32;</item>",
+      "</column>",
+      "<column>",
+      "<item id='beachparty:rubber_ring_pelican' scale='2'>&#32;</item>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>",
+      "",
+      "---",
+      "*Of course, through magical means, standard swimwear can be imbued with the qualities one might expect to see only from much more formidable armors."
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -274,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "beachparty:sunglasses",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Swimming Gear"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

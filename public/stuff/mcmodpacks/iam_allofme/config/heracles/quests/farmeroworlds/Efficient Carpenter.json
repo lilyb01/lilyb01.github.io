@@ -1,0 +1,90 @@
+{
+  "dependencies": [
+    "Meadow"
+  ],
+  "tasks": {
+    "meadow_woodchopper": {
+      "type": "heracles:item",
+      "item": "meadow:woodcutter",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "meadow_bench": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:bench",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "meadow_pine_tree_sapling": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:pine_sapling",
+        "count": 4
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The woodcutter works like a stonecutter, it allows to have more efficient recipes when using wood, however it won't work with every type of wood",
+      "<br/>",
+      "<br/>",
+      "It can also be used to turn a villager into a hermit, hermits mostly trade in pine tree related things"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          30,
+          -420
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "meadow:woodcutter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Efficient Carpenter"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

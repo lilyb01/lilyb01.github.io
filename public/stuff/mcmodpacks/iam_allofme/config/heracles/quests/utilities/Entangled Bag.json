@@ -1,0 +1,90 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "37E61672584DFB3B": {
+      "type": "heracles:item",
+      "item": "kibe:entangled_bag",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2F6D7323F1FF8D25": {
+      "item": {
+        "id": "kibe:purple_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "612716ED8EF91E40": {
+      "item": {
+        "id": "kibe:cyan_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "4C1FF0BDAC5EDA20": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "5745345A15F02D93": {
+      "item": {
+        "id": "kibe:light_gray_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "6AFDC6FC8292E7B5": {
+      "item": {
+        "id": "kibe:green_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Access the contents of your Entangled Chest directly in your inventory."
+    },
+    "description": [
+      "<h2>Access the contents of your Entangled Chest directly in your inventory.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Utilities": {
+        "position": [
+          32,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:entangled_bag",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Entangled Bag"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

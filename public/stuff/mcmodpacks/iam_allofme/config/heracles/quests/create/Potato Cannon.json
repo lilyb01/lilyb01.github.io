@@ -1,0 +1,97 @@
+{
+  "dependencies": [
+    "Mechanical Crafters"
+  ],
+  "tasks": {
+    "171641F6600EC441": {
+      "type": "heracles:item",
+      "item": "create:potato_cannon",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "3901D5A420576077": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "EPIC",
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/epic",
+          "Name": "Create Epic Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "00A8373D4D35C0B8": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:poisonous_potato",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "When you have too many crops"
+    },
+    "description": [
+      "<h2>When you have too many crops</h2>",
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          288,
+          80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:potato_cannon",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Potato Cannon"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

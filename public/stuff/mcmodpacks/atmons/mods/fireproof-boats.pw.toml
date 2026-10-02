@@ -1,0 +1,13 @@
+name = "Fireproof Boats"
+filename = "fireproofboats-1.21.1-1.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9c1990abe5bcdc9a16cbfb9a9de3b0ac35dc752b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6426055
+project-id = 830962

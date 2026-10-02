@@ -1,0 +1,74 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "283357E45102D87C": {
+      "type": "heracles:item",
+      "item": "ae2:charger",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Provides a way to charge supported tools through the ME Network."
+    },
+    "description": [
+      "<hr/>",
+      "# &&eCharge Away!",
+      "<br/>",
+      "  Provides a way to charge supported tools through the ME Network.",
+      "Build a /b/Charger/b/, and power it with a /b/Vibration Chamber/b/ or a generators from others mods.",
+      "<br/>",
+      "  You can also power it by hand using a /b/Wooden Crank/b/.",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"283357E45102D87C\" quest=\"Charger\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Charger\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -160,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:charger",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Charger"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

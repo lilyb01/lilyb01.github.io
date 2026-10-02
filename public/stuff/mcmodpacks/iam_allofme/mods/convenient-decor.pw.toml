@@ -1,0 +1,13 @@
+name = "Convenient Decor"
+filename = "convenientdecor-0.4.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a9b2d12288014ad9290ff8266f880a36d7fdb3e3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5517730
+project-id = 794452

@@ -1,0 +1,13 @@
+name = "Everything is Copper"
+filename = "everythingcopper-1.21.1-2.4.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b1e47814467032ed8d24f5a2ce3f466e44be9239"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6958511
+project-id = 579545

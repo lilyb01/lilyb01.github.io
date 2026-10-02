@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Cooking"
+  ],
+  "tasks": {
+    "meadow_fondue_pot": {
+      "type": "heracles:item",
+      "item": "meadow:fondue",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "meadow_bread": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:bread",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "meadow_cheese": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:piece_of_cheese",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A traditional way to use cheese, simply dip some bread in it and enjoy"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -60,
+          -490
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "meadow:fondue",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fondue"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

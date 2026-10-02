@@ -1,0 +1,83 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "1DC913CFADDF163B": {
+      "type": "heracles:item",
+      "item": "kibe:entangled_bucket",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "631612CEA312AB42": {
+      "item": {
+        "id": "kibe:red_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "7FDB916F866FB747": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "50150A1DF7286ABD": {
+      "item": {
+        "id": "kibe:brown_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "23CD194EF2E60B43": {
+      "item": {
+        "id": "kibe:black_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Access the contents of your Entangled Tank directly in your inventory."
+    },
+    "description": [
+      "<h2>Access the contents of your Entangled Tank directly in your inventory.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Utilities": {
+        "position": [
+          -16,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:entangled_bucket",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Entangled Bucket"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

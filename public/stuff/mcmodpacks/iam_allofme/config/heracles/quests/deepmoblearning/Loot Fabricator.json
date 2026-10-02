@@ -1,0 +1,89 @@
+{
+  "dependencies": [
+    "DML Machine Casing"
+  ],
+  "tasks": {
+    "26F16521AC49E60B": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:loot_fabricator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "4722E3648A60B43E": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Turn Pristine Matter into loot!"
+    },
+    "description": [
+      "<h2>Turn Pristine Matter into loot!</h2>",
+      "---",
+      "Loot Fabricator is the machine you will be using to turn Pristine Matter into something useful.",
+      "",
+      "You can put those inside a Loot Fabricator and wait until it turns into mob loot.",
+      "",
+      "Each Pristine Matter is equivalent of killing 16 mobs of its category.",
+      "",
+      "In other words the loot that will be given to you is what you would gain if you kill 16 mobs (with no Loot enchantment) of the matter's category.",
+      "",
+      "You can input and extract items to/from the Loot Fabricator by using hoppers or pipes.",
+      "---"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -384,
+          16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:loot_fabricator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Loot Fabricator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

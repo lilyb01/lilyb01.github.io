@@ -1,0 +1,13 @@
+name = "MissingMons [Cobblemon Addons]"
+filename = "MissingMon_v3.6.1 [Floral Awakening ].zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "791e99c6e6eee6eac8cfc11ced17abd1e2098eb5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7561731
+project-id = 1197824

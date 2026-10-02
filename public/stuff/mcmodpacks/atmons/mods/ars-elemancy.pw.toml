@@ -1,0 +1,13 @@
+name = "Ars Elemancy"
+filename = "ars_elemancy-1.21.1-1.12.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a8f2a6141f591a64551f663a82e09170435800c0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7669945
+project-id = 1153666

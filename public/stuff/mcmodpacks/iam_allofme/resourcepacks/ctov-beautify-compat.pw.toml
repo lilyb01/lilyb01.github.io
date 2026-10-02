@@ -1,0 +1,13 @@
+name = "[Deprecated]CTOV - Beautify compatibility pack"
+filename = "ctov-beautify-add-on-v2-0.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6726ce2baaf6821b653b49c4a5f7699688ad27e8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4602226
+project-id = 869986

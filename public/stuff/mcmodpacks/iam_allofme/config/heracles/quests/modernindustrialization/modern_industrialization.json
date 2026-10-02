@@ -1,0 +1,85 @@
+{
+  "dependencies": [
+    "MI"
+  ],
+  "tasks": {
+    "modern_industrialization_task": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "modern_industrialization_reward": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "title": "",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&aModern Industrialization",
+      "<br/>",
+      "  Have you read the /b/Book/b/? Well, I'll give you a rundown of this /6/technological journey/6/ anyway; you'll thank me.",
+      "<br/>",
+      "  What you'll be doing is practically /a/--Modern Industrialization--/a/, using a plethora of different mechanics from /b/Logistics/b/ to /6/Distillation/6/, allowing for /6/Total Automation/6/. I'll give some /6/examples/6/:",
+      "<br/>",
+      "  You'll have access to powerful /b/Logistics Tools/b/ such as /b/Multipart Items/b/ and /b/Fluid Pipes/b/ as well as /b/Energy Cables/b/. This means up to three of each can go into a /b/Single Block/b/!",
+      "<br/>",
+      "  You won't ever need to go mining for resources again as you'll have the ability to construct /b/Quarries/b/ for continuous resource generation!",
+      "<br/>",
+      "  You'll eventually need to /6/power/6/ all your /b/Machines/b/, /b/Steam/b/ or not. You'll have to use /b/Steam/b/ and /b/Oil/b/ processed into /b/Diesel/b/ through /6/Distillation/6/, /6/Nuclear Fission/6/, and at total mechanical dominance: /6/Fusion/6/. You can boost energy transfer rates using /b/Higher Voltages/b/.",
+      "<br/>",
+      "  Never want to /6/manually/6/ put together a /b/Gear/b/, /b/Hammer/b/ or /b/Rod/b/ ever again? Good thing this is a world for you to design. You'll be able to make a machine for just about anything! Total automation is completely possible and you can do it while flying around with a /b/Gravi-Chestplate/b/.",
+      "<br/>",
+      "  /a/Are you ready for the journey of a lifetime?/a/ /c/Time to get going!/c/",
+      "<br/>",
+      "  /6/P.S/6/. If you ever get stumped up with a machine, go ahead and hold that /b/Guide Book/b/ of yours while /6/hovering/6/ over a /b/Machine/b/ or /b/Multiblock/b/. It'll give you some /b/extra info/b/.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          50,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "computercraft:printed_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Modern Industrialization"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

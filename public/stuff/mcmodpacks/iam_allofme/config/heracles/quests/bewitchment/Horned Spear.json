@@ -1,0 +1,64 @@
+{
+  "dependencies": [
+    "Demon Horn"
+  ],
+  "tasks": {
+    "2F68CB0B56C94B78": {
+      "type": "heracles:item",
+      "item": "bewitchment:horned_spear",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "This spear is the hunting weapon of Herne."
+    },
+    "description": [
+      "<h2>This spear is the hunting weapon of Herne.</h2>",
+      "---",
+      "Much like a Trident, it can be thrown towards a target, and will always return to whoever threw it.",
+      "",
+      "The Horned Spear can be repaired using Netherite Ingots.",
+      "---"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          352,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:horned_spear",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Horned Spear"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

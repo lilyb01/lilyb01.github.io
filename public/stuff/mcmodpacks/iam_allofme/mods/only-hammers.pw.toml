@@ -1,0 +1,13 @@
+name = "Only Hammers"
+filename = "OnlyHammers-1.20.1-0.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "67947b566aa69c1fe494520ee897815172f7781e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5523011
+project-id = 909723

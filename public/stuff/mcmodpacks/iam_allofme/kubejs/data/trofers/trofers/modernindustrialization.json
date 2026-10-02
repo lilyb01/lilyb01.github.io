@@ -1,0 +1,29 @@
+{
+    "colors": {
+      "accent": "#5f6e43",
+      "base": "#606060"
+    },
+    "display": {
+      "offset": {
+        "y": 2
+      },
+      "scale": 1.0
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "minecraft:block.bell.use"
+      }
+    },
+    "item": {
+      "item": "modern_industrialization:nuke",
+      "count": 1
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "name": {
+      "color": "#e6db4e",
+      "text": "Modern Industrialization Trophy"
+    }
+  }

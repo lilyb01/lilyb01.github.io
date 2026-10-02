@@ -1,0 +1,13 @@
+name = "Portable Tables"
+filename = "portabletables-fabric-1.20.1-2.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e43de86e0ebb125160bf6cec61a87a1f770920f1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4627023
+project-id = 544671

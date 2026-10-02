@@ -1,0 +1,13 @@
+name = "CTOV - Croptopia compatibility pack"
+filename = "ctov-croptopia-v2-1-add-on.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ea1b1b579a4bdab99ed2663b08bb55c2ee0ae3fa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5574203
+project-id = 834273

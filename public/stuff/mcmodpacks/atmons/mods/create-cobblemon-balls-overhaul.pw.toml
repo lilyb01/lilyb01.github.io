@@ -1,0 +1,13 @@
+name = "Create: Cobblemon  Balls  Overhaul"
+filename = "createcobblemonballsoverhaul-0.0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "92f9da9d765ef0e0317bbaac690133b07b6f141e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7324591
+project-id = 1255522

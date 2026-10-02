@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "AE2 Drive"
+  ],
+  "tasks": {
+    "0FCC6C4E3FB97D07": {
+      "type": "heracles:item",
+      "item": "ae2:crafting_terminal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network's Networked Storage."
+    },
+    "description": [
+      "<hr/>",
+      "## &&eCrafting Terminal",
+      "<br/>",
+      "  Upgraded version of the /b/ME Terminal/b/ which has an integrated crafting grid with access to a ME Network's Networked Storage.",
+      "",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"0FCC6C4E3FB97D07\" quest=\"Crafting Terminal\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Crafting Terminal\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -304,
+          -204
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:crafting_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crafting Terminal"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

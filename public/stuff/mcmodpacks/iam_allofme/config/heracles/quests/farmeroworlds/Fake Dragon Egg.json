@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "Meats and Dragon Drops"
+  ],
+  "tasks": {
+    "edlde": {
+      "type": "heracles:item",
+      "item": "ends_delight:liquid_dragon_egg",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "edhde": {
+      "type": "heracles:item",
+      "item": "ends_delight:half_dragon_egg_shell",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "edfde": {
+      "type": "heracles:item",
+      "item": "ends_delight:fried_dragon_egg",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "edde": {
+      "type": "heracles:item",
+      "item": "ends_delight:dragon_egg_shell_knife",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1": {
+      "item": {
+        "id": "ends_delight:non_hatchable_dragon_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The non hatchable dragon egg is a craftable version that can't be placed and serves as an ingredient",
+      "<br/>",
+      "<br/>",
+      "It must be cut in a cutting board using a nether star, but don't worry you won't lose it",
+      "<br/>",
+      "<br/>",
+      "Upon cutting the egg you will get liquid dragon egg a highly nourishing food with some positive effects and a negative one, cooking it is highly recommended since it makes it more nutritious, gets rid of the negative effect and improves the positive ones, you will also get a dragon egg shell from cutting the egg, this can be used to craft a half dragon egg shell which is used for some recipes"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -540,
+          -105
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ends_delight:non_hatchable_dragon_egg",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fake Dragon Egg"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

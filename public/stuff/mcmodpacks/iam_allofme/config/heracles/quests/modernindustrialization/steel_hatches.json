@@ -1,0 +1,108 @@
+{
+  "dependencies": [
+    "infinite_resources"
+  ],
+  "tasks": {
+    "steel_hatches_task_3": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_item_output_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "steel_hatches_task_2": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_item_input_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "steel_hatches_task_1": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:steel_fluid_input_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "steel_hatches_reward_1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:steel_fluid_output_hatch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eSteel Hatches",
+      "<br/>",
+      "  /b/Steel Hatches/b/ have /6/double the capacity of bronze hatches/6/, increasing one inventory slot to 2, and increasing a multiblock's max steam usage rate from 2 EU/t to 4 EU/t. As long as there is a single steel fluid input hatch receiving steam, your entire mutliblock is upgraded to a \"steel tier.\"",
+      "<br/>",
+      "  Allowing multiblocks to use 4 EU/t means exactly what you think it does, it doubles the top speed of the processes.",
+      "<br/>",
+      "  A /b/Steel Boiler/b/ will produce twice as much steam as a bronze one. That means it will max out at --16 EU/t-- instead of 8. The /b/Steel Water Pump/b/ will also produce twice as much /b/Water/b/ as it's bronze counterpart, so a max of 250mb of /b/Water/b/ fro every adjacent water source for up to 2000mb of /b/Water/b/ every 5 seconds.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          450,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:steel_item_input_hatch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Steel Hatches"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

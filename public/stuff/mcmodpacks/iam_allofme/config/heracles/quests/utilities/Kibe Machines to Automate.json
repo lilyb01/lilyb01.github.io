@@ -1,0 +1,42 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Use these various machines to do all kinds of things."
+    },
+    "description": [
+      "<h2>Use these various machines to do all kinds of things.</h2>",
+      "---",
+      "TIP: They are activated by redstone."
+    ],
+    "groups": {
+      "Utilities": {
+        "position": [
+          -16,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "heracles:quest_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Machines To Automate"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "dependencies": [
+    "bank_5"
+  ],
+  "tasks": {
+    "bank_6_task": {
+      "type": "heracles:item",
+      "item": "bankstorage:bank_6",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "bank_6_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:diamond_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "<br/>",
+      "<columns>",
+      "<column>",
+      "<br/>",
+      "<br/>",
+      "## Bank 6",
+      "</column>",
+      "<column>",
+      "<item id=\"bankstorage:bank_6\" scale=\"4\"> </item>",
+      "</column>",
+      "</columns>",
+      "<br/>",
+      "   The Bank 6, made by taking your previous one and surrounding it by 8 blocks of diamond (~31,590 kg).",
+      "<br/>",
+      "  This brings your total storage to 81 different slots with each slot holding up to 262,144 items in each.",
+      "<br/>",
+      "---"
+    ],
+    "groups": {
+      "Storage": {
+        "position": [
+          39,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bankstorage:bank_6",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Bank 6"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

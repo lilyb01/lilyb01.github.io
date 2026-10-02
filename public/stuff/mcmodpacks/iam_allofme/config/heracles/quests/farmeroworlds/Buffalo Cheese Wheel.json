@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "The Basics of Cheese Making"
+  ],
+  "tasks": {
+    "meadow_buffalo_cheese_wheel": {
+      "type": "heracles:item",
+      "item": "meadow:buffalo_cheese_block",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "meadow_rennet": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "meadow:rennet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "meadow_leather": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:leather",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "A lighter more creamy cheese compared to the traditional one"
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          25,
+          -570
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "meadow:buffalo_cheese_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Buffalo Cheese Wheel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

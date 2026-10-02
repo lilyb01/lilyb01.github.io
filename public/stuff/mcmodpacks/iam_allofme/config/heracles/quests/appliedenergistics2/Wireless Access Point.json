@@ -1,0 +1,75 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "4E38E22FE7B37FE6": {
+      "type": "heracles:item",
+      "item": "ae2:wireless_access_point",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Allows wireless access via a Wireless Terminal."
+    },
+    "description": [
+      "<hr/>",
+      "# &&eWireless Networking!",
+      "<br/>",
+      "  Allows wireless access via a Wireless Terminal. Range and power usage is determined based on the number of Wireless Booster installed into the ME Wireless Access Point.",
+      "<br/>",
+      "  A network can have any number of ME Wireless Access Point with any number of Wireless Booster in each one, allowing you to optimize power usage and range by altering your setup.",
+      "<br/>",
+      "  Requires a channel to be operational.",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"4E38E22FE7B37FE6\" quest=\"Wireless Access Point\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Wireless Access Point\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -180,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:wireless_access_point",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wireless Access Point"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

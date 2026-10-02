@@ -1,0 +1,94 @@
+{
+  "dependencies": [
+    "Energy Acceptor"
+  ],
+  "tasks": {
+    "1582C3D80B414E43": {
+      "type": "heracles:item",
+      "item": "ae2:fluix_glass_cable",
+      "amount": 6,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The simplest cable to make, transfers power."
+    },
+    "description": [
+      "<hr/>",
+      "# &&eFluix Glass Cables",
+      "<br/>",
+      "  The simplest cable to make, transfers power.",
+      "<br/>",
+      "  To craft colored cables surround a dye of any type with 8 cables of the same type ( color of the cables dosn't matter, but they must be the same type, glass, smart, etc ). You can also paint cables with any forge compatible paint brush in world.",
+      "<br/>",
+      "  You can craft any colored cable with a water bucket to remove the dye.",
+      "<br/>",
+      "  You can cover the cable with wool to create /b/Fluix ME Covered Cable/b/, and craft/b/ Fluix ME Smart Cable/b/ to get a better idea of what is going on with your Channels.",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"1582C3D80B414E43\" quest=\"Fluix Glass Cable\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Fluix Glass Cable\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -112,
+          -320
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:fluix_glass_cable",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Fluix Glass Cables"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

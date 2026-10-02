@@ -1,0 +1,13 @@
+name = "Perfect Birbs"
+filename = "perfectbirbs-fabric-1.20.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f9d950768ed3bd72467dbd659060f2b5bd68fc52"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5526853
+project-id = 1057248

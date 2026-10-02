@@ -1,0 +1,65 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6D4FBC238D9972F4": {
+      "type": "heracles:item",
+      "item": "minecells:cursed_sword",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "752C833AF3F183F0": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "LEGENDARY",
+          "Color": 16103753,
+          "Loot": "aof:loot_bags/misc/artifacts",
+          "Name": "Artifact Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The curse be upon you!"
+    },
+    "description": [
+      "<h2>The curse be upon you!</h2>",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          248,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecells:cursed_sword",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cursed Sword"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

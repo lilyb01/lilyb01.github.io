@@ -1,0 +1,13 @@
+name = "Harmonia"
+filename = "Harmonia-fabric-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a41dcfce445ae473781439743dacf8641f023513"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5436579
+project-id = 1001446

@@ -1,0 +1,90 @@
+{
+  "dependencies": [
+    "Fluix Glass Cable"
+  ],
+  "tasks": {
+    "growth_accelerator": {
+      "type": "heracles:item",
+      "item": "ae2:growth_accelerator",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Used to accelerate crystal growth."
+    },
+    "description": [
+      "<hr/>",
+      "# &&eGrow Crystals Grow!",
+      "<br/>",
+      "  Used to accelerate crystal growth.",
+      "<br/>",
+      "  Since growing crystals without any accelerators takes a long time, you should invest your first fluix crystals into building as many &&bCrystal Growth Accelerators&&r as you can.",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"growth_accelerator\" quest=\"Quartz Growth Accelerator\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Quartz Growth Accelerator\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -64,
+          -320
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:growth_accelerator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Growth Accelerators"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

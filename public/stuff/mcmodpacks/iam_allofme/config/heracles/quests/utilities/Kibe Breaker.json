@@ -1,0 +1,62 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3343274513277EB6": {
+      "type": "heracles:item",
+      "item": "kibe:breaker",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "24DA0FF9629E39BB": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Activated by a redstone signal, will break any block in front of it and store its drops in its inventory, if possible."
+    },
+    "description": [
+      "<h2>Activated by a redstone signal, will break any block in front of it and store its drops in its inventory, if possible.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Utilities": {
+        "position": [
+          -64,
+          -208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:breaker",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Breaker"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

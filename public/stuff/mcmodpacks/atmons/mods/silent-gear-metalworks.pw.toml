@@ -1,0 +1,13 @@
+name = "Silent Gear Metalworks"
+filename = "sgearmetalworks-1.21.1-1.4.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1951c74de72370cc3fc69f9bbb5248562a855d7b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7270331
+project-id = 1199188

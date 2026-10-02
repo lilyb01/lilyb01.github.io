@@ -1,0 +1,91 @@
+{
+  "dependencies": [
+    "Oak Bark"
+  ],
+  "tasks": {
+    "23AFD5A3B04D25BE": {
+      "type": "heracles:item",
+      "item": "bewitchment:stone_witch_altar",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lantern": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bewitchment:iron_candelabra",
+        "count": 2
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Altars are the cornerstone of any witch's lair."
+    },
+    "description": [
+      "<h2>Altars are the cornerstone of any witch's lair.</h2>",
+      "---",
+      "They can be used to collect energy - henceforth referred to as ME (magical energy).",
+      "",
+      "This energy is essential to most witchcraft, and is collected from nearby plants.",
+      "",
+      "You'll want many different plants to collect maximum power.",
+      "",
+      "You may also place swords, pentacles, and wands atop the altar to modify it.",
+      "",
+      "Swords will increase the storage multiplier.",
+      "",
+      "Pentacles such as Skulls and Gems will increase gain.",
+      "",
+      "Wands such as Candelabrasl, Lanterns, and Torches will give a flat bonus on capacity.",
+      "",
+      "Altars are created by putting a carpet on their base block. The choice of base block and carpet is of cosmetic nature only and tied to one of the three realms.",
+      "",
+      "Nearby altars will fill a player's Internal ME Buffer, which is used for magic such as trinkets or Brooms.",
+      "---"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          368,
+          64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:stone_witch_altar",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Stone Witch Altar"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

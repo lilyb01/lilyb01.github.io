@@ -1,0 +1,19 @@
+{
+  "name": "steel",
+  "disable": false,
+  "tier": 3,
+  "color": "616161",
+  "armorPoints": 3,
+  "enchantability": 15,
+  "craftingMaterial": "modern_industrialization:steel_ingot",
+  "rarity": 0,
+  "capacity": 2E6,
+  "usage": 666.0,
+  "speedVertical": 0.25,
+  "accelVertical": 0.10,
+  "speedSideways": 0.02,
+  "speedHoverDescend": 0.35,
+  "speedHover": 0.025,
+  "sprintSpeedMulti": 1,
+  "sprintFuelMulti": 2
+}

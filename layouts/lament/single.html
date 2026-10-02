@@ -1,5 +1,7 @@
 {{ define "main" }}
- <h1>{{ .Params.Title }}</h1>
- <p>{{ .Date.Format "January 2, 2006" }}</p>
+<picture>
+    <source media="all and (orientation: landscape)" srcset="/assets/img/flw/{{ .File.BaseFileName }}.png">
+    <img src="/assets/img/flw/{{ .File.BaseFileName }}.png" alt="🌼">
+</picture>
  {{ .Content }}
 {{ end }}

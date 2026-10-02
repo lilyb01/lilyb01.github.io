@@ -1,0 +1,13 @@
+name = "Extreme Reactors"
+filename = "ExtremeReactors2-1.21.1-2.4.28.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b017d5d0cf5d5ab5ad5826e3e89f2d861f31d15a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7344744
+project-id = 250277

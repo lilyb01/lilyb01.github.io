@@ -1,0 +1,16 @@
+{
+  "enableFrDCrates": true,
+  "farmersBuyFrDCrops": true,
+  "wanderingTraderSellsFrdDItems": true,
+  "generateSoulBerryLoot": true,
+  "generateWildSoulBerry": true,
+  "fortifiedMindOverlay": true,
+  "undeadHungerOverlay": true,
+  "slimedOverlay": true,
+  "cobwebbedOverlay": true,
+  "infectedOverlay": true,
+  "hysteriaOverlay": true,
+  "chillsOverlay": true,
+  "foodEffectTooltip": true,
+  "foodEffectChanceTooltip": true
+}

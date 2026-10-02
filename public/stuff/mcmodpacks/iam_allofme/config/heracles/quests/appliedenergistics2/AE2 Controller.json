@@ -1,0 +1,71 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "6CB5F66C1E628B0E": {
+      "type": "heracles:item",
+      "item": "ae2:controller",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A Network requires power, which can be provided by various blocks, and may require ME Controller(s) if you require more than 8 channels on a single network."
+    },
+    "description": [
+      "<hr/>",
+      "# &&eME Controller",
+      "<br/>",
+      "  The /b/ME Controller/b/ is the heart of the ME network allowing to not only accept power from any mod but also store a small ammount of it. It also has a interface to see what is consuming power the total power stored in the network and drain/charge rates. Ever have a power bottleneck this is the place to go!",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"6CB5F66C1E628B0E\" quest=\"AE2 Controller\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"AE2 Controller\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -352,
+          -128
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:controller",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Controller"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

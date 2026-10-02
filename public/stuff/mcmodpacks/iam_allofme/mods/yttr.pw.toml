@@ -1,0 +1,13 @@
+name = "Yttr"
+filename = "yttr-9.20.908.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZCLrWdGm/versions/WA8RpvgS/yttr-9.20.908.jar"
+hash-format = "sha512"
+hash = "a6c840d38011b44da34eb8d90d73b3a4adb41f7d8ffaa7e02a82035d3c6397b8d24f4088b5217017e597876cdc61ee5a86e978da1e6c6fb57553f0e67be1bfd9"
+
+[update]
+[update.modrinth]
+mod-id = "ZCLrWdGm"
+version = "WA8RpvgS"

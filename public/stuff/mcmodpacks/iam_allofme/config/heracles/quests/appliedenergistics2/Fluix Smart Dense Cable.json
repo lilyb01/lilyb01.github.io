@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "Fluix Smart Cable"
+  ],
+  "tasks": {
+    "4D657D4CBB6A2016": {
+      "type": "heracles:item",
+      "item": "ae2:fluix_smart_dense_cable",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Higher Capacity cable, can carry 32 channels unlike standard cable which can only carry 8."
+    },
+    "description": [
+      "<hr/>",
+      "# &&eSmarter Denser Cable",
+      "<br/>",
+      "  Higher Capacity cable, /6/can carry 32 channels/6/ unlike standard cable which can only carry 8.",
+      "  However it doesn't support buses so you must first step down from dense to a smaller cable (such as /b/Fluix ME Glass Cable/b/ or /b/Fluix ME Smart Cable/b/) before using buses or panels. Shows load similarly to /b/Fluix ME Smart Cable/b/, with each line lit representing four channels in use.",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"4D657D4CBB6A2016\" quest=\"Fluix Smart Dense Cable\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Fluix Smart Dense Cable\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -448,
+          -176
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:fluix_smart_dense_cable",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Smart Dense Cable"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

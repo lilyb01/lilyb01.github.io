@@ -1,0 +1,13 @@
+name = "All The Tweaks"
+filename = "allthetweaks-1.21.1-2.8.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8e51e2fb6f430e63ec65296e80ed8913159c977f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7632055
+project-id = 364120

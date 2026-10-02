@@ -1,0 +1,80 @@
+{
+  "dependencies": [
+    "Chute",
+    "Belt Connector"
+  ],
+  "tasks": {
+    "17234DF9E970CD30": {
+      "type": "heracles:item",
+      "item": "create:andesite_tunnel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "6EB034A0C261A612": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 15576960,
+          "Loot": "aof:loot_bags/create/common",
+          "Name": "Create Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Make belts look pretty"
+    },
+    "description": [
+      "<h2>Make belts look pretty</h2>",
+      "---"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          32,
+          160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:andesite_tunnel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Andesite Tunnel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "dependencies": [
+    "16K Crafting Storage",
+    "1K Crafting Storage",
+    "4K Crafting Storage",
+    "64K Crafting Storage",
+    "AE2 Controller",
+    "AE2 Drive",
+    "AE2 Interface",
+    "Charged Certus Quartz Crystal",
+    "Charger",
+    "Crafting Terminal",
+    "Crafting Unit",
+    "Energy Acceptor",
+    "Export Bus",
+    "Fluix Crystal",
+    "Fluix Glass Cable",
+    "Fluix Smart Cable",
+    "Fluix Smart Dense Cable",
+    "Import Bus",
+    "Inscriber",
+    "Item Storage Cell 16K",
+    "Item Storage Cell 1K",
+    "Item Storage Cell 4K",
+    "Item Storage Cell 64K",
+    "ME P2P Tunnel",
+    "Memory Card",
+    "Molecular Assembler",
+    "Pattern Encording Terminal",
+    "Pattern Provider",
+    "Quantum Entangled Singularity",
+    "Quantum Link",
+    "Quantum Ring",
+    "Quartz Growth Accelerator",
+    "Storage Bus",
+    "Terminal",
+    "Wireless Access Point",
+    "Wireless Booster",
+    "Wireless Terminal"
+  ],
+  "tasks": {
+    "11F8FBAD482A9E3E": {
+      "title": "Applied Energistics",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "5F4AF240E4659BEF": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:ae2"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Complete all quests to obtain the trophy!"
+    },
+    "description": [
+      "<br/>",
+      "<columns template='0 100'>",
+      "<column>",
+      "<columns>",
+      "<column valign='top'>",
+      "<h2 background='8 #889400d3' border='0 #019400d3' color='#449400d3' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column valign='bottom'>",
+      "<h2 background='8 #88000000' border='2 #01000000' color='#44000000' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column>",
+      "<h2 background='8 #88ff00ff' border='5 #01ff00ff' color='#44ff00ff' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns template='20 82'>",
+      "<column>",
+      "<item border='0 #88777777' id='trofers:medium_pillar' scale='7' tag='{BlockEntityTag:{Trophy:&#39;trofers:ae2&#39;}}'>&#32;</item>",
+      "</column>",
+      "<column valign='middle'>",
+      "<h1 align='center' background='3 #229400d3' border='1 #bbffffff' italic='true' shadowed='true'>Applied Energistics 2</h1>",
+      "",
+      "---",
+      "",
+      "  Technology that fell from the sky.",
+      "  Casual mass/energy conversions and quantum bridging.",
+      "  An extensive central nervous system for your mega-base.",
+      "  An elegant and intricate arrangement of channels.",
+      "",
+      "  The factory may need to grow... but storage comes first.",
+      "",
+      "  After all, you are not a chest-monster using luddite, are you?",
+      "",
+      "---",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -64,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:ae2"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "§9§lApplied §b§lEnergistics §9§l100%"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

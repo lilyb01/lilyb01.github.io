@@ -1,0 +1,79 @@
+{
+  "dependencies": [
+    "Soot Redstone"
+  ],
+  "tasks": {
+    "6C44B445254F46B8": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:machine_casing",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "1F6FE2FE8D3A61E5": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 16747259,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Craft a Soot Machine Casing."
+    },
+    "description": [
+      "<h2>Craft a Soot Machine Casing.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -352,
+          -32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:machine_casing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Machine Casing"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

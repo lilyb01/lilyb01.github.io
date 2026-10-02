@@ -1,0 +1,13 @@
+name = "Dyenamics"
+filename = "dyenamics-1.21.1-3.4.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dc3ef3ca37de6c287180ae81d0328f575698c107"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7138991
+project-id = 509276

@@ -1,0 +1,13 @@
+name = "Radical Gyms & Structures [Cobblemon]"
+filename = "Radical Gyms  Structures - RGS.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4466492a22f2370d7b47b8e0ea6aa12977099595"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7330950
+project-id = 1402174

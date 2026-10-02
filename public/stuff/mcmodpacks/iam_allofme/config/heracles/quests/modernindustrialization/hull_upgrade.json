@@ -1,0 +1,106 @@
+{
+  "dependencies": [
+    "the_midgame_age"
+  ],
+  "tasks": {
+    "hull_upgrade": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:advanced_machine_hull",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mi_rare_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "RARE",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/rare",
+          "Name": "Modern Industrialization Rare Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    },
+    "hull_upgrade_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:advanced_machine_hull",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eHull Upgrades",
+      "<br/>",
+      "  Now that you're producing energy in the /6/medium voltage tier/6/, you'll need to make sure your machines can accept that new found power. Normally, /6/cables wont even connect to machines if they aren't of the same tier/6/. But, by placing an /b/Advanced Machine Hull/b/ (or higher tier) into the slot in the top right of the machine, you'll have upgraded the machine to the tier of power it associates with it. By default, electric machines are already at the /b/Basic Machine Hull/b/ tier and there is no need to put /b/Basic Machine Hulls/b/ into the slot. I'll show you which hulls are for which power tier.",
+      "<br/>",
+      "<ul>",
+      "<li>&&bAdvanced Machine Hulls&&f are for &&6Medium Voltage&&f.</li>",
+      "<li>&&bTurbo Machine Hulls&&f are for &&6High Voltage&&f.</li>",
+      "<li>&&bHighly Advanced Machine Hulls&&f are for &&6Extreme Voltage&&f.</li>",
+      "<li>&&bQuantum Machine Hulls&&f are for &&6Superconductor&&f.</li>",
+      "</ul>",
+      "<br/>",
+      "  /6/Make sure you check for which machines --actually-- need the upgrades/6/ so you aren't wasting resources on machines that don't really need the extra boost.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          840,
+          -53
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:advanced_machine_hull",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Hull Upgrades"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "435ED5858F476384": {
+      "type": "heracles:item",
+      "item": "ae2:quantum_entangled_singularity",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Required to create a connection between to Quantum Network Bridges."
+    },
+    "description": [
+      "<hr/>",
+      "# &&eNo This Is Not The MI Questline.",
+      "<br/>",
+      "  /b/Quantum Enatngled Singularitys/b/ are required to create a connection between to /6/Quantum Network Bridges/6/.",
+      "<br/>",
+      "  They are always produced in matching pairs, to create a connection place 1 of the pair of /b/Quantum Entangled Singularity/b/ into the /b/ME Quantum Link Chamber/b/ of the bridge on each side.",
+      "<br/>",
+      "  They are crafted by causing a reaction between /b/Ender Pearl/b/ or /b/Ender Dust/b/ and a /b/Singularity/b/./6/ Any explosive force should be enough to trigger the reaction/6/.",
+      "<br/>",
+      "  Nearly any explosion - even creepers - will work.",
+      "<br/>",
+      "  Always produced in pairs, but only require a single Singularity.",
+      "<br/>",
+      "  It might be a good idea to label these with names when you create them using the vanilla anvil.",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"435ED5858F476384\" quest=\"Quantum Entangled Singularity\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Quantum Entangled Singularity\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -240,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:quantum_entangled_singularity",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Quantum Entangled Singularity"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

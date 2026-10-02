@@ -1,0 +1,94 @@
+{
+  "dependencies": [
+    "multiblock_controllers"
+  ],
+  "tasks": {
+    "coke_task_2": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:coke_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "coke_task_1": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:coke",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "coke_reward_1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:coke_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eCoke",
+      "<br/>",
+      "  Once you have a stockpile of this /b/Super Powered Coal/b/, you can start diverting away from you bronze machines. They're slow and such a bright orange; blinding to the eyes.",
+      "<br/>",
+      "  Making /b/Coal Coke/b/ is just heating /b/Coal/b/ with the absence of oxygen. It doesn't allow it to burn and thus puts it through a destructive distillation process. Once you have it though, you'll be able to start working on /b/Steel/b/ and steel machines speeding up processing times at the cost of more steam being used.",
+      "<br/>",
+      "  /6/You'll be aiming for the creation of a /b/Quarry/b/ soon so that it can dig for you/6/. Imagine never needing to go mining for ores ever again!",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          341,
+          1
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:coke",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Coke"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

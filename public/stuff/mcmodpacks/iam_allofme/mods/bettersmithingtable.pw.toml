@@ -1,0 +1,13 @@
+name = "Better Smithing Table"
+filename = "BetterSmithingTable-1.1.0-Fabric-1.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "36f88a96bd222d171be481f7f185e0f7274419cb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4676755
+project-id = 875744

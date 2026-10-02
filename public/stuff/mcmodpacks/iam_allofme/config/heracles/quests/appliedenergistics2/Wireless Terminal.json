@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Wireless Access Point"
+  ],
+  "tasks": {
+    "1CFC818DEC3E5B6C": {
+      "type": "heracles:item",
+      "item": "ae2:wireless_terminal",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Links up the WAT to the network."
+    },
+    "description": [
+      "<hr/>",
+      "# &&eLinks up the WAT to the network.",
+      "<hr/>",
+      "  Insert the /b/Wireless Access Terminal/b/ into the device and wait for it to move to the lower slot.",
+      "## &&eTasks:",
+      "<task task=\"1CFC818DEC3E5B6C\" quest=\"Wireless Terminal\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"Wireless Terminal\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          -180,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:wireless_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Wireless Terminal"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

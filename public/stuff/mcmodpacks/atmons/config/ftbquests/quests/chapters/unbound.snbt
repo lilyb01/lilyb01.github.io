@@ -1,0 +1,57 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "unbound"
+	group: "21FB9D458E942C6D"
+	id: "3FA96F757548770F"
+	order_index: 5
+	quest_links: [
+		{
+			id: "2C2A8E77FE601496"
+			linked_quest: "1853CB2DADAC0D8F"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "60880FD45835E3F2"
+			linked_quest: "6BFE3D64D2FB19C6"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			id: "2B4286EFCE51CC21"
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_rival_wayne_1"
+				criterion: ""
+				id: "10DF3926A85738C3"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "072329284468B14C"
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_trainer_blue"
+				criterion: ""
+				id: "6D365B77DE2AD624"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "1853CB2DADAC0D8F"
+			tasks: [{
+				advancement: "rctmod:trainers/defeat_trainer_red"
+				criterion: ""
+				id: "4F0F8823BC1BDB07"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+}

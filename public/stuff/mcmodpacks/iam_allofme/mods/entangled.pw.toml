@@ -1,0 +1,13 @@
+name = "Entangled"
+filename = "entangled-1.3.19-fabric-mc1.20.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e7a51eb5e840adea6ff8664580b324ff98fad5f3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5656243
+project-id = 301034

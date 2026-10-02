@@ -1,0 +1,13 @@
+name = "[Let's Do] NetherVinery (unsupported)"
+filename = "letsdo-nethervinery-fabric-1.2.14.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2db1854444c087927cb28551bc8c03f91372626d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5467443
+project-id = 930072

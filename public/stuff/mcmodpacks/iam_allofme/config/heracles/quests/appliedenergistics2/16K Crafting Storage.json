@@ -1,0 +1,71 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "3B28508C9447ACAC": {
+      "type": "heracles:item",
+      "item": "ae2:16k_crafting_storage",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "utilities_lootbag": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Provides 16,384 bytes of storage for crafting."
+    },
+    "description": [
+      "<hr/>",
+      "# &&eCrafting Storage 16K",
+      "<br/>",
+      "Provides /6/16,384 bytes/6/ of storage for crafting.",
+      "<hr/>",
+      "## &&eTasks:",
+      "<task task=\"3B28508C9447ACAC\" quest=\"16K Crafting Storage\"/>",
+      "<hr/>",
+      "## &&eRewards:",
+      "<reward reward=\"utilities_lootbag\" quest=\"16K Crafting Storage\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "Applied Energistics 2": {
+        "position": [
+          96,
+          -48
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "ae2:16k_crafting_storage",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Crafting Storage 16K"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

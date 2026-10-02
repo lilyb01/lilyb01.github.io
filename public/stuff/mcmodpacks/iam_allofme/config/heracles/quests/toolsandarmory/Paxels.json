@@ -1,0 +1,72 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "get a paxel": {
+      "type": "heracles:item",
+      "item": "piercingpaxels:iron_paxel",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "176E6C862D9E4379": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "All in One!"
+    },
+    "description": [
+      "<h2>All in One!</h2>",
+      "---",
+      "These paxels can break the same blocks as any tool, and can have upgrades added to them by opening their inventory with shift right-click, adding new abilities and traits.",
+      "",
+      "They also won't break when they reach 0 durability, instead becoming unusable until repaired, so you won't lose any hard-earned enchantments.",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          -23,
+          -71
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "piercingpaxels:iron_paxel",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Paxels"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

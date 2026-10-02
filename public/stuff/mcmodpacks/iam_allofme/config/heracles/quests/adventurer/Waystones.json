@@ -1,0 +1,63 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "waystone task": {
+      "block": "#fwaystones:waystones",
+      "state": {},
+      "type": "heracles:block_interaction"
+    }
+  },
+  "rewards": {
+    "6137857F9A944F31": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 5889627,
+          "Loot": "aof:loot_bags/misc/agriculturist",
+          "Name": "Agriculturist Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Discover your first Waystone, can be found in villages."
+    },
+    "description": [
+      "<h2>Discover your first Waystone, can be found in villages.</h2>",
+      "---",
+      "&&6You can break &&rthe &&bWaystones &&rand use them for creative ways of teleportation.",
+      "---"
+    ],
+    "groups": {
+      "Adventurer": {
+        "position": [
+          -64,
+          -64
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "fwaystones:waystone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "§3Waystones"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

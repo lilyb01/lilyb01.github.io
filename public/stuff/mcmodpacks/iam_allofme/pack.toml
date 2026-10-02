@@ -1,0 +1,13 @@
+name = "(I Am) All of Me"
+author = "lilyb01 & TeamAOF"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "eee6f4d8397bca22305766f7318511229986c173c18e3ffcb07863c4d36bbc15"
+
+[versions]
+fabric = "0.18.4"
+minecraft = "1.20.1"

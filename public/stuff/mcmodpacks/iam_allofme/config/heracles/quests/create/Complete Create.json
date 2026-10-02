@@ -1,0 +1,183 @@
+{
+  "dependencies": [
+    "Blaze Cake",
+    "Switch Observe and Contact",
+    "Analog Lever",
+    "Chocolate Glazed Berries",
+    "Bar of Chocolate",
+    "Andesite Tunnel",
+    "Redstone Link",
+    "Lets Get Mechanical",
+    "Fluid Transport",
+    "Steam Engine",
+    "Shaft",
+    "Rotation Speed Controller",
+    "Precision Mechanisms",
+    "Deployer",
+    "Builders Tea",
+    "Railway Casing",
+    "Cogwheel",
+    "Smart Chute",
+    "Engineering Tools",
+    "Andesite Alloy",
+    "Latch Action",
+    "Create Track",
+    "Pulse Extender and Repeater",
+    "Create Fluid Tank",
+    "Potato Cannon",
+    "Item Vault",
+    "Display Board",
+    "Brass Age Incoming",
+    "Honeyed Apple",
+    "Gantry",
+    "Mechanical Crafters",
+    "Nixie Tube",
+    "Copper Casing",
+    "Springboard",
+    "Mechanical Arm",
+    "Track Observer and Signal",
+    "Schematic and Quill",
+    "Gearboxes",
+    "Sequenced Gearshift",
+    "Sweet Roll",
+    "Item Drain",
+    "Brass Casings",
+    "Toolboxes",
+    "Windmills",
+    "Display Link",
+    "Portable Storage Interface",
+    "Water Wheel",
+    "Mechanical Press",
+    "Brass Tunnel",
+    "Measuring Tools",
+    "Andesite Funnel",
+    "Contraptions",
+    "Chute",
+    "Obsidian Dust",
+    "Wand of Symmetry",
+    "Extendo Grip",
+    "Attribute Filter",
+    "Encased Chain Drive",
+    "Crafting Blueprint",
+    "Track Station and Controls",
+    "Fan it Up",
+    "Schematic Cannon and Table",
+    "Belt Connector",
+    "Voyage au centre de la Terre",
+    "Polished Rose Quartz",
+    "Brass Funnel",
+    "Haunted Bell",
+    "Crushing Wheels"
+  ],
+  "tasks": {
+    "1D99A86B5CA32704": {
+      "title": "§6Create 100%",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "264E15A6379D9F97": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:create"
+          }
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Complete all quests to obtain the trophy!"
+    },
+    "description": [
+      "<br/>",
+      "<columns template='0 100'>",
+      "<column>",
+      "<columns>",
+      "<column valign='top'>",
+      "<h2 background='8 #88b8860b' border='0 #01b8860b' color='#44b8860b' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column valign='bottom'>",
+      "<h2 background='8 #88778899' border='2 #01778899' color='#44778899' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "<column>",
+      "<h2 background='8 #888b4513' border='5 #018b4513' color='#448b4513' obfuscated='true'>123456789</h2>",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "<column>",
+      "<columns template='20 80'>",
+      "<column>",
+      "<item border='0 #88777777' id='trofers:medium_pillar' scale='7' tag=\"{BlockEntityTag:{Trophy:'trofers:create'}}\">&#32;</item>",
+      "</column>",
+      "<column valign='middle'>",
+      "<h1 align='center' background='3 #888b4513' border='1 #bbffffff' italic='true' shadowed='true'>&#160;Create&#160;</h1>",
+      "",
+      "---",
+      "",
+      "  --\"Wrench monkey\"--. --\"Gear head\"--. --\"Mechanically inclined\"--.",
+      "",
+      "  Well, look at you now!",
+      "",
+      "  You maginificent, rotating, gluing, wrenching, stressing, belting, cog-ing, encasing, pressing, mixing, blasting, steaming, drilling, sawing, hand-cranking, deploying, and schematicannoning bipedal hominid, you!",
+      "",
+      "  But tell us truthfully... how many times did you crush yourself?",
+      "",
+      "---",
+      "</column>",
+      "</columns>",
+      "</column>",
+      "</columns>"
+    ],
+    "groups": {
+      "Create": {
+        "position": [
+          122,
+          97
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "trofers:medium_pillar",
+        "count": 1,
+        "nbt": {
+          "BlockEntityTag": {
+            "Trophy": "trofers:create"
+          }
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/gears.png",
+    "title": {
+      "translate": "§6§lCreate 100%"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": false,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,13 @@
+name = "Simple Weather"
+filename = "simple_weather-1.0.13-hotfix.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "45ee8e8bb49c599bb3d7db7cdf6c91f90d13bb0c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7436830
+project-id = 983390

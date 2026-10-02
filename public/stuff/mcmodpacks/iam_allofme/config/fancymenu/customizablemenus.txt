@@ -1,0 +1,119 @@
+type = customizablemenus
+
+net.minecraft.class_442 {
+}
+
+net.minecraft.class_429 {
+}
+
+net.minecraft.class_443 {
+}
+
+net.minecraft.class_458 {
+}
+
+net.minecraft.class_6599 {
+}
+
+net.minecraft.class_4288 {
+}
+
+net.minecraft.class_440 {
+}
+
+net.minecraft.class_426 {
+}
+
+net.minecraft.class_5375 {
+}
+
+net.minecraft.class_7944 {
+}
+
+net.minecraft.class_8219 {
+}
+
+net.minecraft.class_4189 {
+}
+
+net.minecraft.class_404 {
+}
+
+net.minecraft.class_6777 {
+}
+
+net.minecraft.class_526 {
+}
+
+net.minecraft.class_525 {
+}
+
+com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen {
+}
+
+org.vivecraft.client.gui.settings.GuiMainVRSettings {
+}
+
+net.minecraft.class_500 {
+}
+
+net.minecraft.class_422 {
+}
+
+net.minecraft.class_420 {
+}
+
+org.vivecraft.client.gui.settings.GuiRenderOpticsSettings {
+}
+
+org.vivecraft.client.gui.settings.GuiPostEffectsSettings {
+}
+
+org.vivecraft.client.gui.settings.GuiShaderCompatSettings {
+}
+
+org.vivecraft.client.gui.settings.GuiQuickCommandEditor {
+}
+
+org.vivecraft.client.gui.settings.GuiHUDSettings {
+}
+
+org.vivecraft.client.gui.settings.GuiRenderingSettings {
+}
+
+org.vivecraft.client.gui.settings.GuiKeyboardSettings {
+}
+
+org.vivecraft.client.gui.settings.GuiMenuWorldSettings {
+}
+
+org.vivecraft.client.gui.settings.GuiOtherHUDSettings {
+}
+
+org.vivecraft.client.gui.settings.GuiStandingSettings {
+}
+
+org.vivecraft.client.gui.settings.GuiTeleportSettings {
+}
+
+org.vivecraft.client.gui.settings.GuiFreeMoveSettings {
+}
+
+org.vivecraft.client.gui.settings.GuiRoomscaleSettings {
+}
+
+org.vivecraft.client.gui.settings.GuiVRControls {
+}
+
+org.vivecraft.client.gui.settings.GuiRadialConfiguration {
+}
+
+org.vivecraft.client.gui.settings.GuiPlayerModelSettings {
+}
+
+org.embeddedt.embeddium.gui.EmbeddiumVideoOptionsScreen {
+}
+
+net.irisshaders.iris.gui.screen.ShaderPackScreen {
+}
+

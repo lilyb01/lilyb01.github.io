@@ -1,0 +1,13 @@
+name = "Kibe Compat"
+filename = "kibecompat-0.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e75730439ee6e5c91e3c5913193535e0eb65501c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5300866
+project-id = 1010815

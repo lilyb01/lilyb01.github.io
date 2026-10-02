@@ -1,0 +1,112 @@
+{
+  "dependencies": [
+    "Bakery"
+  ],
+  "tasks": {
+    "bscp": {
+      "type": "heracles:item",
+      "item": "bakery:small_cooking_pot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bbs": {
+      "type": "heracles:item",
+      "item": "bakery:baker_station",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    },
+    "bbo": {
+      "type": "heracles:item",
+      "item": "bakery:brick_stove",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "bakingbasics1": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "bakery:cobblestone_stove",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "In order to start baking you will need to get a few a things:",
+      "<br />",
+      "<br />",
+      "Brick Oven: Primarily used for baking various breads, pastries, and other delicious treats. The Oven also counts as a heat source for things like Cooking Pots and Kettles. Stoves work the same way but simply look different.",
+      "<br />",
+      "<br />",
+      "Caking Station: Processes cake dough into various confectionary treats. Place some Cake Dough on top of the Caking Station, then add your favorite topping via right-click. To make cupcakes, cut the placed Cake Dough with a bread knife. To make cookies, cut Cake Dough with a knife and then use a Rolling Pin to flatten them. Pick up your confectionary treat with a right-click!",
+      "<br />",
+      "<br />",
+      "Crafting Bowl: Used for making various doughs. Place the Crafting Bowl into the world and insert items by right-clicking them into the Bowl. Spin the ingredients until thoroughly mixed!",
+      "<br />",
+      "<br />",
+      "Small Cooking Pot: Place on a heat source, such as a Stove. Used for cooking a variety of foods - many of which need a container to be put in, such as a bowl or a jar, which is inserted into the bottommost slot in the GUI."
+    ],
+    "groups": {
+      "Farmer O' Worlds": {
+        "position": [
+          -75,
+          -140
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bakery:small_cooking_pot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Baking Basics"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

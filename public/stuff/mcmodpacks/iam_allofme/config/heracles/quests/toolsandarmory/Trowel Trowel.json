@@ -1,0 +1,54 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "068B1DB83FC58B63": {
+      "type": "heracles:item",
+      "item": "trowel:trowel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "18224C4E9425E913": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Picks a random block from your hotbar and places it down."
+    },
+    "description": [
+      "<h2>Picks a random block from your hotbar and places it down.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Tools and Armory": {
+        "position": [
+          0,
+          -190
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "trowel:trowel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Trowel"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,13 @@
+name = "Odyssey Roles"
+filename = "prometheus-fabric-1.20.1-1.2.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "933e1d015e6c8ca16bcc2e06ea2264ac230f58fd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5220300
+project-id = 845834

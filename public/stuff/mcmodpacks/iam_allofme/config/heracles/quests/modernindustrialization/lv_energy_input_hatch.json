@@ -1,0 +1,99 @@
+{
+  "dependencies": [
+    "electric_blast_furnace"
+  ],
+  "tasks": {
+    "lv_energy_input_hatch_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:lv_energy_input_hatch",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lv_energy_input_hatch_reward": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "modern_industrialization:basic_machine_hull",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eLV Energy Input Hatch",
+      "<br/>",
+      "  The /b/LV Energy Input Hatch/b/ is like a giant electrical inlet. As I've stated before, you need an /b/Energy Input Hatch/b/ to power multiblock electrical machines.",
+      "<br/>",
+      "  Do remember that you can upgrade the multiblock machine by replacing the /b/Energy Input Hatc/b/h with an upgraded tier, increasing the maximum power rate for recipes and increasing overall overclocking capabilities.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          690,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:lv_energy_input_hatch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "LV Energy Input Hatch"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

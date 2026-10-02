@@ -1,0 +1,90 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "78A859B3D0017802": {
+      "type": "heracles:item",
+      "item": "kibe:entangled_tank",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "64ACCACC38BBC3DB": {
+      "item": {
+        "id": "kibe:magenta_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "09D0F08E633B07DC": {
+      "item": {
+        "id": "kibe:light_blue_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "6FD99B307FD8C5CD": {
+      "item": {
+        "id": "kibe:white_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "38239E46A12D5C17": {
+      "item": {
+        "id": "kibe:orange_rune",
+        "count": 2
+      },
+      "type": "heracles:item"
+    },
+    "2E5EE7D13FBEA860": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Exactly like Entangled Chests but they store fluids instead."
+    },
+    "description": [
+      "<h2>Exactly like Entangled Chests but they store fluids instead.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Utilities": {
+        "position": [
+          -64,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:entangled_tank",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "Entangled Tank"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

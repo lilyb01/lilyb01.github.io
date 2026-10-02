@@ -1,0 +1,13 @@
+name = "Omega Config"
+filename = "omegaconfig-neoforge-1.5.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0840af96e66e88d4322ce4bb5c11c1b05a28ea56"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6857924
+project-id = 558000

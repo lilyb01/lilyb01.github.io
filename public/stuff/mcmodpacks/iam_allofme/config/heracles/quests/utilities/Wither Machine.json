@@ -1,0 +1,53 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "24A1862F0308DA6E": {
+      "title": "Wither machine",
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "7716261A55143011": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "---",
+      "Use the following to create an automatic wither machine.",
+      "---"
+    ],
+    "groups": {
+      "Utilities": {
+        "position": [
+          432,
+          -160
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "heracles:quest_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/diamonds.png",
+    "title": {
+      "translate": "Wither Machine"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

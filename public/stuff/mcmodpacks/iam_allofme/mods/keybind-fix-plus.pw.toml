@@ -1,0 +1,13 @@
+name = "Keybind Fix Plus"
+filename = "keybindfixplus-2.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JKuinnWa/versions/mLREBICI/keybindfixplus-2.0.0.jar"
+hash-format = "sha512"
+hash = "6299b9be1d012ec7670ca1bbf5e53e0802b3dee07fc2c238fe66efac30f2284db4a3644a5d234160829cd1e3c19b3245ac79da8d6e2d6cc1c78ba25b332e5bbb"
+
+[update]
+[update.modrinth]
+mod-id = "JKuinnWa"
+version = "mLREBICI"

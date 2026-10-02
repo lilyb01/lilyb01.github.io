@@ -1,0 +1,58 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5EEB04255651FBAE": {
+      "type": "heracles:item",
+      "item": "dml-refabricated:soot_redstone",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Rub your redstone on a block of coal."
+    },
+    "description": [
+      "<h2>Rub your redstone on a block of coal.</h2>",
+      "---",
+      "To progress in Deep Mob Learning you will need Soot-covered Redstone. Those are created by punching redstone against a Coal Block.",
+      "",
+      "This is a key ingredient."
+    ],
+    "groups": {
+      "Deep Mob Learning": {
+        "position": [
+          -352,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dml-refabricated:soot_redstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Soot Redstone"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

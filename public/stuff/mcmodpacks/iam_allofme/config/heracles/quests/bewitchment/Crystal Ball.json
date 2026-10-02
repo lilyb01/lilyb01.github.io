@@ -1,0 +1,63 @@
+{
+  "dependencies": [
+    "Stone Witch Altar"
+  ],
+  "tasks": {
+    "693CE5B86EF9DA53": {
+      "type": "heracles:item",
+      "item": "bewitchment:crystal_ball",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Crystal Balls are common divination tools."
+    },
+    "description": [
+      "<h2>Crystal Balls are common divination tools.</h2>",
+      "---",
+      "When used, they will give the caster a fortune, at the cost of some ME drawn from a nearby Altar.",
+      "",
+      "Additionally, Crystal Balls may be used for scrying.",
+      "",
+      "When used with a Taglock, it will give precise information on the target.",
+      "---"
+    ],
+    "groups": {
+      "Bewitchment": {
+        "position": [
+          368,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "bewitchment:crystal_ball",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Crystal Ball"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

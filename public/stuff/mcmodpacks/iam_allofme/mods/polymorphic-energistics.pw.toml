@@ -1,0 +1,13 @@
+name = "Polymorphic Energistics"
+filename = "polyeng-fabric-0.1.1-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dffc090755c54f0f99f10fd3bdc083b537e82ff3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5227384
+project-id = 941096

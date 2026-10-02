@@ -1,0 +1,13 @@
+name = "Extraordinary Extra Totems"
+filename = "ExtraordinaryExtraTotems - v1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "42807f4cdfd342268e5a54ce72b1ffedd59eec12"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4643773
+project-id = 858064

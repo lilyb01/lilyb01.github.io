@@ -1,0 +1,13 @@
+name = "TechReborn Player Ability Lib Compat"
+filename = "techreborn-player-ability-lib-compat-0.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "20ebb13cb45154f7b6636ab31c7a7acc73a36ebf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5275410
+project-id = 1005560

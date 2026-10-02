@@ -1,0 +1,62 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "5E20F61EB482457C": {
+      "type": "heracles:item",
+      "item": "kibe:white_elevator",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "05F4689E96A18A44": {
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "UNCOMMON",
+          "Color": 6750133,
+          "Loot": "aof:loot_bags/misc/utilities",
+          "Name": "Utilities Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "When stepped upon, can teleport the player upwards and downwards, as long as it finds another elevator directly above or below it."
+    },
+    "description": [
+      "<h2>When stepped upon, can teleport the player upwards and downwards, as long as it finds another elevator directly above or below it.</h2>",
+      "---"
+    ],
+    "groups": {
+      "Utilities": {
+        "position": [
+          144,
+          -208
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "kibe:white_elevator",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/hexagons.png",
+    "title": {
+      "translate": "White Elevator"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

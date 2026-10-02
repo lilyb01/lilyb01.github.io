@@ -1,0 +1,13 @@
+name = "Trofers"
+filename = "trofers-fabric-5.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d29cfb51ee86d1848cfa87e86930a2f2cff2ab5e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5259006
+project-id = 482265

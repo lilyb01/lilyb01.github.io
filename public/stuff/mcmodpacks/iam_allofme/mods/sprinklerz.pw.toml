@@ -1,0 +1,13 @@
+name = "Sprinklerz"
+filename = "sprinklerz-0.5.1_fabric.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1b211b57ebd44c898a6fc4b334fffcfcc77e728f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5157533
+project-id = 863479

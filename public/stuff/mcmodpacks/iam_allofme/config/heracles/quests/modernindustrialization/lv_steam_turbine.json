@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "the_electric_age"
+  ],
+  "tasks": {
+    "lv_steam_turbine_task": {
+      "type": "heracles:item",
+      "item": "modern_industrialization:lv_steam_turbine",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "mi_common_lootbag": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lootbags:loot_bag",
+        "count": 1,
+        "nbt": {
+          "Type": "COMMON",
+          "Color": 16425539,
+          "Loot": "aof:loot_bags/mi/common",
+          "Name": "Modern Industrialization Common Lootbag"
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<hr/>",
+      "# &&eLV Steam Turbine",
+      "<br/>",
+      "  This is your moment to produce true /6/electricity/6/ using the /b/Steam/b/ you've been making up until now. The /b/LV Steam Turbine/b/ will convert every /6/1 mb of Steam into 1 EU/6/ of energy and will do this up to 32 times a tick, making a /6/maximum energy production rate of 32 EU/t/6/.",
+      "<br/>",
+      "  The /b/Steam Turbine/b/ will automatically send electricity to any machine connected directly to its output side. It will also only connect to cables placed on its output side.",
+      "<br/>",
+      "  The first one you'll make is of the Low Voltage tier. There are higher tier steam turbines, but you aren't quite there yet.",
+      "<hr/>"
+    ],
+    "groups": {
+      "Modern Industrialization": {
+        "position": [
+          620,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "modern_industrialization:lv_steam_turbine",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "LV Steam Turbine"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,13 @@
+name = "Repurposed Structures - Wizards Compat Datapack"
+filename = "Repurposed_Structures-Wizards_v3.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a84fb39842cf96f2b18ceaedddc8e353a8d1b1a5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4708547
+project-id = 821708
